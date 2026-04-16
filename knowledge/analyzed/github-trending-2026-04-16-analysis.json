@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "deepSummary": "Superpowers 是一套面向编程 AI Agent（支持 Claude Code、Cursor、Codex、Gemini CLI 等 6+ 平台）的完整软件开发工作流框架。其核心理念是"指令架构"——不包含运行时代码，而是通过精心调优的 Markdown 技能文件、会话钩子和 Agent 提示词，在提示词层面塑造 Agent 行为。系统提供七阶段开发流水线（头脑风暴→Git Worktree→计划编写→子Agent驱动开发→TDD→代码审查→分支收尾），技能基于 YAML frontmatter 实现自动发现和激活，Agent 会在执行任何操作前检查是否有适用技能。项目采用零依赖设计，PR 拒绝率高达 94%（多数来自 AI Agent 垃圾提交），体现了开源社区在 AI 时代面临的新挑战。",
+    "highlights": [
+      "零依赖指令架构：纯 Markdown+YAML 技能定义，无运行时代码，跨 6+ AI 编码平台通用（Claude Code/Cursor/Codex/Gemini CLI/Copilot CLI/OpenCode）",
+      "七阶段结构化开发流水线：从头脑风暴到分支收尾的完整工作流，强制 TDD 和子 Agent 两阶段审查（规范合规+代码质量），Claude 可自主工作数小时不偏离计划",
+      "自动技能发现与激活机制：SessionStart 钩子注入 using-superpowers 技能，Agent 在任何任务前自动检查并调用匹配技能，用户无需记忆特殊命令"
+    ],
+    "scores": {
+      "innovation": 9,
+      "practicality": 9,
+      "community": 9,
+      "techDepth": 8,
+      "overall": 8.8
+    },
+    "scoreReason": "创新性 9：'指令架构'范式是 AI 编程工具领域的重要创新，将提示词工程从碎片化技巧提升为可版本化、可分发的结构化技能体系，且跨平台通用。实用性 9：即装即用，七阶段流水线直击 LLM 编码核心痛点（过度工程、缺乏计划、跳过测试），154K Star 说明市场认可度极高。社区活跃度 9：项目引发开源界对 AI Agent 垃圾提交问题的深度讨论，94% PR 拒绝率本身就是行业案例，Discord 社区活跃。技术深度 8：纯提示词架构看似简单实则精巧，技能发现、frontmatter 契约、子Agent调度等设计经过反复调优，但底层无运行时代码限制了更复杂的控制流。"
+  },
+  {
+    "title": "claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "deepSummary": "claude-mem 是一个 Claude Code 插件，通过五大生命周期 Hook（context/user-message/compact/stop/session-stop）为 AI 编程助手赋予跨会话持久记忆能力。架构上采用 SQLite（会话、记忆、观察三表）+ ChromaDB 向量存储双引擎方案，Hook 非阻塞设计确保即使后台工作进程宕机也不影响 Claude Code 正常运行。支持多 IDE 集成（Claude Code 原生、Cursor、Gemini CLI），通过平台适配器抽象不同 IDE 的字段差异。核心流程为：会话结束时自动摘要并提取观察→存入 SQLite+ChromaDB→新会话启动时通过向量搜索注入相关记忆时间线，实现渐进式披露策略以控制上下文窗口占用。",
+    "highlights": [
+      "双引擎持久记忆架构：SQLite 存储结构化会话/记忆/观察数据，ChromaDB 向量搜索实现语义检索，两者协同解决 LLM '会话失忆'问题",
+      "五 Hook 非阻塞生命周期设计：挂载于 Claude Code 原生 Hook 事件，超时独立配置（最长 300s），后台工作进程宕机不影响主流程",
+      "跨 IDE 统一记忆层：通过平台适配器抽象 Claude Code/Cursor/Gemini CLI 差异，共享同一记忆数据库，至少在 Claude Code 中运行部分会话即可获得最高质量摘要"
+    ],
+    "scores": {
+      "innovation": 8,
+      "practicality": 9,
+      "community": 9,
+      "techDepth": 8,
+      "overall": 8.5
+    },
+    "scoreReason": "创新性 8：Hook 生命周期+渐进式披露的组合在 AI 编程助手记忆方案中属于领先设计，但持久化记忆本身并非全新概念。实用性 9：精准打击每个 Claude Code 用户都遇到的会话失忆痛点，安装一条命令即可生效，57K+ Star 验证了实际需求。社区活跃度 9：92 位贡献者、3700+ Fork、被多家媒体报道和商业公司采纳，Augment Code 外部分析文章专门赞誉其架构决策。技术深度 8：数据库 Schema 设计严谨（含迁移系统），向量同步有批量分页和增量回填机制，但整体架构仍属工程整合而非算法创新。"
+  },
+  {
+    "title": "andrej-karpathy-skills",
+    "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "deepSummary": "本项目将 Andrej Karpathy 对 LLM 编码缺陷的观察提炼为四条行为准则——先思考后编码、简洁优先、精准修改、目标驱动执行——打包为一个 65 行的 CLAUDE.md 文件或 Claude Code 插件。核心洞见来自 Karpathy 的推文：LLM 擅长循环达成特定目标，因此将模糊的指令转化为可验证的成功标准是提升编码质量的关键杠杆。四条原则形成系统而非清单：'先思考后编码'是上游过滤器，决定是否该写代码；'简洁优先'遏制过度工程冲动；'精准修改'防止连带破坏；'目标驱动执行'将祈使任务转为声明式目标加验证循环。项目从一条推文演变为七周 19K+ Star 的现象级工具，已上线 ClaudePluginHub 并被多家媒体报道。",
+    "highlights": [
+      "极简但高效：仅 65 行 CLAUDE.md 即可系统性改变 LLM 编码行为，四原则互为支撑形成闭环，非零散建议",
+      "目标驱动执行范式：将'告诉 LLM 做什么'转为'给 LLM 成功标准让它自行循环验证'，充分利用 LLM 擅长循环的特质，实现数倍效率提升",
+      "从推文到产品的社区验证：Karpathy 一条推文→65 行文件→43K+ Star→ClaudePluginHub 上架，展示了 AI 时代开源项目的新传播路径"
+    ],
+    "scores": {
+      "innovation": 7,
+      "practicality": 10,
+      "community": 9,
+      "techDepth": 6,
+      "overall": 8.2
+    },
+    "scoreReason": "创新性 7：四原则本身源自 Karpathy 的观察而非原创，但将其系统化为可安装的 CLAUDE.md 文件并有清晰的执行流程是有效创新。实用性 10：零门槛安装，一条命令即生效，直击 LLM 编码三大痛点（错误假设/过度工程/连带修改），43K Star 且日增近万说明极度实用。社区活跃度 9：从推文到 43K Star 仅七周，已上架 ClaudePluginHub，被 Medium 等多家媒体报道，形成了现象级传播。技术深度 6：内容是精心编排的提示词而非代码，虽有效但技术含量有限，属于'工程智慧'而非'技术突破'。"
+  },
+  {
+    "title": "Voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "deepSummary": "Voicebox 是一个本地优先的开源语音合成工作室，定位为 ElevenLabs 的免费替代品。技术栈采用 Tauri（Rust）桌面端 + React/TypeScript 前端 + FastAPI Python 后端的混合架构，后端作为 sidecar 进程由 Tauri 管理生命周期。集成 5 个 TTS 引擎（Qwen3-TTS、LuxTTS、Chatterbox Multilingual/Turbo、HumeAI TADA），支持 23 种语言的语音克隆。特色功能包括：副语言标签（[laugh]/[sigh]等情感合成）、8 种基于 Spotify pedalboard 的后处理音效、自动分块+交叉淡化的无限长度生成、多轨故事编辑器、异步生成队列、以及完整的 REST API。支持 macOS(MLX/Metal)/Windows(CUDA)/Linux(ROCm)/Intel Arc/AMD/Docker 全平台 GPU 加速。",
+    "highlights": [
+      "五引擎可切换架构：不同引擎各有所长（Qwen3-TTS 高质量多语言、LuxTTS 轻量 CPU 友好、Chatterbox 23 语言覆盖、TADA 700s+ 长音频），按需选择而非一刀切",
+      "Tauri 原生性能+本地隐私：用 Rust 替代 Electron，内存占用极低，所有模型和语音数据留在本地，完整隐私保障",
+      "全栈可扩展设计：从 REST API 到多轨故事编辑器，从副语言标签到音效预设系统，覆盖从开发者集成到创作者工作流的全场景"
+    ],
+    "scores": {
+      "innovation": 8,
+      "practicality": 8,
+      "community": 8,
+      "techDepth": 8,
+      "overall": 8.0
+    },
+    "scoreReason": "创新性 8：五引擎可切换+副语言标签+本地优先的组合在开源 TTS 领域属领先，Tauri 架构选择也体现了对性能和隐私的前瞻考量。实用性 8：直接对标 ElevenLabs 且完全免费本地运行，REST API 支持二次开发，但 GPU 依赖和模型下载门槛对部分用户仍有障碍。社区活跃度 8：18K Star 且日增过千，跨平台支持全面，但项目相对年轻，长期维护性待观察。技术深度 8：Tauri+FastAPI sidecar 架构设计精良，自动分块交叉淡化、异步队列、模型按需加载等工程实现扎实。"
+  },
+  {
+    "title": "Claude-Code-Game-Studios",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "deepSummary": "Claude Code Game Studios 将单个 Claude Code 会话转变为完整的游戏开发工作室。系统包含 49 个专业化 Agent（三级层次：总监/部门主管/专家）、72 个技能（slash 命令）、12 个 Hook 和 11 条路径作用域规则。Agent 组织仿照真实工作室：创意总监和技术总监负责愿景守护，部门主管（游戏设计/主程/美术/音频/叙事/QA）管辖各自领域，专家级 Agent 执行具体工作。支持 Godot 4/Unity/Unreal Engine 5 三大引擎的专用 Agent 集。设计哲学基于 MDA 框架、自我决定理论、心流状态和 Bartle 玩家类型等专业游戏设计理论。协作模式为非自主式——Agent 遵循'提问→提供选项→用户决定→起草→审批'的严格协议，用户始终保持决策权。",
+    "highlights": [
+      "49 Agent 三级工作室架构：从创意总监到各领域专家的完整团队层次，支持 Godot/Unity/Unreal 三引擎，每个 Agent 有明确职责、升级路径和质量门控",
+      "72 个技能覆盖全生命周期：从 /brainstorm 到 /launch-checklist 的完整游戏开发流程，含团队编排命令（/team-combat、/team-narrative 等）协调多 Agent 协作",
+      "自动化安全+路径作用域规则：12 个 Hook 在提交/推送/资产变更时自动验证，11 条规则按路径强制编码标准（gameplay 无 UI 引用、networking 服务端权威等）"
+    ],
+    "scores": {
+      "innovation": 8,
+      "practicality": 7,
+      "community": 8,
+      "techDepth": 8,
+      "overall": 7.7
+    },
+    "scoreReason": "创新性 8：将工作室组织结构映射为 AI Agent 体系是独特创意，三级层次+跨领域协调+引擎专用 Agent 集的设计在 AI 游戏开发领域属首创。实用性 7：对独立游戏开发者极具吸引力，但 49 Agent+72 技能的学习曲线陡峭，且强依赖 Claude Code 生态，适用场景较窄。社区活跃度 8：10K+ Star 且日增 600+，有 GitHub Discussions 活跃社区，但作为垂直领域工具受众有限。技术深度 8：Agent 委托模型（垂直委托+水平咨询+冲突升级）设计专业，Hook 系统和路径作用域规则的工程实现严谨。"
+  },
+  {
+    "title": "Magika",
+    "url": "https://github.com/google/magika",
+    "deepSummary": "Magika 是 Google 开发的基于深度学习的文件类型检测工具，通过读取文件少量字节、提取结构特征并输入自定义神经网络模型来识别内容类型，不依赖文件扩展名或魔数。在 200+ 种内容类型上实现约 99% 准确率，已部署于 Google 内部大规模安全系统（Gmail 恶意文档拦截等）。项目提供四种语言的完整 SDK：Python（pip install magika）、Rust（cargo install magika）、JavaScript/TypeScript（npm install magika）、Go。核心模型为轻量级 ONNX 模型（几 MB），推理仅需读取文件首块字节，速度极快。v3.3 模型为当前最新版本，附带 ICSE 2025 论文。支持 CLI 批量扫描、JSON/JSONL 输出、递归目录扫描，以及浏览器端识别。",
+    "highlights": [
+      "深度学习超越传统魔数检测：基于 ONNX 神经网络模型读取少量字节即可在 200+ 文件类型上实现 ~99% 准确率，远超传统 file 命令",
+      "四语言完整 SDK+双 CLI：Python/Rust/JS/Go 均有一等公民级支持，Rust CLI 为推荐主力（异步并行、最全标志位），Python CLI 作为后备",
+      "Google 级生产验证：已在 Gmail 恶意文档检测等 Google 核心安全系统中大规模部署，附带 ICSE 2025 学术论文，工业+学术双重背书"
+    ],
+    "scores": {
+      "innovation": 7,
+      "practicality": 8,
+      "community": 7,
+      "techDepth": 9,
+      "overall": 7.7
+    },
+    "scoreReason": "创新性 7：用深度学习替代传统文件类型检测是有效的技术升级，但并非范式变革，且核心思路在 2024 年初已公开。实用性 8：四语言 SDK+CLI 覆盖绝大多数使用场景，pip/cargo/npm 一键安装，可直接替换 file 命令，但对多数开发者而言文件类型检测非高频需求。社区活跃度 7：Google 官方维护有保障，13K+ Star，但贡献者以 Google 内部为主，外部社区参与度有限。技术深度 9：ONNX 模型设计精巧（多种模型尺寸适配不同场景），特征提取算法严谨，四语言 SDK 工程质量一致，ICSE 论文提供学术深度。"
+  },
+  {
+    "title": "AI Hedge Fund",
+    "url": "https://github.com/virattt/ai-hedge-fund",
+    "deepSummary": "AI Hedge Fund 是一个教育性质的概念验证项目，通过 19 个具名投资者 Agent 的多 Agent 协作模拟对冲基金投资决策流程。Agent 分为两类：13 个以真实投资大师命名的风格化 Agent（Damodaran 估值/Graham 价值/Ackman 激进/Wood 成长/Buffett 价值等）和 6 个功能 Agent（估值/情绪/基本面/技术分析/风险管理/投资组合管理）。技术栈基于 Python + LangChain + Pydantic，提供 CLI 和全栈 Web 应用（含可视化流图编辑器、SSE 实时流式传输、持久化存储）两种交互方式，支持 Docker 部署和 Ollama 本地推理。核心工作流：各 Agent 独立生成交易信号→风险管理 Agent 计算仓位限制→投资组合管理 Agent 做最终决策。项目明确声明仅供教育研究，不构成投资建议。",
+    "highlights": [
+      "19 Agent 多投资风格博弈：13 个大师风格 Agent 模拟不同投资哲学的碰撞，从价值投资到激进做空，从宏观趋势到深度价值，形成多元决策视角",
+      "双模式交互：CLI 适合快速分析和自动化，Web 应用含可视化流图编辑器和回测功能，SSE 实时流式展示 Agent 推理过程",
+      "完整 Docker+Ollama 本地化支持：可完全离线运行，支持嵌入式 Ollama profile，降低入门门槛的同时保护隐私"
+    ],
+    "scores": {
+      "innovation": 7,
+      "practicality": 6,
+      "community": 9,
+      "techDepth": 6,
+      "overall": 7.0
+    },
+    "scoreReason": "创新性 7：以真实投资大师命名的风格化 Agent 是有趣的叙事设计，但多 Agent 协作框架本身并非创新，各 Agent 本质是不同 system prompt。实用性 6：项目明确声明仅供教育，无法实际交易，55K Star 中存在大量'误解为真实交易工具'的用户，数据 API 与创作者自家产品绑定。社区活跃度 9：55K+ Star，Issue 活跃，但部分活跃度源于对项目定位的误解。技术深度 6：架构清晰但实现相对简单，Agent 间缺乏真正的对抗或协商机制，更像是并行独立推理后简单汇总。"
+  },
+  {
+    "title": "dive-into-llms",
+    "url": "https://github.com/Lordog/dive-into-llms",
+    "deepSummary": "《动手学大模型》是上海交通大学张倬胜团队开发的中文 LLM 编程实践教程，从研究生课程讲义拓展而来，覆盖微调与部署、提示学习与思维链、知识编辑、数学推理（蒸馏迷你 R1）、模型水印、越狱攻击、大模型隐写、多模态模型、GUI 智能体、智能体安全、RLHF 安全对齐等 11 个核心主题。每个主题配套课件（PDF）、教程文档、可执行 Jupyter Notebook 三位一体。2025 年 6 月与华为昇腾社区联合推出国产化《大模型开发全流程》系列，覆盖初/中/高三级课程。多模态章节详细讲解 LLM 作为任务调度器和端到端统一架构两种模式，并给出三阶段训练流程。项目属公益性质完全免费，在中国 LLM 社区具有广泛影响力。",
+    "highlights": [
+      "11 章节全覆盖+三位一体教学：每章含课件/教程/可执行 Notebook，从微调部署到 RLHF 对齐的前沿主题覆盖，含数学推理蒸馏和隐写术等独特内容",
+      "产学研结合：上海交大课程讲义→开源教程→华为昇腾国产化全流程，学术严谨性与产业实践性兼备",
+      "中文 LLM 教育稀缺资源：在中文社区填补了系统性、可动手实践的 LLM 教程空白，29K+ Star 验证了需求强度"
+    ],
+    "scores": {
+      "innovation": 5,
+      "practicality": 8,
+      "community": 8,
+      "techDepth": 7,
+      "overall": 7.0
+    },
+    "scoreReason": "创新性 5：作为教程项目，内容组织而非技术创新是核心价值，隐写术和 GUI Agent 章节有一定前沿性，但整体是知识整理而非突破。实用性 8：中文 LLM 学习者可直接动手实践，Notebook 可执行、门槛低，与华为昇腾合作提供国产化开发路径，对中文社区价值极高。社区活跃度 8：29K+ Star，Issue 中有国际化需求和职业转型讨论，上交大团队持续更新。技术深度 7：覆盖面广但每章深度适中，多模态三阶段训练流程讲解专业，但整体偏教学而非研究级别深度。"
+  },
+  {
+    "title": "Open Agents",
+    "url": "https://github.com/vercel-labs/open-agents",
+    "deepSummary": "Open Agents 是 Vercel 推出的开源云编码 Agent 参考实现，采用三层架构：Web 层（Next.js，处理认证/会话/聊天/流式 UI）→ Agent 工作流层（Vercel Workflow SDK 持久化执行）→ 沙箱 VM 层（隔离执行环境，含文件系统/shell/git/开发服务器/预览端口）。关键架构决策是 Agent 与沙箱分离——Agent 在沙箱外运行，通过文件读写/搜索/shell 等工具与沙箱交互，使得 Agent 执行不绑定单一请求生命周期，沙箱可独立休眠和恢复，模型选择和沙箱实现可独立演进。支持聊天驱动的编码、自动提交/推送/PR 创建、会话共享、ElevenLabs 语音输入。项目定位为可 Fork 适配的参考应用，非黑箱产品。",
+    "highlights": [
+      "Agent-沙箱分离架构：Agent 不在 VM 内运行而是外部编排，实现执行生命周期解耦、沙箱独立休眠/恢复、模型与沙箱实现独立演进三大优势",
+      "Vercel Workflow SDK 持久化执行：每个 Agent 回合可跨多个持久化工作流步骤，支持断线重连流式传输和中途取消，适合长时间编码任务",
+      "完整的 GitHub 集成闭环：从 OAuth 到仓库克隆、分支工作、自动提交推送和 PR 创建，实现从 prompt 到代码变更的端到端自动化"
+    ],
+    "scores": {
+      "innovation": 7,
+      "practicality": 7,
+      "community": 6,
+      "techDepth": 8,
+      "overall": 7.0
+    },
+    "scoreReason": "创新性 7：Agent-沙箱分离是重要的架构洞察，解决了 Agent 执行与沙箱生命周期耦合的核心问题，但整体是工程架构创新而非算法突破。实用性 7：对 Vercel 生态用户开箱即用，但强依赖 Vercel 平台，非 Vercel 用户适配成本高，2.6K Star 说明受众尚窄。社区活跃度 6：Vercel Labs 官方维护有保障，但 Star 数相对较少，外部贡献者有限。技术深度 8：三层架构设计清晰，Workflow SDK 持久化执行、沙箱快照恢复、工具抽象层等工程实现专业。"
+  },
+  {
+    "title": "GenericAgent",
+    "url": "https://github.com/lsdefine/GenericAgent",
+    "deepSummary": "GenericAgent 是一个极简的自进化 Agent 框架，核心代码仅约 3.3K 行，通过 9 个原子工具（代码执行/文件读写/搜索/内存管理等）和一个约 100 行的 Agent Loop 实现完整自主能力。其核心创新是'技能树自生长'机制：Agent 在执行任务过程中自动积累 SOP（标准操作流程）和记忆文件，形成可复用的技能树，随使用时间增长而不断进化。Agent Loop 采用基于生成器的执行引擎，在 LLM 客户端与可插拔工具处理器之间充当中间人，支持轮次限制、实时流式输出和外部文件控制（通过 _stop/_intervene/_keyinfo 文件注入提示词或更新工作记忆）。多供应商会话架构支持降级策略，主会话失败时自动回弹到备用会话。项目由复旦团队开发。",
+    "highlights": [
+      "极简自进化设计：3.3K 行代码 + 9 原子工具 + 100 行 Agent Loop 即实现技能树自生长，Agent 使用越多能力越强，token 消耗降低 6 倍",
+      "文件系统即控制接口：通过 task_dir 中的 _stop/_intervene/_keyinfo 文件实现外部进程对 Agent 的中途干预、记忆更新和终止控制，无需 API 调用",
+      "生成器驱动的流式 Agent Loop：agent_runner_loop 作为生成器函数，支持三阶段工具执行（前置回调→执行→后置回调），向任何前端 yield 进度块"
+    ],
+    "scores": {
+      "innovation": 8,
+      "practicality": 6,
+      "community": 5,
+      "techDepth": 7,
+      "overall": 6.5
+    },
+    "scoreReason": "创新性 8：'技能树自生长'概念在 Agent 领域具有前瞻性，用极简代码实现自进化是优雅的工程哲学，文件系统控制接口也是独特设计。实用性 6：概念验证性质，3.3K 行虽精简但缺乏文档和生态支持，1.9K Star 说明仍处早期，生产可用性不足。社区活跃度 5：Star 数最低（1.9K），外部贡献者少，复旦团队开发但社区影响力有限，文档不够完善。技术深度 7：Agent Loop 生成器模式、Mixin 会话降级策略、handler 三阶段执行等设计精巧，但整体实现偏学术原型，缺少大规模验证。"
+  }
+]

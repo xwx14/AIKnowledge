@@ -1,0 +1,24 @@
+{
+  "id": "claude-mem-2026-04-16",
+  "title": "claude-mem",
+  "url": "https://github.com/thedotmack/claude-mem",
+  "category": "AI编程工具",
+  "tags": ["Claude Code", "持久记忆", "SQLite", "ChromaDB", "向量搜索", "Hook", "跨会话", "AI编程助手"],
+  "source": "github",
+  "collectedDate": "2026-04-16",
+  "popularity": "⭐57,913 (日增 2,305)",
+  "summary": "claude-mem 是一个 Claude Code 插件，通过五大生命周期 Hook（context/user-message/compact/stop/session-stop）为 AI 编程助手赋予跨会话持久记忆能力。架构上采用 SQLite（会话、记忆、观察三表）+ ChromaDB 向量存储双引擎方案，Hook 非阻塞设计确保即使后台工作进程宕机也不影响 Claude Code 正常运行。支持多 IDE 集成（Claude Code 原生、Cursor、Gemini CLI），通过平台适配器抽象不同 IDE 的字段差异。核心流程为：会话结束时自动摘要并提取观察→存入 SQLite+ChromaDB→新会话启动时通过向量搜索注入相关记忆时间线，实现渐进式披露策略以控制上下文窗口占用。",
+  "highlights": [
+    "双引擎持久记忆架构：SQLite 存储结构化会话/记忆/观察数据，ChromaDB 向量搜索实现语义检索，两者协同解决 LLM '会话失忆'问题",
+    "五 Hook 非阻塞生命周期设计：挂载于 Claude Code 原生 Hook 事件，超时独立配置（最长 300s），后台工作进程宕机不影响主流程",
+    "跨 IDE 统一记忆层：通过平台适配器抽象 Claude Code/Cursor/Gemini CLI 差异，共享同一记忆数据库，至少在 Claude Code 中运行部分会话即可获得最高质量摘要"
+  ],
+  "scores": {
+    "innovation": 8,
+    "practicality": 9,
+    "community": 9,
+    "techDepth": 8,
+    "overall": 8.5
+  },
+  "scoreReason": "创新性 8：Hook 生命周期+渐进式披露的组合在 AI 编程助手记忆方案中属于领先设计，但持久化记忆本身并非全新概念。实用性 9：精准打击每个 Claude Code 用户都遇到的会话失忆痛点，安装一条命令即可生效，57K+ Star 验证了实际需求。社区活跃度 9：92 位贡献者、3700+ Fork、被多家媒体报道和商业公司采纳，Augment Code 外部分析文章专门赞誉其架构决策。技术深度 8：数据库 Schema 设计严谨（含迁移系统），向量同步有批量分页和增量回填机制，但整体架构仍属工程整合而非算法创新。"
+}

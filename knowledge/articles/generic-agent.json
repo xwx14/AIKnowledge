@@ -1,0 +1,24 @@
+{
+  "id": "generic-agent-2026-04-16",
+  "title": "GenericAgent",
+  "url": "https://github.com/lsdefine/GenericAgent",
+  "category": "AI Agent",
+  "tags": ["自进化Agent", "技能树", "复旦", "生成器", "极简框架", "SOP", "文件系统控制"],
+  "source": "github",
+  "collectedDate": "2026-04-16",
+  "popularity": "⭐1,983 (日增 446)",
+  "summary": "GenericAgent 是一个极简的自进化 Agent 框架，核心代码仅约 3.3K 行，通过 9 个原子工具（代码执行/文件读写/搜索/内存管理等）和一个约 100 行的 Agent Loop 实现完整自主能力。其核心创新是'技能树自生长'机制：Agent 在执行任务过程中自动积累 SOP（标准操作流程）和记忆文件，形成可复用的技能树，随使用时间增长而不断进化。Agent Loop 采用基于生成器的执行引擎，在 LLM 客户端与可插拔工具处理器之间充当中间人，支持轮次限制、实时流式输出和外部文件控制（通过 _stop/_intervene/_keyinfo 文件注入提示词或更新工作记忆）。多供应商会话架构支持降级策略，主会话失败时自动回弹到备用会话。项目由复旦团队开发。",
+  "highlights": [
+    "极简自进化设计：3.3K 行代码 + 9 原子工具 + 100 行 Agent Loop 即实现技能树自生长，Agent 使用越多能力越强，token 消耗降低 6 倍",
+    "文件系统即控制接口：通过 task_dir 中的 _stop/_intervene/_keyinfo 文件实现外部进程对 Agent 的中途干预、记忆更新和终止控制，无需 API 调用",
+    "生成器驱动的流式 Agent Loop：agent_runner_loop 作为生成器函数，支持三阶段工具执行（前置回调→执行→后置回调），向任何前端 yield 进度块"
+  ],
+  "scores": {
+    "innovation": 8,
+    "practicality": 6,
+    "community": 5,
+    "techDepth": 7,
+    "overall": 6.5
+  },
+  "scoreReason": "创新性 8：'技能树自生长'概念在 Agent 领域具有前瞻性，用极简代码实现自进化是优雅的工程哲学，文件系统控制接口也是独特设计。实用性 6：概念验证性质，3.3K 行虽精简但缺乏文档和生态支持，1.9K Star 说明仍处早期，生产可用性不足。社区活跃度 5：Star 数最低（1.9K），外部贡献者少，复旦团队开发但社区影响力有限，文档不够完善。技术深度 7：Agent Loop 生成器模式、Mixin 会话降级策略、handler 三阶段执行等设计精巧，但整体实现偏学术原型，缺少大规模验证。"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "andrej-karpathy-skills",
+    "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "source": "github",
+    "popularity": "⭐43,400 (日增 9,646)",
+    "summary": "基于 Andrej Karpathy 对 LLM 编码缺陷的观察，提炼出四大原则（先思考再编码、简洁优先、精准变更、目标驱动执行），以单个 CLAUDE.md 文件改善 Claude Code 的编码行为，解决 LLM 过度工程化、不必要重构、隐藏困惑等常见问题。"
+  },
+  {
+    "title": "claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "source": "github",
+    "popularity": "⭐57,913 (日增 2,305)",
+    "summary": "Claude Code 插件，自动捕获编码会话中 Claude 的所有操作，通过 AI 压缩后注入未来会话的上下文，实现跨会话的持久记忆功能，解决 AI 编程助手每次会话从零开始的痛点。"
+  },
+  {
+    "title": "Superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": "⭐154,398 (日增 2,055)",
+    "summary": "面向编程 AI Agent 的技能框架与软件开发方法论，提供可组合的技能系统，自动触发头脑风暴、TDD、子代理驱动开发、代码审查等工作流，支持 Claude Code、Cursor、Codex、OpenCode 等多种编程代理平台。"
+  },
+  {
+    "title": "Voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "source": "github",
+    "popularity": "⭐18,328 (日增 1,062)",
+    "summary": "开源语音合成工作室，提供可视化界面进行 AI 语音合成，支持多种语音模型的管理与编辑，面向内容创作者和开发者的 AI 语音工具。"
+  },
+  {
+    "title": "AI Hedge Fund",
+    "url": "https://github.com/virattt/ai-hedge-fund",
+    "source": "github",
+    "popularity": "⭐55,109 (日增 1,058)",
+    "summary": "AI 对冲基金团队概念验证项目，模拟 13 位知名投资大师（巴菲特、达摩达兰、木头姐等）和 6 个分析代理（估值、情绪、基本面、技术面、风控、组合管理）协作进行交易决策，支持本地 Ollama 运行。"
+  },
+  {
+    "title": "dive-into-llms（动手学大模型）",
+    "url": "https://github.com/Lordog/dive-into-llms",
+    "source": "github",
+    "popularity": "⭐29,566 (日增 941)",
+    "summary": "《动手学大模型》系列编程实践教程，以 Jupyter Notebook 形式系统讲解大模型原理与实践，覆盖大模型训练、微调、推理等全链路知识，面向中文开发者社区。"
+  },
+  {
+    "title": "Open Agents",
+    "url": "https://github.com/vercel-labs/open-agents",
+    "source": "github",
+    "popularity": "⭐2,675 (日增 915)",
+    "summary": "Vercel 推出的开源云代理模板，用于构建可部署在云端的 AI Agent，提供 Agent 开发的基础架构与最佳实践，快速搭建具有工具调用能力的云端智能体。"
+  },
+  {
+    "title": "Magika",
+    "url": "https://github.com/google/magika",
+    "source": "github",
+    "popularity": "⭐13,831 (日增 768)",
+    "summary": "Google 开源的 AI 驱动文件内容类型检测工具，利用深度学习模型实现快速、准确的文件类型识别，支持数百种文件格式，性能优于传统基于魔数的检测方案。"
+  },
+  {
+    "title": "Claude-Code-Game-Studios",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "source": "github",
+    "popularity": "⭐10,538 (日增 612)",
+    "summary": "将 Claude Code 转化为完整游戏开发工作室的项目，包含 49 个 AI 代理和 72 个工作流技能，模拟真实游戏工作室的层级分工体系，实现 AI 驱动的游戏开发全流程自动化。"
+  },
+  {
+    "title": "GenericAgent",
+    "url": "https://github.com/lsdefine/GenericAgent",
+    "source": "github",
+    "popularity": "⭐1,983 (日增 446)",
+    "summary": "自进化 AI 代理项目，从 3300 行种子代码自主生长技能树，以 6 倍更少的 token 消耗实现完整系统控制能力，探索 AI 代理自我学习和能力扩展的新范式。"
+  }
+]

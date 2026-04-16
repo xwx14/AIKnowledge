@@ -1,0 +1,24 @@
+{
+  "id": "magika-2026-04-16",
+  "title": "Magika",
+  "url": "https://github.com/google/magika",
+  "category": "AI基础设施",
+  "tags": ["Google", "文件类型检测", "深度学习", "ONNX", "安全", "Python", "Rust", "Go"],
+  "source": "github",
+  "collectedDate": "2026-04-16",
+  "popularity": "⭐13,831 (日增 768)",
+  "summary": "Magika 是 Google 开发的基于深度学习的文件类型检测工具，通过读取文件少量字节、提取结构特征并输入自定义神经网络模型来识别内容类型，不依赖文件扩展名或魔数。在 200+ 种内容类型上实现约 99% 准确率，已部署于 Google 内部大规模安全系统（Gmail 恶意文档拦截等）。项目提供四种语言的完整 SDK：Python（pip install magika）、Rust（cargo install magika）、JavaScript/TypeScript（npm install magika）、Go。核心模型为轻量级 ONNX 模型（几 MB），推理仅需读取文件首块字节，速度极快。v3.3 模型为当前最新版本，附带 ICSE 2025 论文。支持 CLI 批量扫描、JSON/JSONL 输出、递归目录扫描，以及浏览器端识别。",
+  "highlights": [
+    "深度学习超越传统魔数检测：基于 ONNX 神经网络模型读取少量字节即可在 200+ 文件类型上实现 ~99% 准确率，远超传统 file 命令",
+    "四语言完整 SDK+双 CLI：Python/Rust/JS/Go 均有一等公民级支持，Rust CLI 为推荐主力（异步并行、最全标志位），Python CLI 作为后备",
+    "Google 级生产验证：已在 Gmail 恶意文档检测等 Google 核心安全系统中大规模部署，附带 ICSE 2025 学术论文，工业+学术双重背书"
+  ],
+  "scores": {
+    "innovation": 7,
+    "practicality": 8,
+    "community": 7,
+    "techDepth": 9,
+    "overall": 7.7
+  },
+  "scoreReason": "创新性 7：用深度学习替代传统文件类型检测是有效的技术升级，但并非范式变革，且核心思路在 2024 年初已公开。实用性 8：四语言 SDK+CLI 覆盖绝大多数使用场景，pip/cargo/npm 一键安装，可直接替换 file 命令，但对多数开发者而言文件类型检测非高频需求。社区活跃度 7：Google 官方维护有保障，13K+ Star，但贡献者以 Google 内部为主，外部社区参与度有限。技术深度 9：ONNX 模型设计精巧（多种模型尺寸适配不同场景），特征提取算法严谨，四语言 SDK 工程质量一致，ICSE 论文提供学术深度。"
+}
