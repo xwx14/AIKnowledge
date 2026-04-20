@@ -1,0 +1,18 @@
+{
+  "id": "github-addyosmani-agent-skills-2026-04-16",
+  "title": "agent-skills",
+  "url": "https://github.com/addyosmani/agent-skills",
+  "source": "github",
+  "popularity": "15941 ⭐ (周增 +6693)",
+  "summary": "为 AI 编码 Agent 提供生产级工程技能集合，由 Google 工程师 Addy Osmani 维护，涵盖代码审查、架构设计、测试等最佳实践。",
+  "highlights": [
+    "Google 工程师 Addy Osmani 维护",
+    "生产级工程技能集合",
+    "涵盖代码审查到测试全链路最佳实践"
+  ],
+  "score": 7,
+  "scoreReason": "Google 工程师背书，Agent 技能方向代表项目",
+  "tags": ["ai agent", "编码工具", "工程实践", "shell", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

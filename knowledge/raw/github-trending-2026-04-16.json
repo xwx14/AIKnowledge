@@ -1,72 +1,257 @@
-[
-  {
-    "title": "andrej-karpathy-skills",
-    "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-    "source": "github",
-    "popularity": "⭐43,400 (日增 9,646)",
-    "summary": "基于 Andrej Karpathy 对 LLM 编码缺陷的观察，提炼出四大原则（先思考再编码、简洁优先、精准变更、目标驱动执行），以单个 CLAUDE.md 文件改善 Claude Code 的编码行为，解决 LLM 过度工程化、不必要重构、隐藏困惑等常见问题。"
+{
+  "metadata": {
+    "reportDate": "2026-04-16",
+    "period": "2026-04-10 ~ 2026-04-16",
+    "dataSource": "GitHub Trending (Weekly), devFlokers, Medium",
+    "category": "AI"
   },
-  {
-    "title": "claude-mem",
-    "url": "https://github.com/thedotmack/claude-mem",
-    "source": "github",
-    "popularity": "⭐57,913 (日增 2,305)",
-    "summary": "Claude Code 插件，自动捕获编码会话中 Claude 的所有操作，通过 AI 压缩后注入未来会话的上下文，实现跨会话的持久记忆功能，解决 AI 编程助手每次会话从零开始的痛点。"
+  "overview": {
+    "summary": "本周 GitHub AI 生态呈现爆发式增长，多个项目单周 Star 增量破万",
+    "keyTrends": [
+      "AI Agent 全面爆发：Agent 类项目占据半壁江山，从个性化助手到多 Agent 协作平台",
+      "Claude Code 生态快速繁荣：围绕 Claude Code 的插件、技能、记忆系统形成完整生态链",
+      "AI 编码工具深度化：从简单的代码补全走向确定性的 harness 构建",
+      "金融 AI 持续升温：量化交易、金融语言模型等方向项目热度居高不下",
+      "本地化/自托管 AI 需求强劲：隐私优先的 AI 方案受到持续关注"
+    ]
   },
-  {
-    "title": "Superpowers",
-    "url": "https://github.com/obra/superpowers",
-    "source": "github",
-    "popularity": "⭐154,398 (日增 2,055)",
-    "summary": "面向编程 AI Agent 的技能框架与软件开发方法论，提供可组合的技能系统，自动触发头脑风暴、TDD、子代理驱动开发、代码审查等工作流，支持 Claude Code、Cursor、Codex、OpenCode 等多种编程代理平台。"
-  },
-  {
-    "title": "Voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "source": "github",
-    "popularity": "⭐18,328 (日增 1,062)",
-    "summary": "开源语音合成工作室，提供可视化界面进行 AI 语音合成，支持多种语音模型的管理与编辑，面向内容创作者和开发者的 AI 语音工具。"
-  },
-  {
-    "title": "AI Hedge Fund",
-    "url": "https://github.com/virattt/ai-hedge-fund",
-    "source": "github",
-    "popularity": "⭐55,109 (日增 1,058)",
-    "summary": "AI 对冲基金团队概念验证项目，模拟 13 位知名投资大师（巴菲特、达摩达兰、木头姐等）和 6 个分析代理（估值、情绪、基本面、技术面、风控、组合管理）协作进行交易决策，支持本地 Ollama 运行。"
-  },
-  {
-    "title": "dive-into-llms（动手学大模型）",
-    "url": "https://github.com/Lordog/dive-into-llms",
-    "source": "github",
-    "popularity": "⭐29,566 (日增 941)",
-    "summary": "《动手学大模型》系列编程实践教程，以 Jupyter Notebook 形式系统讲解大模型原理与实践，覆盖大模型训练、微调、推理等全链路知识，面向中文开发者社区。"
-  },
-  {
-    "title": "Open Agents",
-    "url": "https://github.com/vercel-labs/open-agents",
-    "source": "github",
-    "popularity": "⭐2,675 (日增 915)",
-    "summary": "Vercel 推出的开源云代理模板，用于构建可部署在云端的 AI Agent，提供 Agent 开发的基础架构与最佳实践，快速搭建具有工具调用能力的云端智能体。"
-  },
-  {
-    "title": "Magika",
-    "url": "https://github.com/google/magika",
-    "source": "github",
-    "popularity": "⭐13,831 (日增 768)",
-    "summary": "Google 开源的 AI 驱动文件内容类型检测工具，利用深度学习模型实现快速、准确的文件类型识别，支持数百种文件格式，性能优于传统基于魔数的检测方案。"
-  },
-  {
-    "title": "Claude-Code-Game-Studios",
-    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-    "source": "github",
-    "popularity": "⭐10,538 (日增 612)",
-    "summary": "将 Claude Code 转化为完整游戏开发工作室的项目，包含 49 个 AI 代理和 72 个工作流技能，模拟真实游戏工作室的层级分工体系，实现 AI 驱动的游戏开发全流程自动化。"
-  },
-  {
-    "title": "GenericAgent",
-    "url": "https://github.com/lsdefine/GenericAgent",
-    "source": "github",
-    "popularity": "⭐1,983 (日增 446)",
-    "summary": "自进化 AI 代理项目，从 3300 行种子代码自主生长技能树，以 6 倍更少的 token 消耗实现完整系统控制能力，探索 AI 代理自我学习和能力扩展的新范式。"
+  "projects": [
+    {
+      "rank": 1,
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你共同成长的个性化 AI Agent。它能学习你的习惯、适应你的工作流，支持长期持续任务而非一次性对话",
+      "stars": 89825,
+      "weeklyStarGrowth": 53110,
+      "language": "Python",
+      "category": "AI Agent"
+    },
+    {
+      "rank": 2,
+      "name": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "基于 Andrej Karpathy 对 LLM 编码陷阱的观察总结，用单一 CLAUDE.md 文件改善 Claude Code 的编码行为",
+      "stars": 43402,
+      "weeklyStarGrowth": 30919,
+      "language": "Markdown/Shell",
+      "category": "AI 工具/提示工程"
+    },
+    {
+      "rank": 3,
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "微软出品的轻量级 Python 工具，可将 PDF、Word、Excel、PPT 等文件即时转换为干净的 Markdown 格式，使文档对 AI 友好",
+      "stars": 109554,
+      "weeklyStarGrowth": 15790,
+      "language": "Python",
+      "category": "AI 工具/文档处理"
+    },
+    {
+      "rank": 4,
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Claude Code 插件，自动捕获编码会话中的所有操作，通过 AI 压缩并在未来会话中注入相关上下文，解决 AI 编码的遗忘问题",
+      "stars": 57913,
+      "weeklyStarGrowth": 10779,
+      "language": "TypeScript",
+      "category": "AI 工具/Agent 记忆"
+    },
+    {
+      "rank": 5,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "开源的托管式 Agent 平台，将独立编码 Agent 转化为真正的团队成员——可分配任务、跟踪进度、复合技能",
+      "stars": 13656,
+      "weeklyStarGrowth": 10864,
+      "language": "TypeScript",
+      "category": "AI Agent 平台/多 Agent 协作"
+    },
+    {
+      "rank": 6,
+      "name": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "AI 对冲基金团队，使用多个 AI Agent 模拟对冲基金的投资决策流程，涵盖市场分析、风险评估、交易信号等完整链路",
+      "stars": 55109,
+      "weeklyStarGrowth": 9564,
+      "language": "Python",
+      "category": "AI 金融/Agent"
+    },
+    {
+      "rank": 7,
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "为 AI 编码 Agent 提供生产级工程技能集合，由 Google 工程师 Addy Osmani 维护，涵盖代码审查、架构设计、测试等最佳实践",
+      "stars": 15941,
+      "weeklyStarGrowth": 6693,
+      "language": "Shell",
+      "category": "AI Agent 技能/编码工具"
+    },
+    {
+      "rank": 8,
+      "name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "Claude Code 可视化示例驱动指南，从基础概念到高级 Agent，提供可直接复制粘贴的模板",
+      "stars": 25295,
+      "weeklyStarGrowth": 6517,
+      "language": "Python",
+      "category": "AI 工具/Claude Code 指南"
+    },
+    {
+      "rank": 9,
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "金融市场语言基础模型（Foundation Model for the Language of Financial Markets），专为理解金融市场的语言而设计",
+      "stars": 18267,
+      "weeklyStarGrowth": 6486,
+      "language": "Python",
+      "category": "LLM/金融 AI"
+    },
+    {
+      "rank": 10,
+      "name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "Agent 原生的个性化学习助手，将 AI Agent 能力深度整合到教育场景，提供自适应、持续性的智能辅导体验",
+      "stars": 18459,
+      "weeklyStarGrowth": 5500,
+      "language": "Python",
+      "category": "AI 教育/Agent"
+    },
+    {
+      "rank": 11,
+      "name": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "零服务端代码智能引擎，纯客户端运行的知识图谱创建工具。输入 GitHub 仓库或 ZIP 文件即可生成交互式知识图谱，内置 Graph RAG Agent",
+      "stars": 26677,
+      "weeklyStarGrowth": 5104,
+      "language": "TypeScript",
+      "category": "AI 代码分析/Graph RAG"
+    },
+    {
+      "rank": 12,
+      "name": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "首个开源 AI 编码 Harness 构建器，让 AI 编码变得确定性和可重复，解决 AI 编码输出不可控的痛点",
+      "stars": 18236,
+      "weeklyStarGrowth": 4263,
+      "language": "TypeScript",
+      "category": "AI 编码工具/Harness"
+    },
+    {
+      "rank": 13,
+      "name": "tobi/qmd",
+      "url": "https://github.com/tobi/qmd",
+      "description": "迷你 CLI 搜索引擎，适用于文档、知识库、会议笔记等的本地搜索。跟踪当前 SOTA 方法，全部本地运行，保护数据隐私",
+      "stars": 21008,
+      "weeklyStarGrowth": 3230,
+      "language": "TypeScript",
+      "category": "AI 搜索/RAG"
+    },
+    {
+      "rank": 14,
+      "name": "NVIDIA/personaplex",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "description": "NVIDIA 出品的 PersonaPlex 代码库，用于构建多角色（Persona）的 AI Agent 交互系统",
+      "stars": 9034,
+      "weeklyStarGrowth": 2905,
+      "language": "Python",
+      "category": "AI Agent/多角色系统"
+    },
+    {
+      "rank": 15,
+      "name": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "description": "开源 AI 平台，支持与任何 LLM 配合使用的高级 AI 聊天功能，提供企业级 AI 对话解决方案",
+      "stars": 26626,
+      "weeklyStarGrowth": 2730,
+      "language": "Python",
+      "category": "AI 平台/LLM 应用"
+    },
+    {
+      "rank": 16,
+      "name": "TheCraigHewitt/seomachine",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "description": "专为 Claude Code 打造的 SEO 内容创作工作区，帮助研究、撰写、分析和优化长篇 SEO 博客内容",
+      "stars": 5712,
+      "weeklyStarGrowth": 2698,
+      "language": "Python",
+      "category": "AI 工具/内容创作"
+    },
+    {
+      "rank": 17,
+      "name": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "description": "开源 AI 协作者，带记忆功能。可记住你的工作上下文，在协作中持续学习和适应",
+      "stars": 12134,
+      "weeklyStarGrowth": 2695,
+      "language": "TypeScript",
+      "category": "AI Agent/协作工具"
+    },
+    {
+      "rank": 18,
+      "name": "YishenTu/claudian",
+      "url": "https://github.com/YishenTu/claudian",
+      "description": "Obsidian 插件，将 Claude Code 嵌入为 Obsidian 知识库中的 AI 协作者",
+      "stars": 7443,
+      "weeklyStarGrowth": 1566,
+      "language": "TypeScript",
+      "category": "AI 工具/Obsidian 插件"
+    },
+    {
+      "rank": 19,
+      "name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "Google Research 开发的时间序列基础模型（Time Series Foundation Model），用于时间序列预测",
+      "stars": 16388,
+      "weeklyStarGrowth": 1848,
+      "language": "Python",
+      "category": "基础模型/时间序列"
+    },
+    {
+      "rank": 20,
+      "name": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "description": "微软出品的 AI Agent 框架，用于构建、编排和部署 AI Agent 及多 Agent 工作流，同时支持 Python 和 .NET",
+      "stars": 9340,
+      "weeklyStarGrowth": 747,
+      "language": "Python",
+      "category": "AI Agent 框架"
+    }
+  ],
+  "trendAnalysis": {
+    "hotDirections": [
+      {
+        "direction": "AI Agent",
+        "representativeProjects": ["hermes-agent", "multica", "Archon", "rowboat", "NVIDIA/personaplex"],
+        "totalWeeklyGrowth": "5个项目合计周增超 7万 Star"
+      },
+      {
+        "direction": "Claude Code 生态",
+        "representativeProjects": ["andrej-karpathy-skills", "claude-mem", "claude-howto", "claudian"],
+        "totalWeeklyGrowth": "4个项目周增超 4.8万 Star"
+      },
+      {
+        "direction": "金融 AI",
+        "representativeProjects": ["Kronos", "ai-hedge-fund"],
+        "totalWeeklyGrowth": "周增合计超 1.6万 Star"
+      },
+      {
+        "direction": "文档/AI 桥接",
+        "representativeProjects": ["markitdown", "qmd", "GitNexus"],
+        "totalWeeklyGrowth": "周增合计超 2.4万 Star"
+      }
+    ],
+    "keyInsights": [
+      "Agent 是绝对主角：20 个热门项目中超过 10 个直接与 AI Agent 相关，hermes-agent 单周增长 5.3万 Star",
+      "Claude Code 生态爆发：从行为改善到记忆系统再到学习指南，Claude Code 正在成为 AI 编码的新平台标准",
+      "确定性 AI 编码兴起：Archon 等项目标志 AI 编码从试试看走向可重复、可控制的新阶段",
+      "金融 AI 持续走强：Kronos 和 ai-hedge-fund 同时上榜，AI 在金融领域从实验走向实用",
+      "本地化搜索与 RAG 热度上升：qmd、GitNexus 反映开发者对隐私优先 AI 搜索的需求增长",
+      "微软双项目上榜：markitdown 和 agent-framework 同时上榜，显示微软在 AI 开源领域持续投入"
+    ],
+    "watchList": [
+      "MCP（Model Context Protocol）标准化：越来越多项目内置 MCP 支持",
+      "Agent 记忆与上下文管理：claude-mem 爆火说明 AI 遗忘是真实痛点",
+      "多 Agent 编排：multica、rowboat 等多 Agent 协作平台涌现，AI 应用从单 Agent 走向团队协作"
+    ]
   }
-]
+}

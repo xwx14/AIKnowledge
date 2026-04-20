@@ -1,0 +1,18 @@
+{
+  "id": "github-onyx-dot-app-onyx-2026-04-16",
+  "title": "onyx",
+  "url": "https://github.com/onyx-dot-app/onyx",
+  "source": "github",
+  "popularity": "26626 ⭐ (周增 +2730)",
+  "summary": "开源 AI 平台，支持与任何 LLM 配合使用的高级 AI 聊天功能，提供企业级 AI 对话解决方案。LLM 无关的开放设计。",
+  "highlights": [
+    "开源企业级 AI 对话平台",
+    "支持任意 LLM 接入",
+    "企业级解决方案"
+  ],
+  "score": 6,
+  "scoreReason": "企业级 AI 对话平台，LLM 无关设计，但增长相对平缓",
+  "tags": ["ai平台", "llm应用", "python", "企业级", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

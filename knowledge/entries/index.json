@@ -1,0 +1,146 @@
+{
+  "updatedAt": "2026-04-16",
+  "totalEntries": 20,
+  "entries": [
+    {
+      "id": "github-NousResearch-hermes-agent-2026-04-16",
+      "title": "hermes-agent",
+      "score": 9,
+      "tags": ["ai agent", "python", "个性化", "开源项目"],
+      "filePath": "github-NousResearch-hermes-agent-2026-04-16.json"
+    },
+    {
+      "id": "github-forrestchang-andrej-karpathy-skills-2026-04-16",
+      "title": "andrej-karpathy-skills",
+      "score": 9,
+      "tags": ["claude code", "提示工程", "ai工具", "开源项目"],
+      "filePath": "github-forrestchang-andrej-karpathy-skills-2026-04-16.json"
+    },
+    {
+      "id": "github-microsoft-markitdown-2026-04-16",
+      "title": "markitdown",
+      "score": 8,
+      "tags": ["文档处理", "python", "微软", "ai工具", "开源项目"],
+      "filePath": "github-microsoft-markitdown-2026-04-16.json"
+    },
+    {
+      "id": "github-thedotmack-claude-mem-2026-04-16",
+      "title": "claude-mem",
+      "score": 8,
+      "tags": ["claude code", "ai记忆", "agent记忆", "typescript", "开源项目"],
+      "filePath": "github-thedotmack-claude-mem-2026-04-16.json"
+    },
+    {
+      "id": "github-multica-ai-multica-2026-04-16",
+      "title": "multica",
+      "score": 8,
+      "tags": ["ai agent", "多agent协作", "typescript", "agent平台", "开源项目"],
+      "filePath": "github-multica-ai-multica-2026-04-16.json"
+    },
+    {
+      "id": "github-virattt-ai-hedge-fund-2026-04-16",
+      "title": "ai-hedge-fund",
+      "score": 8,
+      "tags": ["ai金融", "ai agent", "python", "量化交易", "开源项目"],
+      "filePath": "github-virattt-ai-hedge-fund-2026-04-16.json"
+    },
+    {
+      "id": "github-addyosmani-agent-skills-2026-04-16",
+      "title": "agent-skills",
+      "score": 7,
+      "tags": ["ai agent", "编码工具", "工程实践", "shell", "开源项目"],
+      "filePath": "github-addyosmani-agent-skills-2026-04-16.json"
+    },
+    {
+      "id": "github-luongnv89-claude-howto-2026-04-16",
+      "title": "claude-howto",
+      "score": 7,
+      "tags": ["claude code", "教程", "python", "ai工具", "开源项目"],
+      "filePath": "github-luongnv89-claude-howto-2026-04-16.json"
+    },
+    {
+      "id": "github-shiyu-coder-Kronos-2026-04-16",
+      "title": "Kronos",
+      "score": 7,
+      "tags": ["金融ai", "基础模型", "python", "llm", "开源项目"],
+      "filePath": "github-shiyu-coder-Kronos-2026-04-16.json"
+    },
+    {
+      "id": "github-HKUDS-DeepTutor-2026-04-16",
+      "title": "DeepTutor",
+      "score": 7,
+      "tags": ["ai教育", "ai agent", "python", "个性化学习", "开源项目"],
+      "filePath": "github-HKUDS-DeepTutor-2026-04-16.json"
+    },
+    {
+      "id": "github-abhigyanpatwari-GitNexus-2026-04-16",
+      "title": "GitNexus",
+      "score": 7,
+      "tags": ["知识图谱", "graph rag", "typescript", "代码分析", "开源项目"],
+      "filePath": "github-abhigyanpatwari-GitNexus-2026-04-16.json"
+    },
+    {
+      "id": "github-coleam00-Archon-2026-04-16",
+      "title": "Archon",
+      "score": 7,
+      "tags": ["ai编码", "harness", "typescript", "确定性编码", "开源项目"],
+      "filePath": "github-coleam00-Archon-2026-04-16.json"
+    },
+    {
+      "id": "github-tobi-qmd-2026-04-16",
+      "title": "qmd",
+      "score": 7,
+      "tags": ["本地搜索", "rag", "typescript", "隐私优先", "开源项目"],
+      "filePath": "github-tobi-qmd-2026-04-16.json"
+    },
+    {
+      "id": "github-NVIDIA-personaplex-2026-04-16",
+      "title": "personaplex",
+      "score": 6,
+      "tags": ["ai agent", "多角色系统", "python", "nvidia", "开源项目"],
+      "filePath": "github-NVIDIA-personaplex-2026-04-16.json"
+    },
+    {
+      "id": "github-onyx-dot-app-onyx-2026-04-16",
+      "title": "onyx",
+      "score": 6,
+      "tags": ["ai平台", "llm应用", "python", "企业级", "开源项目"],
+      "filePath": "github-onyx-dot-app-onyx-2026-04-16.json"
+    },
+    {
+      "id": "github-TheCraigHewitt-seomachine-2026-04-16",
+      "title": "seomachine",
+      "score": 5,
+      "tags": ["claude code", "seo", "内容创作", "python", "开源项目"],
+      "filePath": "github-TheCraigHewitt-seomachine-2026-04-16.json"
+    },
+    {
+      "id": "github-rowboatlabs-rowboat-2026-04-16",
+      "title": "rowboat",
+      "score": 6,
+      "tags": ["ai agent", "协作工具", "typescript", "ai记忆", "开源项目"],
+      "filePath": "github-rowboatlabs-rowboat-2026-04-16.json"
+    },
+    {
+      "id": "github-YishenTu-claudian-2026-04-16",
+      "title": "claudian",
+      "score": 6,
+      "tags": ["claude code", "obsidian", "typescript", "知识管理", "开源项目"],
+      "filePath": "github-YishenTu-claudian-2026-04-16.json"
+    },
+    {
+      "id": "github-google-research-timesfm-2026-04-16",
+      "title": "timesfm",
+      "score": 7,
+      "tags": ["时间序列", "基础模型", "python", "google", "开源项目"],
+      "filePath": "github-google-research-timesfm-2026-04-16.json"
+    },
+    {
+      "id": "github-microsoft-agent-framework-2026-04-16",
+      "title": "agent-framework",
+      "score": 6,
+      "tags": ["ai agent", "框架", "python", "微软", "dotnet", "开源项目"],
+      "filePath": "github-microsoft-agent-framework-2026-04-16.json"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "github-TheCraigHewitt-seomachine-2026-04-16",
+  "title": "seomachine",
+  "url": "https://github.com/TheCraigHewitt/seomachine",
+  "source": "github",
+  "popularity": "5712 ⭐ (周增 +2698)",
+  "summary": "专为 Claude Code 打造的 SEO 内容创作工作区，帮助研究、撰写、分析和优化长篇 SEO 博客内容。Claude Code 生态的垂直应用。",
+  "highlights": [
+    "专为 Claude Code 打造",
+    "SEO 内容创作全流程覆盖",
+    "长篇博客优化"
+  ],
+  "score": 5,
+  "scoreReason": "垂直细分领域工具，Star 数和增长较低",
+  "tags": ["claude code", "seo", "内容创作", "python", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

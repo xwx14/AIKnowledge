@@ -1,0 +1,18 @@
+{
+  "id": "github-YishenTu-claudian-2026-04-16",
+  "title": "claudian",
+  "url": "https://github.com/YishenTu/claudian",
+  "source": "github",
+  "popularity": "7443 ⭐ (周增 +1566)",
+  "summary": "Obsidian 插件，将 Claude Code 嵌入为 Obsidian 知识库中的 AI 协作者。Claude Code 生态与知识管理的创新结合。",
+  "highlights": [
+    "Obsidian 插件形式",
+    "Claude Code 嵌入知识管理",
+    "AI 协作者与笔记整合"
+  ],
+  "score": 6,
+  "scoreReason": "Claude Code + Obsidian 细分场景，Star 和增长较低",
+  "tags": ["claude code", "obsidian", "typescript", "知识管理", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

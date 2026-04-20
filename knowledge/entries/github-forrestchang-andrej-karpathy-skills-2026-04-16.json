@@ -1,0 +1,18 @@
+{
+  "id": "github-forrestchang-andrej-karpathy-skills-2026-04-16",
+  "title": "andrej-karpathy-skills",
+  "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+  "source": "github",
+  "popularity": "43402 ⭐ (周增 +30919)",
+  "summary": "基于 Andrej Karpathy 对 LLM 编码陷阱的观察总结，用单一 CLAUDE.md 文件改善 Claude Code 的编码行为。Claude Code 生态的重要组成部分，周增超3万Star。",
+  "highlights": [
+    "基于 Karpathy 的 LLM 编码洞察",
+    "单一 CLAUDE.md 文件改善编码行为",
+    "Claude Code 生态核心项目，周增3万+"
+  ],
+  "score": 9,
+  "scoreReason": "排名第二，周增3万+，Claude Code 生态关键项目",
+  "tags": ["claude code", "提示工程", "ai工具", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "github-virattt-ai-hedge-fund-2026-04-16",
+  "title": "ai-hedge-fund",
+  "url": "https://github.com/virattt/ai-hedge-fund",
+  "source": "github",
+  "popularity": "55109 ⭐ (周增 +9564)",
+  "summary": "AI 对冲基金团队，使用多个 AI Agent 模拟对冲基金的投资决策流程，涵盖市场分析、风险评估、交易信号等完整链路。金融 AI 持续升温的代表项目。",
+  "highlights": [
+    "多 Agent 模拟投资决策流程",
+    "涵盖市场分析到交易信号完整链路",
+    "金融 AI 热门方向，总 Star 超 5 万"
+  ],
+  "score": 8,
+  "scoreReason": "金融 AI 方向头部项目，总 Star 超 5 万",
+  "tags": ["ai金融", "ai agent", "python", "量化交易", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}
