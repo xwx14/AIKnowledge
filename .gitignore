@@ -39,8 +39,3 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Test files
-test/
-verify_*.py
-*_test.py
-test_*.json
