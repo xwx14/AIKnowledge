@@ -1,0 +1,18 @@
+{
+  "id": "github-multica-ai-multica-2026-04-16",
+  "title": "multica",
+  "url": "https://github.com/multica-ai/multica",
+  "source": "github",
+  "popularity": "13656 ⭐ (周增 +10864)",
+  "summary": "开源托管式 Agent 平台，将独立编码 Agent 转化为真正的团队成员，可分配任务、跟踪进度、复合技能。多 Agent 协作方向代表项目，周增过万。",
+  "highlights": [
+    "多 Agent 协作平台",
+    "将 Agent 转化为可协作的团队成员",
+    "支持任务分配与进度跟踪"
+  ],
+  "score": 8,
+  "scoreReason": "多 Agent 协作方向代表项目，周增过万",
+  "tags": ["ai agent", "多agent协作", "typescript", "agent平台", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "github-microsoft-markitdown-2026-04-16",
+  "title": "markitdown",
+  "url": "https://github.com/microsoft/markitdown",
+  "source": "github",
+  "popularity": "109554 ⭐ (周增 +15790)",
+  "summary": "微软出品的轻量级 Python 工具，可将 PDF、Word、Excel、PPT 等文件即时转换为干净的 Markdown 格式，使文档对 AI 友好。总 Star 数已超 10 万。",
+  "highlights": [
+    "微软出品，总 Star 超 10 万",
+    "支持 PDF/Word/Excel/PPT 等多种格式转 Markdown",
+    "文档 AI 友好化的关键桥接工具"
+  ],
+  "score": 8,
+  "scoreReason": "微软出品，总 Star 超 10 万，文档处理核心工具",
+  "tags": ["文档处理", "python", "微软", "ai工具", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

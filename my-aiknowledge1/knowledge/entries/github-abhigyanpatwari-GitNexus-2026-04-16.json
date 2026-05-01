@@ -1,0 +1,18 @@
+{
+  "id": "github-abhigyanpatwari-GitNexus-2026-04-16",
+  "title": "GitNexus",
+  "url": "https://github.com/abhigyanpatwari/GitNexus",
+  "source": "github",
+  "popularity": "26677 ⭐ (周增 +5104)",
+  "summary": "零服务端代码智能引擎，纯客户端运行的知识图谱创建工具。输入 GitHub 仓库或 ZIP 文件即可生成交互式知识图谱，内置 Graph RAG Agent。隐私优先的 AI 搜索方案。",
+  "highlights": [
+    "纯客户端运行，零服务端依赖",
+    "交互式知识图谱生成",
+    "内置 Graph RAG Agent"
+  ],
+  "score": 7,
+  "scoreReason": "知识图谱+RAG 创新方案，隐私优先设计",
+  "tags": ["知识图谱", "graph rag", "typescript", "代码分析", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

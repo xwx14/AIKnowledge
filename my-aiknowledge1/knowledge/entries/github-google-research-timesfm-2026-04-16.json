@@ -1,0 +1,18 @@
+{
+  "id": "github-google-research-timesfm-2026-04-16",
+  "title": "timesfm",
+  "url": "https://github.com/google-research/timesfm",
+  "source": "github",
+  "popularity": "16388 ⭐ (周增 +1848)",
+  "summary": "Google Research 开发的时间序列基础模型（Time Series Foundation Model），用于时间序列预测。基础模型从 NLP 扩展到时序领域的代表项目。",
+  "highlights": [
+    "Google Research 出品",
+    "时间序列基础模型",
+    "基础模型扩展到时序领域的代表"
+  ],
+  "score": 7,
+  "scoreReason": "Google 出品基础模型，时序预测方向重要项目",
+  "tags": ["时间序列", "基础模型", "python", "google", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

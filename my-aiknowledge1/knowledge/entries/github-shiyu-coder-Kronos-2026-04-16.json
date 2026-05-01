@@ -1,0 +1,18 @@
+{
+  "id": "github-shiyu-coder-Kronos-2026-04-16",
+  "title": "Kronos",
+  "url": "https://github.com/shiyu-coder/Kronos",
+  "source": "github",
+  "popularity": "18267 ⭐ (周增 +6486)",
+  "summary": "金融市场语言基础模型（Foundation Model for the Language of Financial Markets），专为理解金融市场的语言而设计。与 ai-hedge-fund 同时上榜，标志 AI 在金融领域从实验走向实用。",
+  "highlights": [
+    "金融市场语言基础模型",
+    "专为金融语言设计",
+    "金融 AI 从实验走向实用的标志"
+  ],
+  "score": 7,
+  "scoreReason": "金融 AI 基础模型，与 ai-hedge-fund 形成互补",
+  "tags": ["金融ai", "基础模型", "python", "llm", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

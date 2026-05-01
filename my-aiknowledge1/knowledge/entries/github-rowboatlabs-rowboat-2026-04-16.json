@@ -1,0 +1,18 @@
+{
+  "id": "github-rowboatlabs-rowboat-2026-04-16",
+  "title": "rowboat",
+  "url": "https://github.com/rowboatlabs/rowboat",
+  "source": "github",
+  "popularity": "12134 ⭐ (周增 +2695)",
+  "summary": "开源 AI 协作者，带记忆功能。可记住工作上下文，在协作中持续学习和适应。多 Agent 协作方向的新兴项目。",
+  "highlights": [
+    "带记忆的 AI 协作者",
+    "持续学习和适应能力",
+    "多 Agent 协作方向"
+  ],
+  "score": 6,
+  "scoreReason": "AI 协作+记忆方向，增长和 Star 中等",
+  "tags": ["ai agent", "协作工具", "typescript", "ai记忆", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "github-tobi-qmd-2026-04-16",
+  "title": "qmd",
+  "url": "https://github.com/tobi/qmd",
+  "source": "github",
+  "popularity": "21008 ⭐ (周增 +3230)",
+  "summary": "迷你 CLI 搜索引擎，适用于文档、知识库、会议笔记等的本地搜索。跟踪当前 SOTA 方法，全部本地运行，保护数据隐私。反映开发者对隐私优先 AI 搜索的需求增长。",
+  "highlights": [
+    "本地运行保护数据隐私",
+    "跟踪当前 SOTA 搜索方法",
+    "CLI 轻量级设计"
+  ],
+  "score": 7,
+  "scoreReason": "本地化搜索需求代表，隐私优先设计",
+  "tags": ["本地搜索", "rag", "typescript", "隐私优先", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

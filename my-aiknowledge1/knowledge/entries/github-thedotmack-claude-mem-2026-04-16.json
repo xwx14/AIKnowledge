@@ -1,0 +1,18 @@
+{
+  "id": "github-thedotmack-claude-mem-2026-04-16",
+  "title": "claude-mem",
+  "url": "https://github.com/thedotmack/claude-mem",
+  "source": "github",
+  "popularity": "57913 ⭐ (周增 +10779)",
+  "summary": "Claude Code 插件，自动捕获编码会话中的所有操作，通过 AI 压缩并在未来会话中注入相关上下文，解决 AI 编码的遗忘问题。AI 遗忘是真实痛点，该项目爆火印证了这一需求。",
+  "highlights": [
+    "解决 AI 编码的遗忘问题",
+    "自动捕获和压缩会话上下文",
+    "Claude Code 记忆系统，周增过万"
+  ],
+  "score": 8,
+  "scoreReason": "解决 AI 遗忘真实痛点，Claude Code 生态重要组成，周增过万",
+  "tags": ["claude code", "ai记忆", "agent记忆", "typescript", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

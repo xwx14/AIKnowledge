@@ -1,0 +1,18 @@
+{
+  "id": "github-NVIDIA-personaplex-2026-04-16",
+  "title": "personaplex",
+  "url": "https://github.com/NVIDIA/personaplex",
+  "source": "github",
+  "popularity": "9034 ⭐ (周增 +2905)",
+  "summary": "NVIDIA 出品的 PersonaPlex 代码库，用于构建多角色（Persona）的 AI Agent 交互系统。大厂入局多角色 Agent 方向的标志。",
+  "highlights": [
+    "NVIDIA 出品",
+    "多角色 AI Agent 交互系统",
+    "大厂入局 Agent 方向的标志"
+  ],
+  "score": 6,
+  "scoreReason": "NVIDIA 背书，但 Star 数和增长相对较低",
+  "tags": ["ai agent", "多角色系统", "python", "nvidia", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

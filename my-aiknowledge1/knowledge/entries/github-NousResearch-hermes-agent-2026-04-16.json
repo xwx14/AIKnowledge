@@ -1,0 +1,18 @@
+{
+  "id": "github-NousResearch-hermes-agent-2026-04-16",
+  "title": "hermes-agent",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "source": "github",
+  "popularity": "89825 ⭐ (周增 +53110)",
+  "summary": "与你共同成长的个性化 AI Agent，能学习用户习惯并适应工作流，支持长期持续任务而非一次性对话。单周增长超5万Star，是本周最热门的AI项目。",
+  "highlights": [
+    "个性化学习与适应工作流",
+    "支持长期持续任务而非一次性对话",
+    "单周Star增长5.3万，排名榜首"
+  ],
+  "score": 9,
+  "scoreReason": "排名第一，周增长最高，AI Agent赛道核心项目",
+  "tags": ["ai agent", "python", "个性化", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

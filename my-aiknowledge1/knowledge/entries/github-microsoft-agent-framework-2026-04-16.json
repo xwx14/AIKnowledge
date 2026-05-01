@@ -1,0 +1,18 @@
+{
+  "id": "github-microsoft-agent-framework-2026-04-16",
+  "title": "agent-framework",
+  "url": "https://github.com/microsoft/agent-framework",
+  "source": "github",
+  "popularity": "9340 ⭐ (周增 +747)",
+  "summary": "微软出品的 AI Agent 框架，用于构建、编排和部署 AI Agent 及多 Agent 工作流，同时支持 Python 和 .NET。微软在 AI 开源领域持续投入的体现。",
+  "highlights": [
+    "微软出品 Agent 框架",
+    "同时支持 Python 和 .NET",
+    "多 Agent 工作流编排"
+  ],
+  "score": 6,
+  "scoreReason": "微软 Agent 框架，但增长较低，仍需观察",
+  "tags": ["ai agent", "框架", "python", "微软", "dotnet", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

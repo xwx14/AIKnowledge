@@ -1,0 +1,18 @@
+{
+  "id": "github-HKUDS-DeepTutor-2026-04-16",
+  "title": "DeepTutor",
+  "url": "https://github.com/HKUDS/DeepTutor",
+  "source": "github",
+  "popularity": "18459 ⭐ (周增 +5500)",
+  "summary": "Agent 原生的个性化学习助手，将 AI Agent 能力深度整合到教育场景，提供自适应、持续性的智能辅导体验。AI+教育方向创新项目。",
+  "highlights": [
+    "Agent 原生设计理念",
+    "个性化自适应学习",
+    "AI 教育场景深度整合"
+  ],
+  "score": 7,
+  "scoreReason": "AI+教育方向创新项目，Agent 原生设计",
+  "tags": ["ai教育", "ai agent", "python", "个性化学习", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}

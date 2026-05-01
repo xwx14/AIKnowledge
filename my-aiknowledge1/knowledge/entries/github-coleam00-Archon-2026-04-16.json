@@ -1,0 +1,18 @@
+{
+  "id": "github-coleam00-Archon-2026-04-16",
+  "title": "Archon",
+  "url": "https://github.com/coleam00/Archon",
+  "source": "github",
+  "popularity": "18236 ⭐ (周增 +4263)",
+  "summary": "首个开源 AI 编码 Harness 构建器，让 AI 编码变得确定性和可重复，解决 AI 编码输出不可控的痛点。标志 AI 编码从试试看走向可控制的新阶段。",
+  "highlights": [
+    "首个开源 AI 编码 Harness 构建器",
+    "解决 AI 编码输出不可控痛点",
+    "确定性 AI 编码的先驱项目"
+  ],
+  "score": 7,
+  "scoreReason": "确定性 AI 编码方向先驱项目，解决核心痛点",
+  "tags": ["ai编码", "harness", "typescript", "确定性编码", "开源项目"],
+  "collectedAt": "2026-04-16",
+  "analyzedAt": "2026-04-16"
+}
