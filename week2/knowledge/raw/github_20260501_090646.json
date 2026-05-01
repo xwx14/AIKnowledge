@@ -1,0 +1,202 @@
+[
+  {
+    "source": "github",
+    "id": "github_1226126527",
+    "title": "book-learning-skill",
+    "description": "An Agent Skill for systematic book learning: convert PDF/EPUB/Word/HTML into Markdown, preserve chapter structure, generate traceable chapter notes, layered summaries, and atomic knowledge cards.",
+    "url": "https://github.com/mollycall-zmy/book-learning-skill",
+    "updated_at": "2026-05-01T09:06:30Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187134"
+  },
+  {
+    "source": "github",
+    "id": "github_1226337609",
+    "title": "Number-guess",
+    "description": "Number Guessing Game is a simple program where the computer generates a random number and the user tries to guess it. The program gives hints like “too high” or “too low” after each attempt. It helps beginners understand loops, conditions, and basic logic in programming while making learning interactive and fun.",
+    "url": "https://github.com/25A31A1216/Number-guess",
+    "updated_at": "2026-05-01T09:06:25Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187150"
+  },
+  {
+    "source": "github",
+    "id": "github_1226266310",
+    "title": "russian-learning-app",
+    "description": null,
+    "url": "https://github.com/wanxiao2018/russian-learning-app",
+    "updated_at": "2026-05-01T09:06:27Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187153"
+  },
+  {
+    "source": "github",
+    "id": "github_1059278640",
+    "title": "ai-agents-learning-lab",
+    "description": "🤖 Explore AI agents from the ground up, mastering supervised, reinforcement, and autonomous learning to achieve tasks and objectives effectively.",
+    "url": "https://github.com/Igormelo1/ai-agents-learning-lab",
+    "updated_at": "2026-05-01T09:06:26Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187156"
+  },
+  {
+    "source": "github",
+    "id": "github_1059123996",
+    "title": "Label-Free-RLVR",
+    "description": "📚 Explore a curated collection of research on Label-Free Reinforcement Learning with Verifiable Rewards for enhancing Large Language Models.",
+    "url": "https://github.com/kodok13/Label-Free-RLVR",
+    "updated_at": "2026-05-01T09:06:23Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187158"
+  },
+  {
+    "source": "github",
+    "id": "github_500990939",
+    "title": "ai-smart-tire-intelligence",
+    "description": "🛞 Analyze tire performance and improve safety with our integrated dashboard utilizing advanced data analytics and machine learning techniques.",
+    "url": "https://github.com/Adoni-123/ai-smart-tire-intelligence",
+    "updated_at": "2026-05-01T09:06:22Z",
+    "stars": 2,
+    "collected_at": "2026-05-01T09:06:46.187160"
+  },
+  {
+    "source": "github",
+    "id": "github_1226336399",
+    "title": "Emotional-aware-learning-enhancement-tool",
+    "description": " Emotional Aware Learning Enhancement Tool using ,python and mysql databases.It aimed to automate classroom attendance using facial recognition.I worked on managing frontend UI design and handled face detection module.The outcome was a prototype that achieved over 90% face detection accuracy in controlled condition. ",
+    "url": "https://github.com/mruuunali/Emotional-aware-learning-enhancement-tool",
+    "updated_at": "2026-05-01T09:06:41Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187162"
+  },
+  {
+    "source": "github",
+    "id": "github_1101902316",
+    "title": "Diamond-Price-Prediction",
+    "description": "\"An End-to-End Machine Learning application to automate diamond valuation. Built with modular pipelines for data ingestion, transformation, and model training, served via a Flask REST API.\"",
+    "url": "https://github.com/Aman-pro-spec/Diamond-Price-Prediction",
+    "updated_at": "2026-05-01T09:06:17Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T09:06:46.187164"
+  },
+  {
+    "source": "github",
+    "id": "github_1226141380",
+    "title": "john-yeo-swift-framework",
+    "description": "SWIFT Framework — Interactive learning system for PAC tutors",
+    "url": "https://github.com/johnyeo-dev/john-yeo-swift-framework",
+    "updated_at": "2026-05-01T09:06:13Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187165"
+  },
+  {
+    "source": "github",
+    "id": "github_1226210924",
+    "title": "RoommateSync",
+    "description": "RoomMateSync is a web-based roommate matching system that uses machine learning algorithms (K-Means, KNN, and cosine similarity) to recommend compatible roommates based on user preferences and lifestyle data. The platform integrates frontend, backend, and a structured database to enable efficient user profiling and scalable, data-driven matching.",
+    "url": "https://github.com/ISHABONDE/RoommateSync",
+    "updated_at": "2026-05-01T09:06:11Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187167"
+  },
+  {
+    "source": "github",
+    "id": "github_1054703163",
+    "title": "AI-ML-Cheatsheets",
+    "description": "🗂️ Access essential AI and ML concepts with quick-reference cheatsheets for effective learning and project implementation.",
+    "url": "https://github.com/4ngelojr/AI-ML-Cheatsheets",
+    "updated_at": "2026-05-01T09:05:55Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T09:06:46.187168"
+  },
+  {
+    "source": "github",
+    "id": "github_321259466",
+    "title": "doughnut",
+    "description": "Learning aide, note taking, team learning, etc.",
+    "url": "https://github.com/nerds-odd-e/doughnut",
+    "updated_at": "2026-05-01T09:05:50Z",
+    "stars": 48,
+    "collected_at": "2026-05-01T09:06:46.187170"
+  },
+  {
+    "source": "github",
+    "id": "github_1054562056",
+    "title": "real-world-ai-projects",
+    "description": "🤖 Explore real-world AI projects focused on machine learning techniques, offering practical applications and insights across various domains.",
+    "url": "https://github.com/RealYoshiWaton/real-world-ai-projects",
+    "updated_at": "2026-05-01T09:05:50Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187172"
+  },
+  {
+    "source": "github",
+    "id": "github_1054510441",
+    "title": "free-algorithm-learning",
+    "description": "🚀 Explore algorithms interactively with our learning platform, designed for ease and engagement. Join us as we open source code and tutorials soon!",
+    "url": "https://github.com/Muturi-Kelvin/free-algorithm-learning",
+    "updated_at": "2026-05-01T09:05:48Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187173"
+  },
+  {
+    "source": "github",
+    "id": "github_1211574647",
+    "title": "Digital-commons-academic-hub",
+    "description": "a collaborative GitHub community for Mzuzu University students and faculty. This repository is dedicated to sharing notes, references, guides, and academic resources to empower learning and foster collaboration.",
+    "url": "https://github.com/gulo-martin/Digital-commons-academic-hub",
+    "updated_at": "2026-05-01T09:05:48Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T09:06:46.187175"
+  },
+  {
+    "source": "github",
+    "id": "github_572758974",
+    "title": "ai-code-context-helper",
+    "description": "🛠️ Extract code context easily to enhance learning, assist development, and streamline code reviews with AI Code Context Helper.",
+    "url": "https://github.com/shouan123/ai-code-context-helper",
+    "updated_at": "2026-05-01T09:05:46Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187177"
+  },
+  {
+    "source": "github",
+    "id": "github_1175574464",
+    "title": "Lingoverse",
+    "description": "LingoVerse language learning platform",
+    "url": "https://github.com/jasondeddensmusic-ship-it/Lingoverse",
+    "updated_at": "2026-05-01T09:05:46Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187178"
+  },
+  {
+    "source": "github",
+    "id": "github_1222121413",
+    "title": "LeetCodeDaily",
+    "description": "Learning DSA with Java",
+    "url": "https://github.com/mohith1976/LeetCodeDaily",
+    "updated_at": "2026-05-01T09:05:43Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187180"
+  },
+  {
+    "source": "github",
+    "id": "github_1181159338",
+    "title": "ITeducationroadmap",
+    "description": "This repo tracks my transition into IT. I used AI to design a roadmap of core concepts to ensure I'm focusing on the right areas. I'm highly motivated to turn theoretical knowledge into practical, hands-on skills. Always learning, coachable, and completely open to feedback!",
+    "url": "https://github.com/theantrod1/ITeducationroadmap",
+    "updated_at": "2026-05-01T09:05:44Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T09:06:46.187181"
+  },
+  {
+    "source": "github",
+    "id": "github_644136692",
+    "title": "slamAI-istanbulCanyon",
+    "description": "🌆 Enhance drone navigation with robust Visual Odometry and SLAM for urban canyons, focusing on realistic İstanbul environments and machine learning solutions.",
+    "url": "https://github.com/kurajulii/slamAI-istanbulCanyon",
+    "updated_at": "2026-05-01T09:05:44Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T09:06:46.187183"
+  }
+]

@@ -2,10 +2,11 @@
 
 import json
 import logging
+import os
 import re
 from typing import Any
 
-from model_client import create_provider, chat_with_retry
+from model_client import get_provider, chat_with_retry
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +19,8 @@ class Analyzer:
         self.provider = None
         if not dry_run:
             try:
-                self.provider = create_provider(provider_name)
+                os.environ["LLM_PROVIDER"] = provider_name
+                self.provider = get_provider()
             except Exception as e:
                 logger.warning("LLM provider not available: %s", e)
 
