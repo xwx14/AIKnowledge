@@ -22,12 +22,12 @@ sources:
 
   # 公司博客
   - name: "OpenAI Blog"
-    url: "https://openai.com/blog/rss.xml"
+    url: "https://openai.com/news/rss.xml"
     category: "公司博客"
     enabled: true
 
   - name: "Anthropic Research"
-    url: "https://www.anthropic.com/research/rss"
+    url: "https://www.anthropic.com/news/rss.xml"
     category: "公司博客"
     enabled: true
 
@@ -46,3 +46,9 @@ sources:
     url: "https://www.qbitai.com/feed"
     category: "中文社区"
     enabled: false
+
+  # 额外技术源
+  - name: "GitHub Blog AI"
+    url: "https://github.blog/ai-and-ml/rss/"
+    category: "综合技术"
+    enabled: true

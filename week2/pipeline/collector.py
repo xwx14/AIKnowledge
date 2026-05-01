@@ -23,7 +23,7 @@ class Collector:
     def __init__(self, limit: int = 20, dry_run: bool = False) -> None:
         self.limit = limit
         self.dry_run = dry_run
-        self.client = httpx.Client(timeout=30)
+        self.client = httpx.Client(timeout=httpx.Timeout(30.0, connect=10.0), follow_redirects=True)
         self.rss_sources = self._load_rss_sources()
 
     def _load_rss_sources(self) -> list[dict[str, Any]]:
@@ -91,22 +91,34 @@ class Collector:
                 resp.raise_for_status()
                 content = resp.text
 
+                if not content or len(content) < 100:
+                    logger.warning("RSS content too short for %s, skipping", source_name)
+                    continue
+
                 titles = re.findall(r"<title>(.*?)</title>", content, re.IGNORECASE | re.DOTALL)
                 links = re.findall(r"<link>(.*?)</link>", content, re.IGNORECASE | re.DOTALL)
                 descriptions = re.findall(r"<description>(.*?)</description>", content, re.IGNORECASE | re.DOTALL)
+
+                if len(titles) <= 1:
+                    logger.warning("No valid items found in RSS feed: %s", source_name)
+                    continue
 
                 count = min(len(titles) - 1, self.limit - len(results))
                 for i in range(1, count + 1):
                     if len(results) >= self.limit:
                         break
+                    title = titles[i].strip()
+                    link = links[i].strip() if i < len(links) else ""
+                    if not title or not link:
+                        continue
                     result = {
                         "source": "rss",
                         "source_name": source_name,
                         "category": source.get("category", ""),
-                        "id": f"rss_{hashlib.md5((titles[i] + links[i]).encode()).hexdigest()[:12]}",
-                        "title": titles[i].strip(),
+                        "id": f"rss_{hashlib.md5((title + link).encode()).hexdigest()[:12]}",
+                        "title": title,
                         "description": descriptions[i].strip() if i < len(descriptions) else "",
-                        "url": links[i].strip() if i < len(links) else "",
+                        "url": link,
                         "updated_at": "",
                         "collected_at": datetime.utcnow().isoformat(),
                     }
