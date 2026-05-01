@@ -1,5 +1,6 @@
 """Analyze content using LLM for summarization, scoring, and tagging."""
 
+import asyncio
 import json
 import logging
 import os
@@ -28,25 +29,25 @@ class Analyzer:
         """Analyze a single item using LLM."""
         if self.dry_run or not self.provider:
             return {
-                "summary": "Dry-run summary",
+                "summary": "干跑模式摘要",
                 "score": 0.5,
-                "tags": ["ai", "test"],
+                "tags": ["人工智能", "测试"],
                 "analyzed": False,
             }
 
-        prompt = f"""Analyze the following AI-related content and provide:
-1. A concise summary (2-3 sentences)
-2. A relevance score (0.0 to 1.0) for AI knowledge base
-3. Up to 5 relevant tags
+        prompt = f"""请分析以下AI相关内容，并提供：
+1. 简洁的中文摘要（2-3句话）
+2. 对AI知识库的相关性评分（0.0到1.0）
+3. 最多5个相关的中文标签
 
-Title: {item.get('title', '')}
-Description: {item.get('description', '')}
+标题：{item.get('title', '')}
+描述：{item.get('description', '')}
 
-Respond in JSON format: {{"summary": "...", "score": 0.8, "tags": ["tag1", "tag2"]}}"""
+请用中文回复，JSON格式示例：{{"summary": "这里是中文摘要...", "score": 0.8, "tags": ["人工智能", "机器学习"]}}"""
 
         try:
             messages = [{"role": "user", "content": prompt}]
-            response = chat_with_retry(self.provider, messages)
+            response = asyncio.run(chat_with_retry(messages))
             content = response.content.strip()
 
             # Extract JSON from response

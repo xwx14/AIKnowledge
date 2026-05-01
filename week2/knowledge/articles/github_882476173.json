@@ -1,0 +1,13 @@
+{
+  "id": "github_882476173",
+  "source": "github",
+  "title": "lesion_detector",
+  "description": "LesionDetector is an application written for my master's thesis, that incorporates deep reinforcement learning along with convolutional neural networks to detect lesions in CT scans.",
+  "url": "https://github.com/pmalesa/lesion_detector",
+  "summary": "",
+  "score": 0.0,
+  "tags": [],
+  "updated_at": "2026-05-01T14:01:21Z",
+  "collected_at": "2026-05-01T14:01:57.210542",
+  "analyzed": false
+}

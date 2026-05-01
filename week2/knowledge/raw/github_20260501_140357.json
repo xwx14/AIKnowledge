@@ -1,0 +1,202 @@
+[
+  {
+    "source": "github",
+    "id": "github_1219928589",
+    "title": "language-learning-app",
+    "description": null,
+    "url": "https://github.com/jace3695/language-learning-app",
+    "updated_at": "2026-05-01T14:03:37Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427409"
+  },
+  {
+    "source": "github",
+    "id": "github_1226520781",
+    "title": "helinjian.github.io",
+    "description": "learning",
+    "url": "https://github.com/helinjian729/helinjian.github.io",
+    "updated_at": "2026-05-01T14:03:33Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427422"
+  },
+  {
+    "source": "github",
+    "id": "github_1222788141",
+    "title": "diabetic-retinopathy-classification",
+    "description": "Machine learning-based classification of diabetic retinopathy using retinal images. Includes preprocessing, feature engineering (statistical, texture, frequency), PCA, and models like KNN, SVM, and Random Forest. Implemented in MATLAB without built-in ML functions.",
+    "url": "https://github.com/Vinay-Gawli/diabetic-retinopathy-classification",
+    "updated_at": "2026-05-01T14:03:36Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427425"
+  },
+  {
+    "source": "github",
+    "id": "github_1128255588",
+    "title": "holbertonschool-machine_learning",
+    "description": null,
+    "url": "https://github.com/murad-2007ML/holbertonschool-machine_learning",
+    "updated_at": "2026-05-01T14:03:35Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427427"
+  },
+  {
+    "source": "github",
+    "id": "github_1226418721",
+    "title": "Reinforcement-Learning-Dissertation",
+    "description": null,
+    "url": "https://github.com/zgjq73/Reinforcement-Learning-Dissertation",
+    "updated_at": "2026-05-01T14:03:28Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427429"
+  },
+  {
+    "source": "github",
+    "id": "github_1183606866",
+    "title": "APT_Manuscript_Script",
+    "description": "A Machine Learning/Deep Learning framework for detecting Advanced Persistent Threats (APTs) using CSE-CIC-IDS2018 & CIC-IDS2017 dataset. Features data preprocessing, feature engineering, and ensemble model evaluation in a Jupyter environment.",
+    "url": "https://github.com/GJEF-Sp/APT_Manuscript_Script",
+    "updated_at": "2026-05-01T14:03:26Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427430"
+  },
+  {
+    "source": "github",
+    "id": "github_1217784004",
+    "title": "MLOPs_Machine_Learning_Projects",
+    "description": null,
+    "url": "https://github.com/Suraj-Kumar09/MLOPs_Machine_Learning_Projects",
+    "updated_at": "2026-05-01T14:03:25Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427432"
+  },
+  {
+    "source": "github",
+    "id": "github_1222838433",
+    "title": "phishing-email-detector",
+    "description": "This project is a phishing email detection system built using Python and machine learning. It uses natural language processing (NLP) and a Naive Bayes classifier to identify whether an email is phishing or legitimate. The model is trained on sample data and deployed for real-time prediction.",
+    "url": "https://github.com/patidaranushka1212/phishing-email-detector",
+    "updated_at": "2026-05-01T14:03:21Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427434"
+  },
+  {
+    "source": "github",
+    "id": "github_1226520354",
+    "title": "jayesh",
+    "description": "🚀 Aspiring ML Engineer | AI + Trading + Blockchain 📊 Python Learner | Crypto & Algo Trading Enthusiast 🤖 Future Quant Developer | Building AI-powered trading systems 💻 Learning Python, ML & Blockchain | Focused on Trading 📈 AI + Finance Explorer | Future Entrepreneur",
+    "url": "https://github.com/jayeshmachha/jayesh",
+    "updated_at": "2026-05-01T14:03:21Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427436"
+  },
+  {
+    "source": "github",
+    "id": "github_406489629",
+    "title": "logiclearner",
+    "description": "Logic Learner is an online learning tool that helps computer science, engineering, and mathematics students improve their fluency and problem solving process in writing proofs for propositional logic. ",
+    "url": "https://github.com/ccnmtl/logiclearner",
+    "updated_at": "2026-05-01T14:03:19Z",
+    "stars": 4,
+    "collected_at": "2026-05-01T14:03:57.427437"
+  },
+  {
+    "source": "github",
+    "id": "github_1225989366",
+    "title": "expense-tracker",
+    "description": "A simple expense tracker built while learning web development",
+    "url": "https://github.com/Funds7/expense-tracker",
+    "updated_at": "2026-05-01T14:03:17Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427439"
+  },
+  {
+    "source": "github",
+    "id": "github_1201098749",
+    "title": "skoolarplay",
+    "description": "A comprehensive free learning App for Students.",
+    "url": "https://github.com/abduttawwaab01/skoolarplay",
+    "updated_at": "2026-05-01T14:03:15Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427441"
+  },
+  {
+    "source": "github",
+    "id": "github_1226520524",
+    "title": "Learning",
+    "description": null,
+    "url": "https://github.com/venkatesh939/Learning",
+    "updated_at": "2026-05-01T14:03:10Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427443"
+  },
+  {
+    "source": "github",
+    "id": "github_1126472455",
+    "title": "Node.js-learning",
+    "description": null,
+    "url": "https://github.com/OmkeshJadhav/Node.js-learning",
+    "updated_at": "2026-05-01T14:03:13Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427445"
+  },
+  {
+    "source": "github",
+    "id": "github_1222400729",
+    "title": "Deepfake-Audio-Detection-System",
+    "description": "A deepfake audio detection system is a machine learning-based security tool designed to analyze audio recordings and distinguish between human-spoken voice and AI-synthesized or manipulated speech.",
+    "url": "https://github.com/Aimen-nadeem123/Deepfake-Audio-Detection-System",
+    "updated_at": "2026-05-01T14:03:40Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427447"
+  },
+  {
+    "source": "github",
+    "id": "github_1217707562",
+    "title": "OpenDelight",
+    "description": "[SIGGRAPH 2026 (Journal Track)] Learning a Delighting Prior for Facial Appearance Capture in the Wild.",
+    "url": "https://github.com/yxuhan/OpenDelight",
+    "updated_at": "2026-05-01T14:03:11Z",
+    "stars": 6,
+    "collected_at": "2026-05-01T14:03:57.427449"
+  },
+  {
+    "source": "github",
+    "id": "github_1179633008",
+    "title": "Python-Practice-Projects",
+    "description": "While learning python from Dr. Angela yu i made these projects.",
+    "url": "https://github.com/h-a-m-z-a-A-L-i/Python-Practice-Projects",
+    "updated_at": "2026-05-01T14:03:11Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427450"
+  },
+  {
+    "source": "github",
+    "id": "github_1213255463",
+    "title": "MACHINE-LEARNING",
+    "description": null,
+    "url": "https://github.com/rehanhub78/MACHINE-LEARNING",
+    "updated_at": "2026-05-01T14:03:10Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T14:03:57.427453"
+  },
+  {
+    "source": "github",
+    "id": "github_1084467030",
+    "title": "crypto-ai-alert-bot",
+    "description": "AI-powered crypto signal alert system that uses hybrid machine learning models to analyze live market data and send Buy/Sell alerts via Telegram and email. Includes automated training and 30-minute alert workflows with GitHub Actions.",
+    "url": "https://github.com/ahsan520/crypto-ai-alert-bot",
+    "updated_at": "2026-05-01T14:03:10Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427455"
+  },
+  {
+    "source": "github",
+    "id": "github_1226490340",
+    "title": "LearningOcean",
+    "description": null,
+    "url": "https://github.com/aefce/LearningOcean",
+    "updated_at": "2026-05-01T14:03:09Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:03:57.427456"
+  }
+]

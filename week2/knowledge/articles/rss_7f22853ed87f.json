@@ -1,0 +1,19 @@
+{
+  "id": "rss_7f22853ed87f",
+  "source": "rss",
+  "title": "Transformers are Inherently Succinct",
+  "description": "&lt;p&gt;Abstract:\nWe propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite automata and Linear Temporal Logic (LTL) formulas. As a by-product of this expressivity, we show that verifying properties of transformers is provably intractable (i.e. EXPSPACE-complete).&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hzhyw9/transformers_are_inherently_succinct\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://arxiv.org/abs/2510.19315",
+  "summary": "该论文提出“简洁性”作为衡量Transformer表达能力的新指标，证明Transformer在描述形式语言时比有限自动机和线性时序逻辑等标准表示更为简洁。此外，研究表明验证Transformer的性质在计算上是不可行的（EXPSPACE完全问题）。",
+  "score": 0.9,
+  "tags": [
+    "Transformer",
+    "表达力",
+    "形式语言",
+    "计算复杂性",
+    "人工智能"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:09.399817",
+  "analyzed": true
+}

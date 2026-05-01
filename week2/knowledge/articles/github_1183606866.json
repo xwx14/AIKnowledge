@@ -1,0 +1,13 @@
+{
+  "id": "github_1183606866",
+  "source": "github",
+  "title": "APT_Manuscript_Script",
+  "description": "A Machine Learning/Deep Learning framework for detecting Advanced Persistent Threats (APTs) using CSE-CIC-IDS2018 & CIC-IDS2017 dataset. Features data preprocessing, feature engineering, and ensemble model evaluation in a Jupyter environment.",
+  "url": "https://github.com/GJEF-Sp/APT_Manuscript_Script",
+  "summary": "",
+  "score": 0.0,
+  "tags": [],
+  "updated_at": "2026-05-01T14:03:26Z",
+  "collected_at": "2026-05-01T14:03:57.427430",
+  "analyzed": false
+}

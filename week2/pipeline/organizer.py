@@ -41,17 +41,17 @@ class Organizer:
         standardized = []
         for item in items:
             std_item = {
-                "id": item.get("id", ""),
-                "source": item.get("source", ""),
-                "title": item.get("title", "").strip(),
-                "description": item.get("description", "").strip(),
-                "url": item.get("url", ""),
-                "summary": item.get("summary", ""),
-                "score": item.get("score", 0.0),
-                "tags": item.get("tags", []),
-                "updated_at": item.get("updated_at", ""),
-                "collected_at": item.get("collected_at", ""),
-                "analyzed": item.get("analyzed", False),
+                "id": item.get("id") or "",
+                "source": item.get("source") or "",
+                "title": (item.get("title") or "").strip(),
+                "description": (item.get("description") or "").strip(),
+                "url": item.get("url") or "",
+                "summary": item.get("summary") or "",
+                "score": item.get("score") or 0.0,
+                "tags": item.get("tags") or [],
+                "updated_at": item.get("updated_at") or "",
+                "collected_at": item.get("collected_at") or "",
+                "analyzed": item.get("analyzed") or False,
             }
             standardized.append(std_item)
         return standardized

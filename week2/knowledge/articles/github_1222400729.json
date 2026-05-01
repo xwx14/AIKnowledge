@@ -1,0 +1,19 @@
+{
+  "id": "github_1222400729",
+  "source": "github",
+  "title": "Deepfake-Audio-Detection-System",
+  "description": "A deepfake audio detection system is a machine learning-based security tool designed to analyze audio recordings and distinguish between human-spoken voice and AI-synthesized or manipulated speech.",
+  "url": "https://github.com/Aimen-nadeem123/Deepfake-Audio-Detection-System",
+  "summary": "该内容介绍了一个基于机器学习的深度伪造音频检测系统，其核心功能是分析音频录音，区分人类语音与AI合成或篡改的语音。这是一种用于音频安全领域的技术工具。",
+  "score": 0.9,
+  "tags": [
+    "深度伪造",
+    "音频检测",
+    "机器学习",
+    "语音安全",
+    "AI合成"
+  ],
+  "updated_at": "2026-05-01T14:11:27Z",
+  "collected_at": "2026-05-01T14:12:06.329067",
+  "analyzed": true
+}

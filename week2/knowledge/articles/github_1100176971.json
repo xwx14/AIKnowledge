@@ -1,0 +1,19 @@
+{
+  "id": "github_1100176971",
+  "source": "github",
+  "title": "OpenTrade",
+  "description": "A comprehensive Python system for algorithmic trading backtesting with sentiment analysis and machine learning.",
+  "url": "https://github.com/WiredMind2/OpenTrade",
+  "summary": "OpenTrade is a Python-based framework that integrates algorithmic trading backtesting with sentiment analysis and machine learning. It provides a comprehensive toolkit for developing, testing, and evaluating trading strategies using both quantitative and qualitative data sources.",
+  "score": 0.9,
+  "tags": [
+    "algorithmic trading",
+    "backtesting",
+    "sentiment analysis",
+    "machine learning",
+    "Python"
+  ],
+  "updated_at": "2026-05-01T14:05:32Z",
+  "collected_at": "2026-05-01T14:06:20.811472",
+  "analyzed": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "rss_3dfc44d49aab",
+  "source": "rss",
+  "title": "On the Limits of Self-Improving in Large Language Models: The Singularity Is Not Near Without Symbolic Model Synthesis",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/jgsiqa/on_limits_self_improving_large_language\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://arxiv.org/html/2601.05280v2",
+  "summary": "本文探讨了大语言模型自我改进的局限性，认为没有符号模型合成的参与，人工智能奇点不会很快到来。作者质疑单纯依赖大规模语言模型自我提升的能力。",
+  "score": 0.75,
+  "tags": [
+    "大语言模型",
+    "自我改进",
+    "符号模型",
+    "人工智能奇点"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:09.399811",
+  "analyzed": true
+}

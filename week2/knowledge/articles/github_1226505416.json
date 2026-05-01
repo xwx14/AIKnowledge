@@ -1,0 +1,19 @@
+{
+  "id": "github_1226505416",
+  "source": "github",
+  "title": "Laravel12-Vue3-Inertia-Postify-project",
+  "description": "Postify is a learning project built using Laravel 12, Inertia.js, and Vue 3 to explore modern full-stack development with a seamless SPA-like experience. It includes features like posts, likes, and comments to understand real-world application structure.",
+  "url": "https://github.com/krupalidabhi4/Laravel12-Vue3-Inertia-Postify-project",
+  "summary": "该项目是一个使用Laravel 12、Inertia.js和Vue 3构建的学习型全栈应用，名为Postify。它通过实现帖子、点赞和评论等功能，探索现代全栈开发及类单页应用的无缝体验。",
+  "score": 0.0,
+  "tags": [
+    "全栈开发",
+    "Laravel",
+    "Vue.js",
+    "Inertia.js",
+    "学习项目"
+  ],
+  "updated_at": "2026-05-01T14:11:17Z",
+  "collected_at": "2026-05-01T14:12:06.329074",
+  "analyzed": true
+}
