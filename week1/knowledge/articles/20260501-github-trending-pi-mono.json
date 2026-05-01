@@ -1,0 +1,13 @@
+{
+  "id": "20260501-005",
+  "title": "Pi-Mono - 全栈 AI Agent 工具包",
+  "source_url": "https://github.com/badlogic/pi-mono",
+  "summary": "AI Agent 工具包，包含编码 Agent CLI、统一 LLM API、TUI/Web UI、Slack Bot 和 vLLM Pods，覆盖开发到部署全链路。",
+  "tags": ["ai-agent", "full-stack", "vllm", "developer-tools", "infrastructure"],
+  "category": "AI Agent 框架",
+  "score": 8,
+  "highlights": ["由 libGDX 作者开发，工程质量有保障", "覆盖开发到部署全链路：CLI + API + UI + 推理部署", "42,407 Star 说明全栈 AI Agent 框架有强烈需求"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

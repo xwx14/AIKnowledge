@@ -1,0 +1,13 @@
+{
+  "id": "20260501-002",
+  "title": "Skills for Real Engineers - TypeScript 专家的生产级 Agent 技能模板",
+  "source_url": "https://github.com/mattpocock/skills",
+  "summary": "TypeScript 领域权威开发者维护的生产级 Agent 技能模板集合，面向真实工程师，覆盖工程化最佳实践。周增 30,945 Star。",
+  "tags": ["claude-code", "typescript", "ai-coding", "skills", "engineering"],
+  "category": "AI 编码工具",
+  "score": 8,
+  "highlights": ["TypeScript 领域权威开发者维护", "周增 30,945 Star，本周增速第一", "面向真实工程而非玩具项目"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

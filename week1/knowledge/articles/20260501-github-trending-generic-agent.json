@@ -1,0 +1,13 @@
+{
+  "id": "20260501-013",
+  "title": "GenericAgent - 自进化 Agent，从种子代码生长技能树",
+  "source_url": "https://github.com/lsdefine/GenericAgent",
+  "summary": "自进化 Agent，从 3,300 行种子代码生长技能树，以 6 倍更低 Token 消耗实现完整系统控制。",
+  "tags": ["self-evolving", "ai-agent", "skill-tree", "token-efficiency", "autonomous"],
+  "category": "AI Agent 框架",
+  "score": 7,
+  "highlights": ["从种子代码自动生长技能树，代表 Agent 自主学习方向", "6 倍 Token 效率提升是量化的性能突破", "8,493 Star 说明自进化概念引发关注"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

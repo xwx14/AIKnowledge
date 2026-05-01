@@ -1,0 +1,13 @@
+{
+  "id": "20260501-011",
+  "title": "Claude-Context - Zilliz 出品的 Claude Code 代码搜索 MCP",
+  "source_url": "https://github.com/zilliztech/claude-context",
+  "summary": "Claude Code 代码搜索 MCP，让整个代码库成为编码 Agent 的上下文。Zilliz（Milvus 团队）出品。",
+  "tags": ["mcp", "claude-code", "code-search", "vector-database", "context"],
+  "category": "AI 编码工具",
+  "score": 7,
+  "highlights": ["Milvus 向量数据库团队开发，检索能力有保障", "基于 MCP 协议与 Claude Code 原生集成", "10,447 Star 说明代码库级理解是核心需求"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

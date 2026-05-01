@@ -1,0 +1,13 @@
+{
+  "id": "20260501-007",
+  "title": "Shannon - 自主白盒 AI 渗透测试工具",
+  "source_url": "https://github.com/KeygraphHQ/shannon",
+  "summary": "自主白盒 AI 渗透测试工具，分析源码、识别攻击向量并执行真实漏洞验证。将 AI Agent 应用于安全领域。",
+  "tags": ["ai-security", "pentesting", "vulnerability-detection", "agent", "devsecops"],
+  "category": "AI 安全",
+  "score": 8,
+  "highlights": ["从静态分析到动态验证的完整漏洞发现链路", "白盒访问源码，比黑盒扫描更精准", "40,723 Star 说明 AI 安全自动化需求爆发"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

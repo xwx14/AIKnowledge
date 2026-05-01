@@ -1,0 +1,13 @@
+{
+  "id": "20260501-012",
+  "title": "Open-Generative-AI - MIT 许可的无审查生成式 AI 平台",
+  "source_url": "https://github.com/Anil-matcha/Open-Generative-AI",
+  "summary": "MIT 许可的无审查生成式 AI 平台，集成 200+ 图像/视频模型（Flux、Midjourney、Kling、Sora、Veo）。",
+  "tags": ["image-generation", "video-generation", "open-source", "self-hosted", "multi-model"],
+  "category": "生成式 AI",
+  "score": 6,
+  "highlights": ["集成 200+ 模型，覆盖最全生成式 AI 生态", "MIT 许可 + 自托管 + 无内容过滤", "10,434 Star 反映开源生成式 AI 民主化趋势"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

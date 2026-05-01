@@ -1,0 +1,13 @@
+{
+  "id": "20260501-001",
+  "title": "Andrej Karpathy Skills - 改善 Claude Code 编码行为的技能配置",
+  "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+  "summary": "基于 Karpathy 对 LLM 编码陷阱的观察，用单一 CLAUDE.md 文件改善 Claude Code 行为。将顶级 AI 研究者的编码洞察转化为可复用的 Agent 技能配置，减少幻觉代码。",
+  "tags": ["claude-code", "prompt-engineering", "ai-coding", "best-practices", "developer-tools"],
+  "category": "AI 编码工具",
+  "score": 9,
+  "highlights": ["源自 Karpathy 对 LLM 编码陷阱的系统性研究", "单一 CLAUDE.md 文件即插即用，零配置部署", "将 AI 编码从试错模式转向最佳实践驱动"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "20260501-009",
+  "title": "Memvid - 单文件 Agent 记忆层替代 RAG 管道",
+  "source_url": "https://github.com/memvid/memvid",
+  "summary": "Rust 实现的单文件 Agent 记忆层，替代复杂 RAG 管道，实现即时检索和长期记忆。无服务器架构。",
+  "tags": ["agent-memory", "rag-alternative", "rust", "serverless", "retrieval"],
+  "category": "AI Agent 基础设施",
+  "score": 7,
+  "highlights": ["单文件无服务器架构极大简化 Agent 记忆管理", "Rust 实现保证检索性能", "14,862 Star 反映 RAG 过度工程化是真实痛点"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

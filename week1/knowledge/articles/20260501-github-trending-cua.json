@@ -1,0 +1,13 @@
+{
+  "id": "20260501-008",
+  "title": "CUA - 计算机使用 Agent 开源基础设施",
+  "source_url": "https://github.com/trycua/cua",
+  "summary": "计算机使用 Agent 基础设施，提供沙箱、SDK 和基准测试框架，训练和评估可控制桌面的 AI Agent。",
+  "tags": ["computer-use", "ai-agent", "desktop-automation", "benchmark", "sandbox"],
+  "category": "AI Agent 基础设施",
+  "score": 7,
+  "highlights": ["标准化 Computer-Use Agent 开发框架", "覆盖 macOS/Linux/Windows 全平台", "15,409 Star 说明桌面自动化 Agent 是重要场景"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

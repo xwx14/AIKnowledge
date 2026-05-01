@@ -1,0 +1,13 @@
+{
+  "id": "20260501-014",
+  "title": "ML-Intern - Hugging Face 官方 ML 工程师 Agent",
+  "source_url": "https://github.com/huggingface/ml-intern",
+  "summary": "Hugging Face 官方 ML 工程师 Agent，能阅读论文、训练模型并交付 ML 模型，覆盖 ML 工作流全链路。",
+  "tags": ["ml-automation", "huggingface", "paper-reading", "model-training", "ai-research"],
+  "category": "AI 研究工具",
+  "score": 7,
+  "highlights": ["Hugging Face 官方出品，与 HF 生态深度集成", "覆盖 ML 全链路：论文阅读 → 训练 → 交付", "7,711 Star 说明 ML 流程自动化是刚需"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

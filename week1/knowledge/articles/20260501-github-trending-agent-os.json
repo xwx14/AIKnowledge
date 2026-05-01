@@ -1,0 +1,13 @@
+{
+  "id": "20260501-015",
+  "title": "Agent-OS - 基于 WebAssembly 的轻量 Agent 运行时",
+  "source_url": "https://github.com/rivet-dev/agent-os",
+  "summary": "可移植开源 Agent 操作系统，6ms 冷启动，比沙箱便宜 32 倍，基于 WebAssembly 和 V8 isolates。",
+  "tags": ["agent-os", "webassembly", "serverless", "cost-optimization", "runtime"],
+  "category": "AI Agent 基础设施",
+  "score": 6,
+  "highlights": ["WebAssembly + V8 isolates 架构，6ms 冷启动比容器快 100 倍", "比传统沙箱便宜 32 倍，经济性保障", "2,655 Star 说明项目较新但技术路线有潜力"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

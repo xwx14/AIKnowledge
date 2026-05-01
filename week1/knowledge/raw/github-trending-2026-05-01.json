@@ -1,0 +1,128 @@
+{
+  "source": "github-trending",
+  "skill": "github-trending",
+  "collected_at": "2026-05-01T15:30:00Z",
+  "period": "2026-04-25 ~ 2026-05-01",
+  "items": [
+    {
+      "name": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "summary": "Andrej Karpathy Skills - 基于 Karpathy 对 LLM 编码陷阱的观察，用单一 CLAUDE.md 文件改善 Claude Code 行为。为什么值得关注：将顶级 AI 研究者的编码洞察直接转化为可复用的 Agent 技能配置，周增 23,062 Star 说明开发者对提升 AI 编码质量有强烈需求",
+      "stars": 102740,
+      "language": "Markdown",
+      "topics": ["claude-code", "llm", "prompt-engineering", "ai-coding", "skills"]
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "Skills for Real Engineers - 来自 TypeScript 专家的 .claude 目录技能集。为什么值得关注：由知名开发者维护的生产级 Agent 技能模板，周增 30,945 Star 成为本周增速最快项目，适合想快速提升 AI 编码效率的团队",
+      "stars": 49615,
+      "language": "Shell",
+      "topics": ["claude-code", "ai-coding", "skills", "developer-tools", "typescript"]
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "summary": "AI 生产力工作室 - 集成智能聊天、自主 Agent 和 300+ 助手的统一 LLM 客户端。为什么值得关注：一站式接入前沿大模型，支持自主 Agent 工作流，44,716 Star 证明其是桌面 AI 工具的首选方案",
+      "stars": 44716,
+      "language": "TypeScript",
+      "topics": ["ai", "llm", "chatgpt", "agent", "productivity"]
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "summary": "跨平台 Claude Code 切换工具 - 支持 Claude Code、Codex、OpenCode、openclaw 和 Gemini CLI 的一体化管理工具。为什么值得关注：解决多 AI 编码工具切换痛点，周增 4,177 Star，43,069 总 Star 说明多模型协作是刚需",
+      "stars": 43069,
+      "language": "Rust",
+      "topics": ["claude-code", "ai-coding", "tool-switcher", "cross-platform", "cli"]
+    },
+    {
+      "name": "badlogic/pi-mono",
+      "url": "https://github.com/badlogic/pi-mono",
+      "summary": "AI Agent 工具包 - 包含编码 Agent CLI、统一 LLM API、TUI/Web UI、Slack Bot 和 vLLM Pods。为什么值得关注：42,407 Star，由 libGDX 作者开发，提供从开发到部署的完整 AI Agent 基础设施",
+      "stars": 42407,
+      "language": "TypeScript",
+      "topics": ["ai-agent", "llm-api", "vllm", "slack-bot", "coding-agent"]
+    },
+    {
+      "name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "summary": "Goose - 开源可扩展 AI Agent，超越代码建议，支持安装、执行、编辑和测试。为什么值得关注：41,256 Star + 周增 5,832，Rust 实现保证性能，支持任意 LLM，是 AI Agent 领域的标杆项目",
+      "stars": 41256,
+      "language": "Rust",
+      "topics": ["ai-agent", "open-source", "llm", "coding", "automation"]
+    },
+    {
+      "name": "KeygraphHQ/shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "summary": "Shannon - 自主白盒 AI 渗透测试工具，分析源码、识别攻击向量并执行真实漏洞验证。为什么值得关注：将 AI Agent 应用于安全领域，40,723 Star 说明 AI 安全自动化是新兴热门方向",
+      "stars": 40723,
+      "language": "TypeScript",
+      "topics": ["ai", "security", "pentesting", "agent", "white-box-testing"]
+    },
+    {
+      "name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "summary": "计算机使用 Agent 开源基础设施 - 提供沙箱、SDK 和基准测试，训练和评估可控制桌面的 AI Agent。为什么值得关注：15,409 Star，覆盖 macOS/Linux/Windows 全平台，为 Computer-Use Agent 提供标准化开发框架",
+      "stars": 15409,
+      "language": "HTML",
+      "topics": ["computer-use", "ai-agent", "desktop-automation", "benchmark", "sandbox"]
+    },
+    {
+      "name": "memvid/memvid",
+      "url": "https://github.com/memvid/memvid",
+      "summary": "Memvid - AI Agent 记忆层，用单文件无服务器内存层替代复杂 RAG 管道，实现即时检索和长期记忆。为什么值得关注：14,862 Star，简化 Agent 记忆架构的革命性方案，解决 RAG 管道过度工程化问题",
+      "stars": 14862,
+      "language": "Rust",
+      "topics": ["agent-memory", "rag", "serverless", "ai-agent", "retrieval"]
+    },
+    {
+      "name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "summary": "AI 编码 Agent 上下文窗口优化 - 沙盒化工具输出，减少 98% 上下文消耗，支持 14 个平台。为什么值得关注：11,011 Star，98% 的上下文压缩率直接降低 API 成本，是 AI 编码效率的关键优化",
+      "stars": 11011,
+      "language": "TypeScript",
+      "topics": ["context-optimization", "ai-coding", "token-reduction", "claude-code", "cost-saving"]
+    },
+    {
+      "name": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "summary": "Claude Code 代码搜索 MCP - 让整个代码库成为编码 Agent 的上下文。为什么值得关注：Zilliz（Milvus 向量数据库团队）出品，10,447 Star，MCP 协议让代码理解能力大幅提升",
+      "stars": 10447,
+      "language": "TypeScript",
+      "topics": ["mcp", "claude-code", "code-search", "context-engineering", "vector-database"]
+    },
+    {
+      "name": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "summary": "开源无审查 AI 图像/视频生成平台 - 集成 200+ 模型（Flux、Midjourney、Kling、Sora、Veo）。为什么值得关注：MIT 许可、可自托管、无内容过滤，10,434 Star 代表开源生成式 AI 的民主化趋势",
+      "stars": 10434,
+      "language": "JavaScript",
+      "topics": ["image-generation", "video-generation", "flux", "open-source", "self-hosted"]
+    },
+    {
+      "name": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "summary": "自进化 Agent - 从 3,300 行种子代码生长技能树，以 6 倍更少的 Token 消耗实现完整系统控制。为什么值得关注：8,493 Star，自进化能力代表 AI Agent 从被动工具向自主学习体的演进方向",
+      "stars": 8493,
+      "language": "Python",
+      "topics": ["self-evolving", "ai-agent", "skill-tree", "token-efficiency", "autonomous"]
+    },
+    {
+      "name": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "summary": "开源 ML 工程师 - 能阅读论文、训练模型并交付 ML 模型的 AI 助手。为什么值得关注：Hugging Face 官方出品，7,711 Star，将 AI Agent 能力延伸到机器学习全流程自动化",
+      "stars": 7711,
+      "language": "Python",
+      "topics": ["ml-automation", "paper-reading", "model-training", "huggingface", "ai-engineer"]
+    },
+    {
+      "name": "rivet-dev/agent-os",
+      "url": "https://github.com/rivet-dev/agent-os",
+      "summary": "可移植开源 Agent 操作系统 - 6ms 冷启动，比沙箱便宜 32 倍，基于 WebAssembly 和 V8 isolates。为什么值得关注：2,655 Star，极致性能和成本优势，为大规模 Agent 部署提供轻量级运行时方案",
+      "stars": 2655,
+      "language": "Rust",
+      "topics": ["agent-os", "webassembly", "v8-isolates", "serverless", "cost-optimization"]
+    }
+  ]
+}

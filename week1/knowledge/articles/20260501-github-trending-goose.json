@@ -1,0 +1,13 @@
+{
+  "id": "20260501-006",
+  "title": "Goose - Rust 实现的开源可扩展 AI Agent",
+  "source_url": "https://github.com/aaif-goose/goose",
+  "summary": "开源可扩展 AI Agent，超越代码建议，支持安装、执行、编辑和测试。Rust 实现，支持任意 LLM 接入。",
+  "tags": ["ai-agent", "rust", "open-source", "llm-agnostic", "coding"],
+  "category": "AI Agent 框架",
+  "score": 9,
+  "highlights": ["Rust 实现保证性能和安全性", "支持任意 LLM 接入，避免厂商锁定", "41,256 Star + 周增 5,832，增速强劲"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}

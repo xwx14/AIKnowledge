@@ -1,0 +1,13 @@
+{
+  "id": "20260501-003",
+  "title": "Cherry Studio - 集成 300+ 助手的统一 LLM 客户端",
+  "source_url": "https://github.com/CherryHQ/cherry-studio",
+  "summary": "AI 生产力工作室，集成智能聊天、自主 Agent 和 300+ 助手的统一 LLM 客户端，支持自主 Agent 工作流。",
+  "tags": ["llm-client", "agent", "productivity", "multi-model", "desktop-app"],
+  "category": "AI 应用平台",
+  "score": 7,
+  "highlights": ["统一接入 300+ AI 助手，解决多模型切换碎片化", "支持自主 Agent 工作流", "44,716 Star 证明桌面 AI 工具是高频刚需"],
+  "status": "reviewed",
+  "created_at": "2026-05-01T15:45:00Z",
+  "source_file": "github-trending-2026-05-01.json"
+}
