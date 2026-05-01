@@ -13,12 +13,12 @@ logger = logging.getLogger(__name__)
 class Analyzer:
     """Analyze content using LLM for summarization, scoring, and tagging."""
 
-    def __init__(self, dry_run: bool = False) -> None:
+    def __init__(self, dry_run: bool = False, provider_name: str = "deepseek") -> None:
         self.dry_run = dry_run
         self.provider = None
         if not dry_run:
             try:
-                self.provider = create_provider()
+                self.provider = create_provider(provider_name)
             except Exception as e:
                 logger.warning("LLM provider not available: %s", e)
 

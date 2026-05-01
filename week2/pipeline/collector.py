@@ -10,6 +10,7 @@ from typing import Any
 from urllib.parse import urlencode
 
 import httpx
+import yaml
 
 from config import RAW_DIR
 
@@ -23,6 +24,22 @@ class Collector:
         self.limit = limit
         self.dry_run = dry_run
         self.client = httpx.Client(timeout=30)
+        self.rss_sources = self._load_rss_sources()
+
+    def _load_rss_sources(self) -> list[dict[str, Any]]:
+        """Load RSS sources from YAML config file."""
+        config_path = Path(__file__).parent / "rss_sources.yaml"
+        if not config_path.exists():
+            logger.warning("RSS config not found: %s", config_path)
+            return []
+
+        with open(config_path, "r", encoding="utf-8") as f:
+            config = yaml.safe_load(f)
+
+        sources = config.get("sources", [])
+        enabled_sources = [s for s in sources if s.get("enabled", False)]
+        logger.info("Loaded %d enabled RSS sources from config", len(enabled_sources))
+        return enabled_sources
 
     def collect_github(self) -> list[dict[str, Any]]:
         """Collect AI content from GitHub Search API."""
@@ -61,12 +78,14 @@ class Collector:
         """Collect AI content from RSS feeds using regex parsing."""
         logger.info("Collecting from RSS (limit=%d)", self.limit)
         results = []
-        feeds = [
-            "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-            "https://feeds.feedburner.com/nvidiablog",
-        ]
 
-        for feed_url in feeds:
+        for source in self.rss_sources:
+            if len(results) >= self.limit:
+                break
+
+            feed_url = source.get("url", "")
+            source_name = source.get("name", "Unknown")
+
             try:
                 resp = self.client.get(feed_url)
                 resp.raise_for_status()
@@ -82,6 +101,8 @@ class Collector:
                         break
                     result = {
                         "source": "rss",
+                        "source_name": source_name,
+                        "category": source.get("category", ""),
                         "id": f"rss_{hashlib.md5((titles[i] + links[i]).encode()).hexdigest()[:12]}",
                         "title": titles[i].strip(),
                         "description": descriptions[i].strip() if i < len(descriptions) else "",
@@ -91,10 +112,8 @@ class Collector:
                     }
                     results.append(result)
 
-                if len(results) >= self.limit:
-                    break
             except Exception as e:
-                logger.error("RSS collection failed for %s: %s", feed_url, e)
+                logger.error("RSS collection failed for %s: %s", source_name, e)
 
         logger.info("Collected %d items from RSS", len(results))
         return results

@@ -2,7 +2,6 @@
 
 import argparse
 import logging
-from pathlib import Path
 from typing import Any
 
 from collector import Collector
@@ -32,6 +31,17 @@ def main() -> None:
         help="Maximum number of items to collect per source",
     )
     parser.add_argument(
+        "--analyze",
+        action="store_true",
+        help="Enable analysis, organization, and saving steps",
+    )
+    parser.add_argument(
+        "--provider",
+        default="deepseek",
+        choices=["deepseek", "qwen", "glm", "kimi"],
+        help="LLM provider to use (default: deepseek)",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Run without making actual changes",
@@ -48,16 +58,13 @@ def main() -> None:
         logging.getLogger().setLevel(logging.DEBUG)
 
     sources = [s.strip() for s in args.sources.split(",")]
-    logger.info("Starting pipeline with sources=%s, limit=%d", sources, args.limit)
+    logger.info("Starting pipeline with sources=%s, limit=%d, analyze=%s, provider=%s",
+                sources, args.limit, args.analyze, args.provider)
 
     collector = Collector(limit=args.limit, dry_run=args.dry_run)
-    analyzer = Analyzer(dry_run=args.dry_run)
-    organizer = Organizer()
-    saver = Saver(dry_run=args.dry_run)
-
     all_items: list[dict[str, Any]] = []
 
-    # Step 1: Collect
+    # Step 1: Collect (always runs)
     for source in sources:
         if source == "github":
             items = collector.collect_github()
@@ -72,24 +79,33 @@ def main() -> None:
 
     logger.info("Step 1 completed: Collected %d items total", len(all_items))
 
-    # Step 2: Analyze
-    for item in all_items:
-        analysis = analyzer.analyze_item(item)
-        item.update(analysis)
+    # Steps 2-4: Only run with --analyze flag
+    if args.analyze:
+        analyzer = Analyzer(dry_run=args.dry_run, provider_name=args.provider)
+        organizer = Organizer()
+        saver = Saver(dry_run=args.dry_run)
 
-    logger.info("Step 2 completed: Analyzed %d items", len(all_items))
+        # Step 2: Analyze
+        for item in all_items:
+            analysis = analyzer.analyze_item(item)
+            item.update(analysis)
 
-    # Step 3: Organize
-    all_items = organizer.deduplicate(all_items)
-    all_items = organizer.standardize(all_items)
-    all_items = organizer.validate(all_items)
+        logger.info("Step 2 completed: Analyzed %d items", len(all_items))
 
-    logger.info("Step 3 completed: Organized %d items", len(all_items))
+        # Step 3: Organize
+        all_items = organizer.deduplicate(all_items)
+        all_items = organizer.standardize(all_items)
+        all_items = organizer.validate(all_items)
 
-    # Step 4: Save
-    saved_paths = saver.save_articles(all_items)
+        logger.info("Step 3 completed: Organized %d items", len(all_items))
 
-    logger.info("Step 4 completed: Saved %d articles", len(saved_paths))
+        # Step 4: Save
+        saved_paths = saver.save_articles(all_items)
+
+        logger.info("Step 4 completed: Saved %d articles", len(saved_paths))
+    else:
+        logger.info("Skipping analysis, organization, and saving (use --analyze to enable)")
+
     logger.info("Pipeline completed successfully!")
 
 
