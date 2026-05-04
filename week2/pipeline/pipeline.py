@@ -8,6 +8,7 @@ from collector import Collector
 from analyzer import Analyzer
 from organizer import Organizer
 from saver import Saver
+from model_client import tracker
 
 logging.basicConfig(
     level=logging.INFO,
@@ -107,6 +108,7 @@ def main() -> None:
         logger.info("Skipping analysis, organization, and saving (use --analyze to enable)")
 
     logger.info("Pipeline completed successfully!")
+    tracker.report()
 
 
 if __name__ == "__main__":

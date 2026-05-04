@@ -9,7 +9,7 @@ import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from dotenv import load_dotenv
-from typing import Any
+from typing import Any, TextIO
 
 # Load environment variables from .env file if it exists
 env_path = Path(__file__).parent.parent / ".env"
@@ -69,6 +69,112 @@ class LLMResponse:
     usage: Usage
     model: str
     provider: str
+
+
+COST_TABLE: dict[str, dict[str, float]] = {
+    "deepseek": {"input": 1.0, "output": 2.0},
+    "qwen": {"input": 4.0, "output": 12.0},
+    "openai": {"input": 150.0, "output": 600.0},
+}
+
+
+class CostTracker:
+    """Track LLM API token usage and estimated cost in CNY.
+
+    Prices are in yuan per million tokens. The tracker accumulates
+    usage across multiple API calls and can produce a summary report
+    broken down by provider.
+
+    Attributes:
+        records: Per-provider lists of (prompt_tokens, completion_tokens) tuples.
+        total_calls: Total number of recorded API calls.
+    """
+
+    def __init__(self) -> None:
+        self.records: dict[str, list[tuple[int, int]]] = {}
+        self.total_calls: int = 0
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """Record token usage from a single API call.
+
+        Args:
+            usage: Token usage statistics returned by the LLM.
+            provider: Provider name (e.g. 'deepseek', 'qwen', 'openai').
+        """
+        self.records.setdefault(provider, []).append(
+            (usage.prompt_tokens, usage.completion_tokens)
+        )
+        self.total_calls += 1
+
+    def estimated_cost(self, provider: str) -> float:
+        """Return the estimated cost in CNY for a specific provider.
+
+        Args:
+            provider: Provider name to calculate cost for.
+
+        Returns:
+            Estimated cost in yuan. Returns 0.0 if provider has no records.
+
+        Raises:
+            ValueError: If the provider is not in COST_TABLE.
+        """
+        if provider not in COST_TABLE:
+            raise ValueError(
+                f"Unknown provider: {provider}. "
+                f"Supported: {list(COST_TABLE.keys())}"
+            )
+
+        prices = COST_TABLE[provider]
+        total_input = sum(r[0] for r in self.records.get(provider, []))
+        total_output = sum(r[1] for r in self.records.get(provider, []))
+
+        input_cost = (total_input / 1_000_000) * prices["input"]
+        output_cost = (total_output / 1_000_000) * prices["output"]
+
+        return input_cost + output_cost
+
+    def report(self, provider: str | None = None, file: TextIO | None = None) -> None:
+        """Print a cost report to the given output stream.
+
+        When *provider* is specified only that provider's report is printed;
+        otherwise every provider with recorded usage is included.
+
+        Args:
+            provider: Optional provider name to filter the report.
+            file: Output stream (defaults to sys.stdout).
+        """
+        import sys
+
+        out = file or sys.stdout
+        providers = [provider] if provider else list(self.records.keys())
+        grand_total = 0.0
+
+        print("=" * 60, file=out)
+        print("LLM Cost Report (CNY)", file=out)
+        print("=" * 60, file=out)
+
+        for name in providers:
+            entries = self.records.get(name, [])
+            if not entries:
+                continue
+
+            total_input = sum(r[0] for r in entries)
+            total_output = sum(r[1] for r in entries)
+            calls = len(entries)
+            cost = self.estimated_cost(name)
+            grand_total += cost
+
+            print(f"\n  Provider : {name}", file=out)
+            print(f"  Calls    : {calls}", file=out)
+            print(f"  Input    : {total_input:>10,} tokens", file=out)
+            print(f"  Output   : {total_output:>10,} tokens", file=out)
+            print(f"  Cost     : ¥{cost:.6f}", file=out)
+
+        print(f"\n  Total    : ¥{grand_total:.6f} ({self.total_calls} calls)", file=out)
+        print("=" * 60, file=out)
+
+
+tracker = CostTracker()
 
 
 class LLMProvider(ABC):
@@ -268,15 +374,18 @@ async def chat_with_retry(
         httpx.HTTPError: If all retry attempts fail.
     """
     provider = get_provider()
+    provider_name = os.getenv("LLM_PROVIDER", "deepseek").lower()
 
     for attempt in range(max_retries):
         try:
-            return await provider.chat(
+            response = await provider.chat(
                 messages=messages,
                 model=model,
                 temperature=temperature,
                 max_tokens=max_tokens,
             )
+            tracker.record(response.usage, provider_name)
+            return response
         except httpx.HTTPError as e:
             if attempt < max_retries - 1:
                 wait_time = 2 ** attempt
