@@ -1,0 +1,19 @@
+{
+  "id": "github_1229932941",
+  "source": "github",
+  "title": "Plant-Disease-Detection-CV",
+  "description": "Benchmarking Foundation Models (ViT, DINOv2) vs CNNs on 163K+ images for plant disease segmentation. Includes Transfer Learning, Grad-CAM explainability, and DeepLabV3+ achieving Dice 0.8612.",
+  "url": "https://github.com/hachemite/Plant-Disease-Detection-CV",
+  "summary": "该内容对比了基础模型（ViT、DINOv2）与CNN在超过16.3万张图像上的植物病害分割任务表现，涉及迁移学习、Grad-CAM可解释性分析，并采用DeepLabV3+模型达到了0.8612的Dice系数。",
+  "score": 0.85,
+  "tags": [
+    "植物病害检测",
+    "深度学习",
+    "图像分割",
+    "迁移学习",
+    "可解释AI"
+  ],
+  "updated_at": "2026-05-05T14:16:26Z",
+  "collected_at": "2026-05-05T14:20:48.245096",
+  "analyzed": true
+}

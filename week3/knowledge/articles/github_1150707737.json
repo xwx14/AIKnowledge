@@ -1,0 +1,19 @@
+{
+  "id": "github_1150707737",
+  "source": "github",
+  "title": "bus-routing-project",
+  "description": "We are using a macine learning model to reroute busses to work better with the demand",
+  "url": "https://github.com/ChrisLegge/bus-routing-project",
+  "summary": "This project applies a machine learning model to dynamically reroute buses based on real-time demand, aiming to improve efficiency and service alignment. The approach leverages AI to optimize public transportation scheduling. It demonstrates a practical use case of machine learning in urban mobility.",
+  "score": 0.7,
+  "tags": [
+    "machine learning",
+    "transportation optimization",
+    "route planning",
+    "smart cities",
+    "demand forecasting"
+  ],
+  "updated_at": "2026-05-01T14:05:47Z",
+  "collected_at": "2026-05-01T14:06:20.811456",
+  "analyzed": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "github_1228125987",
+  "source": "github",
+  "title": "jovykit",
+  "description": "Layered Jupyter notebook container images for data science, machine learning, and research workflows.",
+  "url": "https://github.com/MihneaTeodorStoica/jovykit",
+  "summary": "jovykit 提供了分层的 Jupyter notebook 容器镜像，专为数据科学、机器学习及研究工作流设计。它通过分层结构优化了镜像的模块化与可复用性，方便用户在不同场景下灵活部署。",
+  "score": 0.7,
+  "tags": [
+    "Jupyter",
+    "数据科学",
+    "机器学习",
+    "容器化",
+    "工作流"
+  ],
+  "updated_at": "2026-05-05T14:18:08Z",
+  "collected_at": "2026-05-05T14:20:48.245116",
+  "analyzed": true
+}

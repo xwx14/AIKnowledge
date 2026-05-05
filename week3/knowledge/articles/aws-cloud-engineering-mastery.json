@@ -1,0 +1,18 @@
+{
+  "id": "github_1210858322",
+  "source": "github",
+  "title": "aws-cloud-engineering-mastery",
+  "description": "AWS Cloud Engineering Mastery: A structured repository dedicated to learning and implementing cloud infrastructure best practices. Includes fully functional Terraform scripts for building VPC networks, deploying EC2 instances, and enforcing robust S3 bucket security.",
+  "url": "https://github.com/TanyaMushonga/aws-cloud-engineering-mastery",
+  "summary": "该内容是一个关于AWS云工程技能的实践性学习资源库，主要提供Terraform脚本用于构建VPC网络、部署EC2实例和加强S3安全。它专注于云基础设施的最佳实践，而非通用人工智能或机器学习技术。",
+  "score": 0.2,
+  "tags": [
+    "AWS",
+    "云基础设施",
+    "Terraform",
+    "基础设施即代码"
+  ],
+  "updated_at": "2026-05-05T14:03:51Z",
+  "collected_at": "2026-05-05T14:20:48.245105",
+  "analyzed": true
+}

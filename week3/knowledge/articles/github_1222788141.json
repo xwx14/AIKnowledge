@@ -1,0 +1,13 @@
+{
+  "id": "github_1222788141",
+  "source": "github",
+  "title": "diabetic-retinopathy-classification",
+  "description": "Machine learning-based classification of diabetic retinopathy using retinal images. Includes preprocessing, feature engineering (statistical, texture, frequency), PCA, and models like KNN, SVM, and Random Forest. Implemented in MATLAB without built-in ML functions.",
+  "url": "https://github.com/Vinay-Gawli/diabetic-retinopathy-classification",
+  "summary": "",
+  "score": 0.0,
+  "tags": [],
+  "updated_at": "2026-05-01T14:03:36Z",
+  "collected_at": "2026-05-01T14:03:57.427425",
+  "analyzed": false
+}

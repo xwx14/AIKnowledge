@@ -1,0 +1,202 @@
+[
+  {
+    "source": "github",
+    "id": "github_1190635621",
+    "title": "learn_note",
+    "description": "this is my learning note",
+    "url": "https://github.com/thrivinglee/learn_note",
+    "updated_at": "2026-05-01T14:06:10Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811433"
+  },
+  {
+    "source": "github",
+    "id": "github_1185297468",
+    "title": "AI-Native-Engineer",
+    "description": "The AI-Native Engineer: Master AI-Assisted Workflows, Build RAG Architectures, and Deploy Enterprise Machine Learning Models",
+    "url": "https://github.com/AI-Native-Engineer-Course/AI-Native-Engineer",
+    "updated_at": "2026-05-01T14:06:08Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811446"
+  },
+  {
+    "source": "github",
+    "id": "github_1226097404",
+    "title": "open-model-lab",
+    "description": "Simulation-first science learning site with interactive models, concept labs, tests, and learning tools.",
+    "url": "https://github.com/AdrianIp0204/open-model-lab",
+    "updated_at": "2026-05-01T14:06:02Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811449"
+  },
+  {
+    "source": "github",
+    "id": "github_1218923053",
+    "title": "dlh-higher_level_programming",
+    "description": "AI Academy - Python Learning 1",
+    "url": "https://github.com/Jessica-Naegele/dlh-higher_level_programming",
+    "updated_at": "2026-05-01T14:05:57Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811451"
+  },
+  {
+    "source": "github",
+    "id": "github_1226414230",
+    "title": "EduVersity",
+    "description": "Learning Management System",
+    "url": "https://github.com/shubhendu-biswal/EduVersity",
+    "updated_at": "2026-05-01T14:05:52Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811453"
+  },
+  {
+    "source": "github",
+    "id": "github_1150707737",
+    "title": "bus-routing-project",
+    "description": "We are using a macine learning model to reroute busses to work better with the demand",
+    "url": "https://github.com/ChrisLegge/bus-routing-project",
+    "updated_at": "2026-05-01T14:05:47Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811456"
+  },
+  {
+    "source": "github",
+    "id": "github_1200405489",
+    "title": "crop-pest-disease-detection",
+    "description": "Deep Learning project for crop pest and disease detection",
+    "url": "https://github.com/tehsin-shaik/crop-pest-disease-detection",
+    "updated_at": "2026-05-01T14:05:44Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811458"
+  },
+  {
+    "source": "github",
+    "id": "github_1226491857",
+    "title": "C_Learning_Journey",
+    "description": "A journey to further my skills as a developer in the programming language C.",
+    "url": "https://github.com/ErrorGitHub/C_Learning_Journey",
+    "updated_at": "2026-05-01T14:05:42Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811460"
+  },
+  {
+    "source": "github",
+    "id": "github_1226520133",
+    "title": "CodeAlpha",
+    "description": "CodeAlpha Machine Learning internship tasks.",
+    "url": "https://github.com/Hassan092-prog/CodeAlpha",
+    "updated_at": "2026-05-01T14:05:42Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811461"
+  },
+  {
+    "source": "github",
+    "id": "github_1222536738",
+    "title": "Tutorial",
+    "description": "All Learning Tutorials",
+    "url": "https://github.com/Arijit209/Tutorial",
+    "updated_at": "2026-05-01T14:05:42Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811463"
+  },
+  {
+    "source": "github",
+    "id": "github_1226521449",
+    "title": "TP-DeepLearning-Alger3-",
+    "description": "TP Régression linéaire — Master 1 Économie Quantitative",
+    "url": "https://github.com/lassacizahra-lgtm/TP-DeepLearning-Alger3-",
+    "updated_at": "2026-05-01T14:05:40Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811464"
+  },
+  {
+    "source": "github",
+    "id": "github_1226522120",
+    "title": "house-price-prediction",
+    "description": "Machine Learning project to predict house prices using Bengaluru housing data.",
+    "url": "https://github.com/arunsingh570-ds/house-price-prediction",
+    "updated_at": "2026-05-01T14:05:33Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811466"
+  },
+  {
+    "source": "github",
+    "id": "github_1221853774",
+    "title": "SimReinforce",
+    "description": "An Elevator simulation coupled with reinforcemant learning to get an optimal elevator strategy",
+    "url": "https://github.com/fegerich/SimReinforce",
+    "updated_at": "2026-05-01T14:05:33Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811469"
+  },
+  {
+    "source": "github",
+    "id": "github_1211702489",
+    "title": "Portfolio",
+    "description": "  Portfolio IA & Data de Marcel DIGBEU : projets Python, Machine Learning, RAG, Streamlit et visualisation de données.    Site portfolio personnel présentant mon parcours, mes compétences et mes projets en IA, Data Science et Data Engineering.",
+    "url": "https://github.com/marceldigbeu/Portfolio",
+    "updated_at": "2026-05-01T14:05:33Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811470"
+  },
+  {
+    "source": "github",
+    "id": "github_1100176971",
+    "title": "OpenTrade",
+    "description": "A comprehensive Python system for algorithmic trading backtesting with sentiment analysis and machine learning.",
+    "url": "https://github.com/WiredMind2/OpenTrade",
+    "updated_at": "2026-05-01T14:05:32Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811472"
+  },
+  {
+    "source": "github",
+    "id": "github_1179633008",
+    "title": "Python-Practice-Projects",
+    "description": "While learning python from Dr. Angela yu i made these projects.",
+    "url": "https://github.com/h-a-m-z-a-A-L-i/Python-Practice-Projects",
+    "updated_at": "2026-05-01T14:05:30Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811474"
+  },
+  {
+    "source": "github",
+    "id": "github_1226513737",
+    "title": "credito_banco",
+    "description": "Projeto de aprovação de crédito em banco usando Machine Learning",
+    "url": "https://github.com/gussntolv/credito_banco",
+    "updated_at": "2026-05-01T14:05:29Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811475"
+  },
+  {
+    "source": "github",
+    "id": "github_1224986113",
+    "title": "Science-Labs",
+    "description": "Tools and techniques that make learning scientific and engineering concepts clearer, easier, and more enjoyable. ",
+    "url": "https://github.com/faheem-Buk/Science-Labs",
+    "updated_at": "2026-05-01T14:05:26Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811477"
+  },
+  {
+    "source": "github",
+    "id": "github_242580638",
+    "title": "gpt",
+    "description": "A Python toolkit for lattice field theory, quantum computing, and machine learning",
+    "url": "https://github.com/lehner/gpt",
+    "updated_at": "2026-05-01T14:05:26Z",
+    "stars": 113,
+    "collected_at": "2026-05-01T14:06:20.811479"
+  },
+  {
+    "source": "github",
+    "id": "github_1225713302",
+    "title": "pany-kids-studio",
+    "description": "🌸 5-year family learning dashboard with AI mentor Đại Ka. Bilingual VN+EN. Built for kids 6 -16.",
+    "url": "https://github.com/tdbinh27-sudo/pany-kids-studio",
+    "updated_at": "2026-05-01T14:05:24Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:06:20.811481"
+  }
+]

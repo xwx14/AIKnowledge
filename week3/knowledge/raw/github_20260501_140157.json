@@ -1,0 +1,202 @@
+[
+  {
+    "source": "github",
+    "id": "github_1225887741",
+    "title": "Python-ai-ml-journey",
+    "description": "My structured journey from python basics to ai and machine learning",
+    "url": "https://github.com/Brian-Nyaga-254/Python-ai-ml-journey",
+    "updated_at": "2026-05-01T14:01:31Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210519"
+  },
+  {
+    "source": "github",
+    "id": "github_1226519344",
+    "title": "my-python-journey",
+    "description": "Learning Python",
+    "url": "https://github.com/bemiyya/my-python-journey",
+    "updated_at": "2026-05-01T14:01:37Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210532"
+  },
+  {
+    "source": "github",
+    "id": "github_759375925",
+    "title": "spem-player",
+    "description": "Help for learning Spem in alium (Thomas Tallis)",
+    "url": "https://github.com/wainwmr/spem-player",
+    "updated_at": "2026-05-01T14:01:24Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T14:01:57.210536"
+  },
+  {
+    "source": "github",
+    "id": "github_1226499962",
+    "title": "Phishing-Website-Detection-using-Machine-Learning-PhishGuard-",
+    "description": "PhishGuard is a machine learning–based phishing detection system designed to identify malicious URLs using feature engineering and classification techniques. The system analyzes structural patterns in URLs and predicts whether a link is legitimate or phishing with a confidence score. ",
+    "url": "https://github.com/22raghav22-Raghav/Phishing-Website-Detection-using-Machine-Learning-PhishGuard-",
+    "updated_at": "2026-05-01T14:01:23Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210538"
+  },
+  {
+    "source": "github",
+    "id": "github_1214846489",
+    "title": "Registration-form",
+    "description": "for learning",
+    "url": "https://github.com/Jack23-FD/Registration-form",
+    "updated_at": "2026-05-01T14:01:22Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210540"
+  },
+  {
+    "source": "github",
+    "id": "github_882476173",
+    "title": "lesion_detector",
+    "description": "LesionDetector is an application written for my master's thesis, that incorporates deep reinforcement learning along with convolutional neural networks to detect lesions in CT scans.",
+    "url": "https://github.com/pmalesa/lesion_detector",
+    "updated_at": "2026-05-01T14:01:21Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T14:01:57.210542"
+  },
+  {
+    "source": "github",
+    "id": "github_1226497561",
+    "title": "Minesweeper-shell-learning",
+    "description": "マインスイーパーを作ってみようかなと思っているこの頃、",
+    "url": "https://github.com/kentaINU/Minesweeper-shell-learning",
+    "updated_at": "2026-05-01T14:01:20Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210543"
+  },
+  {
+    "source": "github",
+    "id": "github_1202594765",
+    "title": "Smart-Complaint-Categorization-app",
+    "description": "A smart web application that automatically classifies public complaints into categories using Machine Learning. Built with Python and Streamlit, this project helps streamline complaint management for government or customer service systems.",
+    "url": "https://github.com/Jinit-Dave-Dev/Smart-Complaint-Categorization-app",
+    "updated_at": "2026-05-01T14:01:20Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210545"
+  },
+  {
+    "source": "github",
+    "id": "github_1226513325",
+    "title": "scorecastai",
+    "description": "ScorecastAI is a Streamlit-based machine learning web app developed as Mini Project 2. It predicts whether a student will pass or fail using study hours, previous marks, and subject scores. The app features an interactive UI, real-time insights, and data visualization for better academic performance analysis.",
+    "url": "https://github.com/macwinroym/scorecastai",
+    "updated_at": "2026-05-01T14:01:20Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210547"
+  },
+  {
+    "source": "github",
+    "id": "github_1171427379",
+    "title": "machine-learning",
+    "description": null,
+    "url": "https://github.com/josusilanluh/machine-learning",
+    "updated_at": "2026-05-01T14:01:19Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210548"
+  },
+  {
+    "source": "github",
+    "id": "github_1055032569",
+    "title": "pnpl",
+    "description": "The PNPL brain deep learning library",
+    "url": "https://github.com/neural-processing-lab/pnpl",
+    "updated_at": "2026-05-01T14:01:18Z",
+    "stars": 7,
+    "collected_at": "2026-05-01T14:01:57.210550"
+  },
+  {
+    "source": "github",
+    "id": "github_1226219192",
+    "title": "Self_Learning",
+    "description": null,
+    "url": "https://github.com/goyalhimanshu04-max/Self_Learning",
+    "updated_at": "2026-05-01T14:01:15Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210552"
+  },
+  {
+    "source": "github",
+    "id": "github_990586271",
+    "title": "kana-dojo",
+    "description": "Aesthetic, minimalist platform for learning Japanese inspired by Duolingo and Monkeytype, built with Next.js and sponsored by Vercel. Beginner-friendly with plenty of good first issues - all contributions are welcome!",
+    "url": "https://github.com/lingdojo/kana-dojo",
+    "updated_at": "2026-05-01T14:01:39Z",
+    "stars": 2217,
+    "collected_at": "2026-05-01T14:01:57.210553"
+  },
+  {
+    "source": "github",
+    "id": "github_1220553327",
+    "title": "Collision-Aware-Trajectory-Prediction",
+    "description": "Group project for Deep Learning - CS-7643",
+    "url": "https://github.com/lyc95/Collision-Aware-Trajectory-Prediction",
+    "updated_at": "2026-05-01T14:01:13Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210555"
+  },
+  {
+    "source": "github",
+    "id": "github_1169859868",
+    "title": "machine-learning",
+    "description": null,
+    "url": "https://github.com/remineyu7/machine-learning",
+    "updated_at": "2026-05-01T14:01:12Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210558"
+  },
+  {
+    "source": "github",
+    "id": "github_1116597829",
+    "title": "adaptive-ai-federation-logs",
+    "description": "ai learning is wierd",
+    "url": "https://github.com/smokydastona/adaptive-ai-federation-logs",
+    "updated_at": "2026-05-01T14:01:06Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T14:01:57.210560"
+  },
+  {
+    "source": "github",
+    "id": "github_1037580209",
+    "title": "New-Grad-Data-Science-Jobs-2026",
+    "description": "2026 entry-level data science & ML jobs — analytics, AI, quant & machine learning US roles",
+    "url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2026",
+    "updated_at": "2026-05-01T14:01:06Z",
+    "stars": 40,
+    "collected_at": "2026-05-01T14:01:57.210561"
+  },
+  {
+    "source": "github",
+    "id": "github_1220601951",
+    "title": "cyber-safety-app",
+    "description": "A cybersecurity web app that detects online threats, verifies safety, and promotes digital awareness through real-time analysis and learning tools.",
+    "url": "https://github.com/pihu098/cyber-safety-app",
+    "updated_at": "2026-05-01T14:01:00Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T14:01:57.210563"
+  },
+  {
+    "source": "github",
+    "id": "github_1213373184",
+    "title": "nicegui_learning",
+    "description": null,
+    "url": "https://github.com/aisartag/nicegui_learning",
+    "updated_at": "2026-05-01T14:01:00Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210564"
+  },
+  {
+    "source": "github",
+    "id": "github_1213041731",
+    "title": "Comparative-Evaluation-of-Privacy-Preserving-Techniques-in-Deep-Federated-Learning",
+    "description": null,
+    "url": "https://github.com/MahderAkalu/Comparative-Evaluation-of-Privacy-Preserving-Techniques-in-Deep-Federated-Learning",
+    "updated_at": "2026-05-01T14:00:52Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:01:57.210566"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "github_1165902781",
+  "source": "github",
+  "title": "boat",
+  "description": "A Lightweight Deep Learning Framework in C",
+  "url": "https://github.com/xiaoshaoning/boat",
+  "summary": "Boat 是一个用C语言实现的轻量级深度学习框架，旨在提供高效、简洁的深度学习模型构建与训练能力。该框架适合资源受限或对性能要求较高的场景。",
+  "score": 0.7,
+  "tags": [
+    "深度学习",
+    "C语言",
+    "轻量级框架",
+    "机器学习",
+    "人工智能"
+  ],
+  "updated_at": "2026-05-01T14:11:13Z",
+  "collected_at": "2026-05-01T14:12:06.329076",
+  "analyzed": true
+}

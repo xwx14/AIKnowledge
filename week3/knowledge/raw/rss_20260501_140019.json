@@ -1,0 +1,222 @@
+[
+  {
+    "source": "rss",
+    "source_name": "Hacker News Best",
+    "category": "综合技术",
+    "id": "rss_f592b144c85e",
+    "title": "<![CDATA[Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/\">https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47964617\">https://news.ycombinator.com/item?id=47964617</a></p>\n<p>Points: 420</p>\n<p># Comments: 155</p>\n]]>",
+    "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:06.609706"
+  },
+  {
+    "source": "rss",
+    "source_name": "Hacker News Best",
+    "category": "综合技术",
+    "id": "rss_2b27cf46dc87",
+    "title": "<![CDATA[Terra API (YC W21) Hiring: Applied AI Strategist (Health Intelligence)]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health\">https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47908047\">https://news.ycombinator.com/item?id=47908047</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>\n]]>",
+    "url": "https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:06.609728"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_284e60a67c11",
+    "title": "Supersimple: Lightweight OpenCode profile for routine dev work with focused agents, local skills, and conductor-based track management",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/inndga/supersimple_lightweight_opencode\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/gc-victor/supersimple",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602283"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_97b86400fad2",
+    "title": "Porting microgpt to Futhark, Part I",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602308"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_a92e7341e278",
+    "title": "Where the goblins came from",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hbmd5q/where_goblins_came_from\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://openai.com/index/where-the-goblins-came-from/",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602312"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_ef005fd08042",
+    "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/2v2q1x/scaling_pain_coding_agent_serving\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://z.ai/blog/scaling-pain",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602315"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_a0477b9a452f",
+    "title": "AI Terminology is Poorly Defined and Oft Misused",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zleph2/ai_terminology_is_poorly_defined_oft\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://vale.rocks/posts/ai-terminology",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602317"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_6047cdbff67a",
+    "title": "Localisation Engineering Platform",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/xtvxmg/localisation_engineering_platform\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://lingo.dev/en/blog/introducing-lingodotdev-v1",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602320"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_9e574e6b6ed3",
+    "title": "Triton language for Huawei Ascend",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/z3pidt/triton_language_for_huawei_ascend\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/triton-lang/triton-ascend",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602323"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_4e7f06506145",
+    "title": "Introducing talkie: a 13B vintage language model from 1930",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uws0nc/introducing_talkie_13b_vintage_language\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://talkie-lm.com/introducing-talkie",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602326"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_3dfc44d49aab",
+    "title": "On the Limits of Self-Improving in Large Language Models: The Singularity Is Not Near Without Symbolic Model Synthesis",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/jgsiqa/on_limits_self_improving_large_language\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://arxiv.org/html/2601.05280v2",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602329"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_233589e8b85d",
+    "title": "TurboQuant: A First-Principles Walkthrough",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/j2uphs/turboquant_first_principles\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://arkaung.github.io/interactive-turboquant/",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602331"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_7f22853ed87f",
+    "title": "Transformers are Inherently Succinct",
+    "description": "&lt;p&gt;Abstract:\nWe propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite automata and Linear Temporal Logic (LTL) formulas. As a by-product of this expressivity, we show that verifying properties of transformers is provably intractable (i.e. EXPSPACE-complete).&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hzhyw9/transformers_are_inherently_succinct\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://arxiv.org/abs/2510.19315",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602334"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_7f79b7990fa4",
+    "title": "Build yourself flowers",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/u0pix1/build_yourself_flowers\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://vickiboykis.com/2026/04/20/build-yourself-flowers/",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602337"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_2eaa5a2428ab",
+    "title": "Reversing SynthID",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/o9zkq0/reversing_synthid\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://hackerfactor.com/blog/index.php?/archives/1092-Reversing-SynthID.html",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602339"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_e9f1665091d8",
+    "title": "The Future of Deep Learning Is Photonic (2021)",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/afcjot/future_deep_learning_is_photonic_2021\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://spectrum.ieee.org/the-future-of-deep-learning-is-photonic",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602342"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_dbc0e736e5d2",
+    "title": "Mind the van Emden Gap",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/cuaerj/mind_van_emden_gap\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://blog.fogus.me/llm/van-emden.html",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602344"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_57c18d870094",
+    "title": "How are you protecting yourself against the imminent AI dooms zero day?",
+    "description": "&lt;p&gt;Above all this is a fun discussion. Don't get too serious :)&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;As LLMs get better and better at pattern matching against vulnerabilities, and gaining better logical inference, it's a matter of time until a human or a group of humans and an LLM(s) find a plethora of zero days, some possibly unpatchable.&lt;/p&gt;\n&lt;p&gt;I'm sure others have thought the same, so I'm curious just what the general zeitgeist is. I personally think any machine you haven't put online, like those 10 year old laptops in the closest, are safe. The problem is, &lt;em&gt;I believe airgap will not save us either&lt;/em&gt; if a truly advanced system is developed. More or less I think \"primitive technology\" could return in various ways depending what we're talking about, like in finance, to avoid manipulation.&lt;/p&gt;",
+    "url": "https://lobste.rs/s/cfzhwf/how_are_you_protecting_yourself_against",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602350"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_ff48efc44f9d",
+    "title": "PyTexas 2026 Recap",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/ugbrsp/pytexas_2026_recap\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://bernat.tech/posts/pytexas-2026-recap/",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602353"
+  },
+  {
+    "source": "rss",
+    "source_name": "Lobsters AI/ML",
+    "category": "综合技术",
+    "id": "rss_a3af598ccc96",
+    "title": "LARQL - Query neural network weights like a graph database",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/iawjcg/larql_query_neural_network_weights_like\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/chrishayuk/larql",
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:00:19.602357"
+  }
+]

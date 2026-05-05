@@ -1,0 +1,19 @@
+{
+  "id": "github_968504744",
+  "source": "github",
+  "title": "Connect-Four-AI",
+  "description": "An intelligent Connect Four game powered by advanced AI algorithms, including Deep Reinforcement Learning, AlphaZero, and Meta-Learning, designed to challenge and evolve against human opponents.",
+  "url": "https://github.com/drussell23/Connect-Four-AI",
+  "summary": "该项目实现了一个智能四子棋游戏，集成了深度强化学习、AlphaZero和元学习等先进AI算法，旨在通过与人类对弈不断挑战和进化。",
+  "score": 0.9,
+  "tags": [
+    "强化学习",
+    "AlphaZero",
+    "元学习",
+    "人工智能",
+    "游戏AI"
+  ],
+  "updated_at": "2026-05-01T14:11:13Z",
+  "collected_at": "2026-05-01T14:12:06.329078",
+  "analyzed": true
+}

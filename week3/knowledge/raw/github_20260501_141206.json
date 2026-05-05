@@ -1,0 +1,202 @@
+[
+  {
+    "source": "github",
+    "id": "github_1226522622",
+    "title": "Protein-Protein-Interaction-Prediction-using-Machine-Learning",
+    "description": null,
+    "url": "https://github.com/Ujas-Patel/Protein-Protein-Interaction-Prediction-using-Machine-Learning",
+    "updated_at": "2026-05-01T14:11:58Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329033"
+  },
+  {
+    "source": "github",
+    "id": "github_1226526811",
+    "title": "Flutter-Language-Learning-app",
+    "description": null,
+    "url": "https://github.com/marwataher13/Flutter-Language-Learning-app",
+    "updated_at": "2026-05-01T14:11:48Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329047"
+  },
+  {
+    "source": "github",
+    "id": "github_1225908350",
+    "title": "first-web",
+    "description": "This is the first repository I want to create. I'm learning github",
+    "url": "https://github.com/sadan-cl/first-web",
+    "updated_at": "2026-05-01T14:11:48Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329051"
+  },
+  {
+    "source": "github",
+    "id": "github_991568406",
+    "title": "learningjava",
+    "description": null,
+    "url": "https://github.com/CodeandAshwani/learningjava",
+    "updated_at": "2026-05-01T14:11:47Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329053"
+  },
+  {
+    "source": "github",
+    "id": "github_1226526723",
+    "title": "TP-DeepLearning-Alger3333",
+    "description": "TP Régression linéaire — Master 1 Économie Quantitative",
+    "url": "https://github.com/lassacizahra-lgtm/TP-DeepLearning-Alger3333",
+    "updated_at": "2026-05-01T14:11:46Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329055"
+  },
+  {
+    "source": "github",
+    "id": "github_1016067485",
+    "title": "ryusr",
+    "description": "I am Phetphat Sanesri, an Information Technology & Digital Innovation student at Bangkok Suvarnabhumi University, Thailand. I specialize in artificial intelligence, machine learning, and large language model applications with a focus on practical implementations and research.",
+    "url": "https://github.com/ryusr/ryusr",
+    "updated_at": "2026-05-01T14:11:42Z",
+    "stars": 1,
+    "collected_at": "2026-05-01T14:12:06.329057"
+  },
+  {
+    "source": "github",
+    "id": "github_1173534904",
+    "title": "NetworkSim2026",
+    "description": "Computer Network Learning Simulator Web Application",
+    "url": "https://github.com/tbagriyanik/NetworkSim2026",
+    "updated_at": "2026-05-01T14:11:38Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329059"
+  },
+  {
+    "source": "github",
+    "id": "github_1073874788",
+    "title": "trading-ml-btc",
+    "description": "machine learning BTC paper trading strategy",
+    "url": "https://github.com/tazzer03/trading-ml-btc",
+    "updated_at": "2026-05-01T14:11:36Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329060"
+  },
+  {
+    "source": "github",
+    "id": "github_1219939886",
+    "title": "Deep_LearningProject",
+    "description": "An end-to-end deep learning project demonstrating the design and deployment of neural network models for real-world applications. Covers data preprocessing, model architecture, training, and evaluation using industry-standard frameworks, highlighting practical expertise in AI, machine learning, and scalable model development.",
+    "url": "https://github.com/MrinmoyBANIKYA/Deep_LearningProject",
+    "updated_at": "2026-05-01T14:11:35Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329062"
+  },
+  {
+    "source": "github",
+    "id": "github_1211702489",
+    "title": "Portfolio",
+    "description": "  Portfolio IA & Data de Marcel DIGBEU : projets Python, Machine Learning, RAG, Streamlit et visualisation de données.    Site portfolio personnel présentant mon parcours, mes compétences et mes projets en IA, Data Science et Data Engineering.",
+    "url": "https://github.com/marceldigbeu/Portfolio",
+    "updated_at": "2026-05-01T14:11:29Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329064"
+  },
+  {
+    "source": "github",
+    "id": "github_1202594765",
+    "title": "Smart-Complaint-Categorization-app",
+    "description": "A smart web application that automatically classifies public complaints into categories using Machine Learning. Built with Python and Streamlit, this project helps streamline complaint management for government or customer service systems.",
+    "url": "https://github.com/Jinit-Dave-Dev/Smart-Complaint-Categorization-app",
+    "updated_at": "2026-05-01T14:11:27Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329065"
+  },
+  {
+    "source": "github",
+    "id": "github_1222400729",
+    "title": "Deepfake-Audio-Detection-System",
+    "description": "A deepfake audio detection system is a machine learning-based security tool designed to analyze audio recordings and distinguish between human-spoken voice and AI-synthesized or manipulated speech.",
+    "url": "https://github.com/Aimen-nadeem123/Deepfake-Audio-Detection-System",
+    "updated_at": "2026-05-01T14:11:27Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329067"
+  },
+  {
+    "source": "github",
+    "id": "github_1005120122",
+    "title": "mlmm_toolkit",
+    "description": "Machine‑Learning / Molecular‑Mechanics (ML/MM) hybrid calculator and CLI toolset for Mechanistic Investigation of Enzymatic Reactions.",
+    "url": "https://github.com/t-0hmura/mlmm_toolkit",
+    "updated_at": "2026-05-01T14:11:27Z",
+    "stars": 15,
+    "collected_at": "2026-05-01T14:12:06.329070"
+  },
+  {
+    "source": "github",
+    "id": "github_1226418721",
+    "title": "Reinforcement-Learning-Dissertation",
+    "description": null,
+    "url": "https://github.com/zgjq73/Reinforcement-Learning-Dissertation",
+    "updated_at": "2026-05-01T14:11:20Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329072"
+  },
+  {
+    "source": "github",
+    "id": "github_1226505416",
+    "title": "Laravel12-Vue3-Inertia-Postify-project",
+    "description": "Postify is a learning project built using Laravel 12, Inertia.js, and Vue 3 to explore modern full-stack development with a seamless SPA-like experience. It includes features like posts, likes, and comments to understand real-world application structure.",
+    "url": "https://github.com/krupalidabhi4/Laravel12-Vue3-Inertia-Postify-project",
+    "updated_at": "2026-05-01T14:11:17Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329074"
+  },
+  {
+    "source": "github",
+    "id": "github_1165902781",
+    "title": "boat",
+    "description": "A Lightweight Deep Learning Framework in C",
+    "url": "https://github.com/xiaoshaoning/boat",
+    "updated_at": "2026-05-01T14:11:13Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329076"
+  },
+  {
+    "source": "github",
+    "id": "github_968504744",
+    "title": "Connect-Four-AI",
+    "description": "An intelligent Connect Four game powered by advanced AI algorithms, including Deep Reinforcement Learning, AlphaZero, and Meta-Learning, designed to challenge and evolve against human opponents.",
+    "url": "https://github.com/drussell23/Connect-Four-AI",
+    "updated_at": "2026-05-01T14:11:13Z",
+    "stars": 2,
+    "collected_at": "2026-05-01T14:12:06.329078"
+  },
+  {
+    "source": "github",
+    "id": "github_1092346917",
+    "title": "FullStack-_Learning",
+    "description": "for learning",
+    "url": "https://github.com/VeVe168/FullStack-_Learning",
+    "updated_at": "2026-05-01T14:11:10Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329079"
+  },
+  {
+    "source": "github",
+    "id": "github_1226526309",
+    "title": "Mobile-Price-Classification-ML",
+    "description": "Machine learning project classifying mobile phone price ranges using multiple models, pipelines, and hyperparameter tuning with performance comparison.",
+    "url": "https://github.com/KalluruPrem/Mobile-Price-Classification-ML",
+    "updated_at": "2026-05-01T14:11:09Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329081"
+  },
+  {
+    "source": "github",
+    "id": "github_1226353938",
+    "title": "Linux-For-DevOps-Notes",
+    "description": "This repository focuses on learning and practising Linux commands",
+    "url": "https://github.com/ShivangiShaliniJames/Linux-For-DevOps-Notes",
+    "updated_at": "2026-05-01T14:11:09Z",
+    "stars": 0,
+    "collected_at": "2026-05-01T14:12:06.329083"
+  }
+]

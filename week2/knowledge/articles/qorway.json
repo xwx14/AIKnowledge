@@ -1,0 +1,19 @@
+{
+  "id": "github_1178837893",
+  "source": "github",
+  "title": "qorway",
+  "description": "QORWAY is a causal, constrained, and executable intelligence infrastructure that transforms enterprise decision-making into a continuous, auditable, and self-improving system.",
+  "url": "https://github.com/QORWAY-TECHNOLOGY/qorway",
+  "summary": "QORWAY是一个因果性、受约束且可执行的智能基础设施，它将企业决策转化为持续、可审计且自我优化的系统。该平台专注于提升决策过程的透明度与可追溯性。",
+  "score": 0.7,
+  "tags": [
+    "企业决策",
+    "智能基础设施",
+    "因果推理",
+    "可审计系统",
+    "自我优化"
+  ],
+  "updated_at": "2026-05-05T14:20:15Z",
+  "collected_at": "2026-05-05T14:20:48.245108",
+  "analyzed": true
+}

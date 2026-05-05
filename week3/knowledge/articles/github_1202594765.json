@@ -1,0 +1,19 @@
+{
+  "id": "github_1202594765",
+  "source": "github",
+  "title": "Smart-Complaint-Categorization-app",
+  "description": "A smart web application that automatically classifies public complaints into categories using Machine Learning. Built with Python and Streamlit, this project helps streamline complaint management for government or customer service systems.",
+  "url": "https://github.com/Jinit-Dave-Dev/Smart-Complaint-Categorization-app",
+  "summary": "该项目是一个基于机器学习的智能投诉分类网页应用，使用Python和Streamlit构建，能够自动将公众投诉归类，旨在帮助政府或客服系统简化投诉管理流程。",
+  "score": 0.9,
+  "tags": [
+    "机器学习",
+    "智能分类",
+    "Python",
+    "Streamlit",
+    "投诉管理"
+  ],
+  "updated_at": "2026-05-01T14:11:27Z",
+  "collected_at": "2026-05-01T14:12:06.329065",
+  "analyzed": true
+}

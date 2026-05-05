@@ -1,0 +1,19 @@
+{
+  "id": "rss_a3af598ccc96",
+  "source": "rss",
+  "title": "LARQL - Query neural network weights like a graph database",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/iawjcg/larql_query_neural_network_weights_like\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://github.com/chrishayuk/larql",
+  "summary": "LARQL 是一种能够像查询图数据库一样查询神经网络权重的技术，旨在提供对神经网络内部参数的灵活检索与分析能力。该工具通过将权重视为图结构数据，使开发者能够更直观地探索和调试模型。",
+  "score": 0.85,
+  "tags": [
+    "神经网络",
+    "图数据库",
+    "权重查询",
+    "模型调试",
+    "AI工具"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:09.399837",
+  "analyzed": true
+}

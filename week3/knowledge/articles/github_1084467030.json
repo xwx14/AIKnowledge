@@ -1,0 +1,13 @@
+{
+  "id": "github_1084467030",
+  "source": "github",
+  "title": "crypto-ai-alert-bot",
+  "description": "AI-powered crypto signal alert system that uses hybrid machine learning models to analyze live market data and send Buy/Sell alerts via Telegram and email. Includes automated training and 30-minute alert workflows with GitHub Actions.",
+  "url": "https://github.com/ahsan520/crypto-ai-alert-bot",
+  "summary": "",
+  "score": 0.0,
+  "tags": [],
+  "updated_at": "2026-05-01T14:03:10Z",
+  "collected_at": "2026-05-01T14:03:57.427455",
+  "analyzed": false
+}

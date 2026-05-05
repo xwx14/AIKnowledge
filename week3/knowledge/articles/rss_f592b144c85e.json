@@ -1,0 +1,19 @@
+{
+  "id": "rss_f592b144c85e",
+  "source": "rss",
+  "title": "<![CDATA[Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library]]>",
+  "description": "<![CDATA[\n<p>Article URL: <a href=\"https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/\">https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47964617\">https://news.ycombinator.com/item?id=47964617</a></p>\n<p>Points: 420</p>\n<p># Comments: 155</p>\n]]>",
+  "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+  "summary": "安全研究人员在PyTorch Lightning AI训练库中发现名为Shai-Hulud的恶意依赖包，该恶意软件可能窃取数据或破坏AI训练流程。此事件凸显了AI开源生态中的供应链安全风险。",
+  "score": 0.85,
+  "tags": [
+    "人工智能",
+    "网络安全",
+    "开源供应链",
+    "PyTorch",
+    "恶意软件"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:07.965875",
+  "analyzed": true
+}

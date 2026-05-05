@@ -1,0 +1,18 @@
+{
+  "id": "github_242580638",
+  "source": "github",
+  "title": "gpt",
+  "description": "A Python toolkit for lattice field theory, quantum computing, and machine learning",
+  "url": "https://github.com/lehner/gpt",
+  "summary": "GPT is described as a Python toolkit designed for applications in lattice field theory, quantum computing, and machine learning. It bridges computational physics with AI and quantum technologies. The title is ambiguous as it may refer to a specific software package rather than the language model GPT.",
+  "score": 0.4,
+  "tags": [
+    "Python toolkit",
+    "lattice field theory",
+    "quantum computing",
+    "machine learning"
+  ],
+  "updated_at": "2026-05-01T14:05:26Z",
+  "collected_at": "2026-05-01T14:06:20.811479",
+  "analyzed": true
+}

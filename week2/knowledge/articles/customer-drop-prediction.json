@@ -1,0 +1,19 @@
+{
+  "id": "github_1229908047",
+  "source": "github",
+  "title": "customer-drop-prediction",
+  "description": "A machine learning based customer based churn prediction system that analyzes historical data to identify users likely to discontinue services, enabling proactive retention strategies.",
+  "url": "https://github.com/sheikhzahoor110/customer-drop-prediction",
+  "summary": "该内容描述了一个基于机器学习的客户流失预测系统，通过分析历史数据识别可能停止服务的用户，从而支持主动的客户保留策略。这属于典型的AI在商业分析中的应用。",
+  "score": 0.9,
+  "tags": [
+    "机器学习",
+    "客户流失预测",
+    "数据分析",
+    "人工智能",
+    "用户留存"
+  ],
+  "updated_at": "2026-05-05T14:13:38Z",
+  "collected_at": "2026-05-05T14:20:48.245121",
+  "analyzed": true
+}

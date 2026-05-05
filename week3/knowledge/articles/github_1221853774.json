@@ -1,0 +1,19 @@
+{
+  "id": "github_1221853774",
+  "source": "github",
+  "title": "SimReinforce",
+  "description": "An Elevator simulation coupled with reinforcemant learning to get an optimal elevator strategy",
+  "url": "https://github.com/fegerich/SimReinforce",
+  "summary": "SimReinforce is a project that combines an elevator simulation with reinforcement learning to discover optimal elevator dispatching strategies. It applies AI techniques to a classic operations research problem, demonstrating how RL can optimize real-world systems.",
+  "score": 0.85,
+  "tags": [
+    "reinforcement learning",
+    "elevator simulation",
+    "optimization",
+    "operations research",
+    "AI application"
+  ],
+  "updated_at": "2026-05-01T14:05:33Z",
+  "collected_at": "2026-05-01T14:06:20.811469",
+  "analyzed": true
+}

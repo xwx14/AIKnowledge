@@ -1,0 +1,13 @@
+{
+  "id": "github_1226499962",
+  "source": "github",
+  "title": "Phishing-Website-Detection-using-Machine-Learning-PhishGuard-",
+  "description": "PhishGuard is a machine learning–based phishing detection system designed to identify malicious URLs using feature engineering and classification techniques. The system analyzes structural patterns in URLs and predicts whether a link is legitimate or phishing with a confidence score.",
+  "url": "https://github.com/22raghav22-Raghav/Phishing-Website-Detection-using-Machine-Learning-PhishGuard-",
+  "summary": "",
+  "score": 0.0,
+  "tags": [],
+  "updated_at": "2026-05-01T14:01:23Z",
+  "collected_at": "2026-05-01T14:01:57.210538",
+  "analyzed": false
+}

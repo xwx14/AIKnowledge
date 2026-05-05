@@ -1,0 +1,19 @@
+{
+  "id": "rss_a4b87c360aff",
+  "source": "rss",
+  "title": "OpenMythos: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zyjkpd/openmythos_theoretical_reconstruction\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://github.com/kyegomez/OpenMythos",
+  "summary": "OpenMythos是一个基于现有研究文献、从第一性原理出发对Claude Mythos架构进行理论重建的项目。该项目旨在通过公开文献推测并重构Claude的底层架构设计，属于AI模型逆向工程的研究尝试。",
+  "score": 0.7,
+  "tags": [
+    "AI架构",
+    "逆向工程",
+    "Claude",
+    "理论重建",
+    "研究文献"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-05T14:20:51.844780",
+  "analyzed": true
+}
