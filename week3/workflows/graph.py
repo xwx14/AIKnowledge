@@ -2,21 +2,25 @@
 
 构建知识库采集工作流 DAG：
   collect → analyze → organize → review ─┬→ save → END
-                                          └→ organize (修正循环)
+                                          ├→ revise → review (修正循环, iteration < 3)
+                                          └→ human_flag → END (iteration >= 3)
 
-条件分支：review_passed=True 走 save，False 回到 organize。
-最多循环 2 次修正（iteration >= 2 时 review 强制通过）。
+条件分支：review_passed=True 走 save，
+未通过且 iteration < 3 走 revise 再回 review，
+未通过且 iteration >= 3 走 human_flag 终止。
 """
 
 import logging
 
 from langgraph.graph import END, StateGraph
 
+from human_flag import human_flag_node
 from nodes import (
     analyze_node,
     collect_node,
     organize_node,
     review_node,
+    revise_node,
     save_node,
 )
 from state import KBState
@@ -24,16 +28,19 @@ from state import KBState
 logger = logging.getLogger(__name__)
 
 
-def _route_after_review(state: KBState) -> str:
-    """条件边路由函数：根据审核结果决定下一步。
+def route_after_review(state: KBState) -> str:
+    """3 路条件路由：根据审核结果和迭代次数决定下一步。
 
     Returns:
         "save" — 审核通过，进入保存节点。
-        "organize" — 审核未通过，回到整理节点修正。
+        "revise" — 审核未通过且 iteration < 3，进入修订节点。
+        "human_flag" — 审核未通过且 iteration >= 3，标记人工审核。
     """
     if state.get("review_passed", False):
         return "save"
-    return "organize"
+    if state.get("iteration", 0) >= 3:
+        return "human_flag"
+    return "revise"
 
 
 def build_graph() -> StateGraph:
@@ -48,6 +55,8 @@ def build_graph() -> StateGraph:
     graph.add_node("analyze", analyze_node)
     graph.add_node("organize", organize_node)
     graph.add_node("review", review_node)
+    graph.add_node("revise", revise_node)
+    graph.add_node("human_flag", human_flag_node)
     graph.add_node("save", save_node)
 
     graph.set_entry_point("collect")
@@ -58,11 +67,13 @@ def build_graph() -> StateGraph:
 
     graph.add_conditional_edges(
         "review",
-        _route_after_review,
-        {"save": "save", "organize": "organize"},
+        route_after_review,
+        {"save": "save", "revise": "revise", "human_flag": "human_flag"},
     )
 
+    graph.add_edge("revise", "review")
     graph.add_edge("save", END)
+    graph.add_edge("human_flag", END)
 
     return graph.compile()
 
@@ -85,6 +96,7 @@ if __name__ == "__main__":
         "articles": [],
         "review_feedback": "",
         "review_passed": False,
+        "needs_human_review": False,
         "iteration": 0,
         "cost_tracker": {},
     }
@@ -128,6 +140,13 @@ if __name__ == "__main__":
             print(f"  当前轮次: {iteration}")
             if feedback:
                 print(f"  反馈: {feedback}")
+
+        elif node_name == "revise":
+            articles = node_output.get("articles", [])
+            print(f"  修订条目数: {len(articles)}")
+
+        elif node_name == "human_flag":
+            print(f"  需要人工审核: {node_output.get('needs_human_review', False)}")
 
         elif node_name == "save":
             articles = node_output.get("articles", [])

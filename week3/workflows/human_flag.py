@@ -1,7 +1,7 @@
 import json
 import os
 from datetime import datetime, timezone
-from workflows.state import KBState
+from state import KBState
 
 
 def human_flag_node(state: KBState) -> dict:
