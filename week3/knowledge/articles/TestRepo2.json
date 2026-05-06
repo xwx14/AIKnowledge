@@ -1,0 +1,20 @@
+{
+  "id": "github_2",
+  "source": "github",
+  "title": "TestRepo2",
+  "description": "Another ML project",
+  "url": "https://github.com/test2",
+  "summary": "一个基于PyTorch的机器学习项目，提供了包含数据预处理、模型定义、训练循环和评估指标在内的完整训练流水线，支持自定义超参数配置和分布式训练。",
+  "score": 8,
+  "tags": [
+    "机器学习",
+    "训练流水线",
+    "PyTorch",
+    "分布式训练",
+    "超参数配置",
+    "数据预处理",
+    "模型定义",
+    "评估指标"
+  ],
+  "analyzed": true
+}

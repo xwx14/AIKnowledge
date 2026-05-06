@@ -2254,5 +2254,53 @@
     "updated_at": "",
     "collected_at": "2026-05-05T14:20:51.844777",
     "analyzed": true
+  },
+  {
+    "id": "github_1",
+    "title": "TestRepo1",
+    "url": "https://github.com/test1",
+    "tags": [
+      "图像分类",
+      "ResNet-50",
+      "PyTorch",
+      "ImageNet",
+      "迁移学习",
+      "模型训练",
+      "模型推理"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_2",
+    "title": "TestRepo2",
+    "url": "https://github.com/test2",
+    "tags": [
+      "机器学习",
+      "训练流水线",
+      "PyTorch",
+      "分布式训练",
+      "超参数配置",
+      "数据预处理",
+      "模型定义",
+      "评估指标"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_3",
+    "title": "LowScoreRepo",
+    "url": "https://github.com/test3",
+    "tags": [
+      "仓库优化",
+      "内容质量",
+      "技术细节",
+      "性能指标",
+      "BERT",
+      "文本分类",
+      "IMDb",
+      "API响应时间",
+      "测试覆盖率"
+    ],
+    "score": 6
   }
 ]
