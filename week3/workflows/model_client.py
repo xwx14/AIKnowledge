@@ -2,9 +2,12 @@
 
 from pathlib import Path
 
+import asyncio
 import httpx
+import json
 import logging
 import os
+import re
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
@@ -464,6 +467,25 @@ async def quick_chat(
 
     response = await chat_with_retry(messages, temperature=temperature, max_tokens=max_tokens)
     return response.content
+
+
+def chat(prompt: str, system_prompt: str = "You are a helpful assistant.") -> tuple[str, Usage]:
+    """Synchronous chat returning (text, usage) tuple."""
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": prompt},
+    ]
+    response = asyncio.run(chat_with_retry(messages))
+    return response.content, response.usage
+
+
+def chat_json(prompt: str, system_prompt: str = "You are a helpful assistant.") -> dict:
+    """Synchronous chat returning parsed JSON dict from LLM response."""
+    text, usage = chat(prompt, system_prompt)
+    match = re.search(r"\{.*\}", text, re.DOTALL)
+    if match:
+        return json.loads(match.group())
+    raise ValueError(f"Failed to parse JSON from LLM response: {text[:200]}")
 
 
 async def main() -> None:
