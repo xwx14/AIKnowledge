@@ -469,22 +469,22 @@ async def quick_chat(
     return response.content
 
 
-def chat(prompt: str, system_prompt: str = "You are a helpful assistant.") -> tuple[str, Usage]:
+def chat(prompt: str, system_prompt: str = "You are a helpful assistant.", temperature: float = 0.7) -> tuple[str, Usage]:
     """Synchronous chat returning (text, usage) tuple."""
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": prompt},
     ]
-    response = asyncio.run(chat_with_retry(messages))
+    response = asyncio.run(chat_with_retry(messages, temperature=temperature))
     return response.content, response.usage
 
 
-def chat_json(prompt: str, system_prompt: str = "You are a helpful assistant.") -> dict:
-    """Synchronous chat returning parsed JSON dict from LLM response."""
-    text, usage = chat(prompt, system_prompt)
+def chat_json(prompt: str, system_prompt: str = "You are a helpful assistant.", temperature: float = 0.7) -> tuple[dict, Usage]:
+    """Synchronous chat returning (parsed_json, usage) tuple."""
+    text, usage = chat(prompt, system_prompt, temperature=temperature)
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if match:
-        return json.loads(match.group())
+        return json.loads(match.group()), usage
     raise ValueError(f"Failed to parse JSON from LLM response: {text[:200]}")
 
 

@@ -4,6 +4,7 @@
 节点间通过 KBState 的结构化摘要通信，遵循报告式原则。
 """
 
+import asyncio
 import hashlib
 import json
 import logging
@@ -14,7 +15,7 @@ from typing import Any
 from urllib.parse import urlencode
 
 from config import ARTICLES_DIR
-from model_client import Usage, chat, chat_json
+from model_client import Usage, chat, chat_json, chat_with_retry
 from state import KBState
 
 logger = logging.getLogger(__name__)
@@ -213,63 +214,97 @@ def organize_node(state: KBState) -> dict:
     return {"articles": deduped, "cost_tracker": cost}
 
 
-def review_node(state: KBState) -> dict:
-    """审核节点：LLM 四维度评分，iteration >= 2 强制通过。
+_REVIEW_WEIGHTS = {
+    "summary_quality": 0.25,
+    "technical_depth": 0.25,
+    "relevance": 0.20,
+    "originality": 0.15,
+    "formatting": 0.15,
+}
+_PASS_THRESHOLD = 7.0
 
-    四维度：摘要质量 / 标签准确性 / 分类合理性 / 一致性。
-    LLM 返回 JSON:
-    {"passed": bool, "overall_score": float, "feedback": str,
-     "scores": {"summary_quality": f, "tag_accuracy": f,
-                "classification": f, "consistency": f}}
-    overall_score >= 0.6 时 passed=True；iteration >= 2 强制通过。
+
+def review_node(state: KBState) -> dict:
+    """审核节点：LLM 五维度加权评分（1-10），iteration >= 2 强制通过。
+
+    审核对象为 state["analyses"]，仅前 5 条（控 token）。
+    五维度与权重：
+      - summary_quality (25%): 摘要质量（准确性、简洁性、洞察深度）
+      - technical_depth (25%): 技术深度（方法/数据/实验是否充实）
+      - relevance (20%): 相关性（与 AI 知识库主题的契合度）
+      - originality (15%): 原创性（是否有独到见解或新颖角度）
+      - formatting (15%): 格式规范（字段完整、标签合规、摘要长度）
+    加权总分由代码重算，不信任模型算术，>= 7.0 为通过。
+    temperature=0.1 保证评分一致性。
     """
     logger.info("[ReviewNode] 开始审核")
 
     iteration = state.get("iteration", 0)
 
-    # 防止无限循环：iteration >= 2 强制通过
     if iteration >= 2:
         logger.info("[ReviewNode] iteration=%d >= 2，强制通过", iteration)
         return {"review_passed": True, "review_feedback": "", "iteration": iteration}
 
     cost = dict(state.get("cost_tracker", {}))
-    articles = state.get("articles", [])
+    analyses = state.get("analyses", [])
+    batch = analyses[:5]
 
-    system_prompt = "你是一位严格的知识库内容审核专家，请从四个维度评分。"
-    articles_summary = "\n".join(
+    if not batch:
+        logger.info("[ReviewNode] analyses 为空，直接通过")
+        return {"review_passed": True, "review_feedback": "", "iteration": iteration}
+
+    system_prompt = "你是一位严格的知识库内容审核专家，请对每条内容逐维度评分（1-10 整数）。"
+
+    items_summary = "\n".join(
         f"- [{a.get('id', '?')}] {a.get('title', '')} | "
-        f"摘要: {a.get('summary', '')[:60]}… | 标签: {a.get('tags', [])}"
-        for a in articles[:20]
+        f"摘要: {a.get('summary', '')[:80]}… | 标签: {a.get('tags', [])}"
+        for a in batch
     )
     prompt = (
-        f"请审核以下 {len(articles)} 篇知识条目：\n{articles_summary}\n\n"
-        "四维度评分（每项 0-1 分）：\n"
-        "1. summary_quality — 摘要质量（是否准确、有技术深度）\n"
-        "2. tag_accuracy — 标签准确性（是否贴切、无遗漏）\n"
-        "3. classification — 分类合理性（标签是否覆盖主要领域）\n"
-        "4. consistency — 一致性（摘要、标签、标题是否相互印证）\n\n"
-        "返回 JSON：\n"
-        '{"passed": bool, "overall_score": float, "feedback": str, '
-        '"scores": {"summary_quality": float, "tag_accuracy": float, '
-        '"classification": float, "consistency": float}}\n'
-        "passed 为 true 当且仅当 overall_score >= 0.6；"
-        "feedback 为改进建议，通过时留空。"
+        f"请审核以下 {len(batch)} 条知识条目：\n{items_summary}\n\n"
+        "五维度评分（每项 1-10 整数分）：\n"
+        "1. summary_quality — 摘要质量（准确性、简洁性、洞察深度）\n"
+        "2. technical_depth — 技术深度（方法/数据/实验是否充实）\n"
+        "3. relevance — 相关性（与 AI 知识库主题的契合度）\n"
+        "4. originality — 原创性（是否有独到见解或新颖角度）\n"
+        "5. formatting — 格式规范（字段完整、标签合规、摘要长度）\n\n"
+        "严格返回 JSON：\n"
+        '{"scores": {"summary_quality": int, "technical_depth": int, '
+        '"relevance": int, "originality": int, "formatting": int}, '
+        '"feedback": str}\n'
+        "feedback 为改进建议，全部达标时留空字符串。"
     )
 
     try:
-        result = chat_json(prompt, system_prompt)
-        passed = result.get("passed", False)
+        result, usage = chat_json(prompt, system_prompt, temperature=0.1)
+        cost = accumulate_usage(cost, usage)
+
+        scores = result.get("scores", {})
+        weighted_total = sum(
+            scores.get(dim, 0) * weight
+            for dim, weight in _REVIEW_WEIGHTS.items()
+        )
+        passed = weighted_total >= _PASS_THRESHOLD
         feedback = result.get("feedback", "")
+
+        logger.info(
+            "[ReviewNode] 评分: summary=%s, depth=%s, relevance=%s, "
+            "originality=%s, formatting=%s, weighted=%.2f",
+            scores.get("summary_quality"), scores.get("technical_depth"),
+            scores.get("relevance"), scores.get("originality"),
+            scores.get("formatting"), weighted_total,
+        )
     except Exception as e:
         logger.warning("[ReviewNode] 审核失败，默认通过: %s", e)
         passed = True
         feedback = ""
+        weighted_total = -1.0
 
     new_iteration = iteration + 1 if not passed else iteration
 
     logger.info(
-        "[ReviewNode] 审核结果: passed=%s, iteration=%d->%d",
-        passed, iteration, new_iteration,
+        "[ReviewNode] 审核结果: passed=%s, weighted=%.2f, iteration=%d->%d",
+        passed, weighted_total, iteration, new_iteration,
     )
     return {
         "review_passed": passed,
@@ -307,6 +342,122 @@ def review_node_test(state: KBState) -> dict:
         "review_feedback": feedback,
         "iteration": new_iteration,
     }
+
+
+_DIMENSION_KEYWORDS = {
+    "summary_quality": ["摘要", "摘要质量", "准确性", "简洁性", "洞察"],
+    "tag_accuracy": ["标签", "标签准确", "贴切", "遗漏"],
+    "category_correctness": ["分类", "分类合理", "类别", "领域覆盖"],
+    "consistency": ["一致性", "印证", "矛盾", "不匹配"],
+}
+
+_DIMENSION_LABELS = {
+    "summary_quality": "摘要质量（准确性、简洁性、洞察深度）",
+    "tag_accuracy": "标签准确性（是否贴切、无遗漏）",
+    "category_correctness": "分类合理性（标签是否覆盖主要领域）",
+    "consistency": "整体一致性（摘要、标签、标题是否相互印证）",
+}
+
+_WEAK_THRESHOLD = 3
+
+
+def _extract_weak_dimensions(feedback: str, scores: dict) -> list[str]:
+    """从审核反馈和评分中提取弱项维度。
+
+    优先从 scores 中筛选 < WEAK_THRESHOLD 的维度，
+    再从 feedback 文本中匹配维度关键词，合并去重返回。
+    """
+    weak: list[str] = []
+
+    for dim, score in scores.items():
+        if isinstance(score, (int, float)) and score < _WEAK_THRESHOLD:
+            weak.append(dim)
+
+    for dim, label in _DIMENSION_LABELS.items():
+        if dim not in weak:
+            for keyword in label.split("（")[0].split("、"):
+                if keyword in feedback:
+                    weak.append(dim)
+                    break
+
+    for dim, keywords in _DIMENSION_KEYWORDS.items():
+        if dim not in weak:
+            for kw in keywords:
+                if kw in feedback:
+                    weak.append(dim)
+                    break
+
+    return weak
+
+
+def revise_node(state: KBState) -> dict:
+    """修订节点：根据审核反馈中弱项维度，逐条调用 LLM 改写摘要/标签。
+
+    读取 state['review_feedback'] 和 review_node 写入的评分，
+    提取弱项维度注入修改 prompt，temperature=0.4 允许创造性改写。
+    返回修订后的 articles 和更新后的 cost_tracker。
+    """
+    logger.info("[ReviseNode] 开始修订")
+
+    cost = dict(state.get("cost_tracker", {}))
+    feedback = state.get("review_feedback", "")
+
+    if not feedback:
+        logger.info("[ReviseNode] 无审核反馈，跳过修订")
+        return {"articles": state.get("articles", []), "cost_tracker": cost}
+
+    articles = list(state.get("articles", []))
+
+    scores = {}
+    for line in feedback.split("\n"):
+        for dim in _DIMENSION_LABELS:
+            if dim in line:
+                import re as _re
+                m = _re.search(r"(\d+)", line)
+                if m:
+                    scores[dim] = int(m.group(1))
+
+    weak_dims = _extract_weak_dimensions(feedback, scores)
+    if not weak_dims:
+        weak_dims = list(_DIMENSION_LABELS.keys())
+
+    weak_desc = "\n".join(
+        f"- {dim}：{_DIMENSION_LABELS.get(dim, dim)}"
+        for dim in weak_dims
+    )
+
+    logger.info("[ReviseNode] 弱项维度: %s", weak_dims)
+
+    revised: list[dict] = []
+    for item in articles:
+        prompt = (
+            f"审核反馈：{feedback}\n\n"
+            f"需要重点改进的维度：\n{weak_desc}\n\n"
+            "请针对以上弱项改写以下内容，"
+            '返回改进后的 JSON：{"summary": str, "score": int, "tags": [str]}\n\n'
+            f"标题：{item.get('title', '')}\n"
+            f"当前摘要：{item.get('summary', '')}\n"
+            f"当前标签：{item.get('tags', [])}\n"
+            f"当前评分：{item.get('score', 0)}"
+        )
+        try:
+            messages = [
+                {"role": "system", "content": "你是一位严谨的内容修订专家，擅长针对审核弱项定向改进。"},
+                {"role": "user", "content": prompt},
+            ]
+            response = asyncio.run(chat_with_retry(messages, temperature=0.4))
+            cost = accumulate_usage(cost, response.usage)
+            result = _parse_json_from_text(response.content)
+            item["summary"] = result.get("summary", item.get("summary", ""))
+            item["score"] = result.get("score", item.get("score", 0))
+            item["tags"] = result.get("tags", item.get("tags", []))
+        except Exception as e:
+            logger.warning("[ReviseNode] 修订失败 (%s): %s", item.get("id", "?"), e)
+
+        revised.append(item)
+
+    logger.info("[ReviseNode] 修订完成，共 %d 条", len(revised))
+    return {"articles": revised, "cost_tracker": cost}
 
 
 def save_node(state: KBState) -> dict:

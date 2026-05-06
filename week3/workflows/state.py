@@ -76,6 +76,14 @@ class KBState(TypedDict):
     用于防止无限循环。
     """
 
+    needs_human_review: bool
+    """是否需要人工审核。
+
+    True 表示自动审核多次未通过或条目质量存疑，
+    需要人工介入判断；False 表示无需人工审核。
+    由 Reviewer 节点写入。
+    """
+
     cost_tracker: dict
     """Token 用量与成本追踪。
 
