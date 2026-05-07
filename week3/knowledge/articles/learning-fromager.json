@@ -1,0 +1,19 @@
+{
+  "id": "github_1038774065",
+  "source": "github",
+  "title": "learning-fromager",
+  "description": "guide to learn fromager",
+  "url": "https://github.com/LalatenduMohanty/learning-fromager",
+  "updated_at": "2026-05-07T03:47:21Z",
+  "stars": 1,
+  "collected_at": "2026-05-07T03:47:32.085756",
+  "summary": "该项目系统梳理了Fromager技术的核心概念与操作流程，重点解析了其配置中的关键参数调优方法（如缓存策略与并发控制），并对比了不同场景下的最佳实践，帮助开发者避免常见陷阱，提升工具应用效率。",
+  "score": 9,
+  "tags": [
+    "Fromager",
+    "参数调优",
+    "场景对比",
+    "配置指南"
+  ],
+  "analyzed": true
+}

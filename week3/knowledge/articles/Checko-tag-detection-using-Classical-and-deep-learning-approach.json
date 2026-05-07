@@ -1,0 +1,21 @@
+{
+  "id": "github_1226269669",
+  "source": "github",
+  "title": "Checko-tag-detection-using-Classical-and-deep-learning-approach",
+  "description": "A deep learning pipeline for detecting 4-corner keypoints of tags/markers in images using a fine-tuned DETR (DEtection TRansformer) model with a custom keypoint regression head.",
+  "url": "https://github.com/subramaniamani/Checko-tag-detection-using-Classical-and-deep-learning-approach",
+  "updated_at": "2026-05-07T03:47:14Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T03:47:32.085772",
+  "summary": "该项目基于微调DETR模型，创新性地引入自定义关键点回归头，实现了对图像中标签/标记四角关键点的高精度检测。通过结合Transformer架构与回归损失优化，在复杂背景和遮挡场景下仍能保持鲁棒性，显著优于传统目标检测方法。",
+  "score": 9,
+  "tags": [
+    "DETR",
+    "关键点检测",
+    "Transformer",
+    "微调模型",
+    "图像处理",
+    "回归头"
+  ],
+  "analyzed": true
+}

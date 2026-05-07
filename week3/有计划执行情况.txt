@@ -1,0 +1,143 @@
+E:\myProject\MyProject\aiKnowledge-merged\week3>python workflows\graph.py
+C:\Users\xwx14\AppData\Roaming\Python\Python313\site-packages\langgraph\cache\base\__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+INFO:__main__:工作流图编译完成，开始执行
+INFO:planner:[Planner] 目标 10 条 → standard 策略 (per_source=10, threshold=0.5, max_iter=2)
+
+==================================================
+[planner] 输出摘要:
+  策略: standard | 目标: 10 条
+  每源上限: 10 | 阈值: 0.5 | 最大迭代: 2
+INFO:nodes:[CollectNode] 开始采集 GitHub 数据
+INFO:nodes:[CollectNode] 采集完成，共 10 条
+
+==================================================
+[collect] 输出摘要:
+  采集条目数: 10
+  - learning-fromager (github_1038774065)
+  - lextures (github_849705737)
+  - tech-learning-and-projects (github_1118100033)
+  ... 及其他 7 条
+INFO:nodes:[AnalyzeNode] 开始分析 10 条数据
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:nodes:[AnalyzeNode] 分析完成，共 10 条
+
+==================================================
+[analyze] 输出摘要:
+  分析条目数: 10
+  - [7] learning-fromager | ['Fromager', '技术指南', '工具学习', '最佳实践']
+  - [7] lextures | ['自适应学习', '智能教育', '学习路径优化']
+  - [7] tech-learning-and-projects | ['技术学习', '实践项目', '代码示例', '学习笔记']
+  ... 及其他 7 条
+  Token 累计: 1919 | 调用次数: 10
+INFO:nodes:[OrganizeNode] 开始整理数据
+INFO:nodes:[OrganizeNode] 低分过滤后剩余 9 条 (threshold=0.5, score>=5)
+INFO:nodes:[OrganizeNode] 整理完成，共 9 条
+
+==================================================
+[organize] 输出摘要:
+  整理后条目数: 9
+  - [7] learning-fromager
+  - [7] lextures
+  - [7] tech-learning-and-projects
+  ... 及其他 6 条
+  Token 累计: 1919 | 调用次数: 10
+INFO:nodes:[ReviewNode] 开始审核
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:nodes:[ReviewNode] 评分: summary=7, depth=6, relevance=8, originality=5, formatting=9, weighted=6.95
+INFO:nodes:[ReviewNode] 审核结果: passed=False, weighted=6.95, iteration=0->1
+
+==================================================
+[review] 输出摘要:
+  审核通过: False
+  当前轮次: 1
+  反馈: 整体质量良好，但部分条目（如github_1038774065和github_849705737）摘要略显泛化，缺乏具体技术细节或独到见解；原创性普遍中等，多为学习笔记或常见技术应用，建议在摘要中突出独特方法或创新点。
+  Token 累计: 2550 | 调用次数: 11
+INFO:nodes:[ReviseNode] 开始修订
+INFO:nodes:[ReviseNode] 弱项维度: ['summary_quality']
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:nodes:[ReviseNode] 修订完成，共 9 条
+
+==================================================
+[revise] 输出摘要:
+  修订条目数: 9
+  Token 累计: 5215 | 调用次数: 20
+INFO:nodes:[ReviewNode] 开始审核
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:nodes:[ReviewNode] 评分: summary=7, depth=6, relevance=8, originality=7, formatting=8, weighted=7.10
+INFO:nodes:[ReviewNode] 审核结果: passed=True, weighted=7.10, iteration=1->1
+
+==================================================
+[review] 输出摘要:
+  审核通过: True
+  当前轮次: 1
+  反馈: 部分条目摘要存在引用其他条目ID（如github_1038774065）或表述不够完整（如第1条摘要末尾省略），建议补充完整描述并避免内部引用。标签方面，第4条标签缺少'异步'等关键术语，第5条标签可增加'回归头'以更精准。整体技术深度中等，部分条目缺乏具体数据或实验细节。
+  Token 累计: 5970 | 调用次数: 21
+INFO:nodes:[SaveNode] 开始保存 9 篇文章
+INFO:nodes:[SaveNode] 保存完成，共 9 篇，索引 164 条
+
+==================================================
+[save] 输出摘要:
+  保存文章数: 9
+
+==================================================
+工作流执行完毕

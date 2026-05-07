@@ -112,11 +112,11 @@ if __name__ == "__main__":
         print(f"[{node_name}] 输出摘要:")
 
         if node_name == "planner":
-        plan = node_output.get("plan", {})
-        print(f"  策略: {plan.get('tier', '?')} | 目标: {plan.get('target_count', '?')} 条")
-        print(f"  每源上限: {plan.get('per_source_limit', '?')} | 阈值: {plan.get('relevance_threshold', '?')} | 最大迭代: {plan.get('max_iterations', '?')}")
+            plan = node_output.get("plan", {})
+            print(f"  策略: {plan.get('tier', '?')} | 目标: {plan.get('target_count', '?')} 条")
+            print(f"  每源上限: {plan.get('per_source_limit', '?')} | 阈值: {plan.get('relevance_threshold', '?')} | 最大迭代: {plan.get('max_iterations', '?')}")
 
-    elif node_name == "collect":
+        elif node_name == "collect":
             sources = node_output.get("sources", [])
             print(f"  采集条目数: {len(sources)}")
             for s in sources[:3]:
