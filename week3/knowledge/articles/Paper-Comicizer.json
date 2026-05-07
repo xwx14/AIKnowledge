@@ -1,0 +1,21 @@
+{
+  "id": "github_1120287044",
+  "source": "github",
+  "title": "Paper-Comicizer",
+  "description": "📚 Transform academic PDFs into engaging Doraemon comics for easier understanding and fun learning experiences.",
+  "url": "https://github.com/Makena123456/Paper-Comicizer",
+  "updated_at": "2026-05-07T02:53:46Z",
+  "stars": 1,
+  "collected_at": "2026-05-07T02:54:32.980174",
+  "summary": "该项目通过OCR提取PDF文本，结合GPT-4生成漫画脚本与分镜，再调用Stable Diffusion绘制哆啦A梦风格角色与场景，最终输出带气泡对话的连环漫画。技术亮点包括：基于LayoutLM的版面解析、角色一致性保持算法、以及多模态对齐的叙事流生成。",
+  "score": 7,
+  "tags": [
+    "AI漫画生成",
+    "学术可视化",
+    "PDF转换",
+    "教育娱乐化",
+    "多模态对齐",
+    "角色一致性"
+  ],
+  "analyzed": true
+}

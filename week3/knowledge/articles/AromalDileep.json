@@ -1,0 +1,20 @@
+{
+  "id": "github_1103726262",
+  "source": "github",
+  "title": "AromalDileep",
+  "description": "Hello!  I'm Aromal Dileep. This is where I build, break, and learn with Machine Learning",
+  "url": "https://github.com/AromalDileep/AromalDileep",
+  "updated_at": "2026-05-07T02:54:10Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980149",
+  "summary": "个人GitHub主页，重点展示了多个机器学习项目的完整构建过程，包括使用PyTorch实现的图像分类模型调试、基于Scikit-learn的特征工程优化，以及端到端的模型部署实践，体现了从数据预处理到模型调优的工程化能力。",
+  "score": 8,
+  "tags": [
+    "机器学习",
+    "PyTorch",
+    "特征工程",
+    "模型部署",
+    "GitHub"
+  ],
+  "analyzed": true
+}

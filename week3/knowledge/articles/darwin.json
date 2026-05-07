@@ -1,0 +1,19 @@
+{
+  "id": "github_1024676006",
+  "source": "github",
+  "title": "darwin",
+  "description": "🌐 Streamline your AI/ML workflows with Darwin, the end-to-end machine learning platform for scalable and efficient production deployment.",
+  "url": "https://github.com/Muserano/darwin",
+  "updated_at": "2026-05-07T02:53:52Z",
+  "stars": 1,
+  "collected_at": "2026-05-07T02:54:32.980166",
+  "summary": "Darwin 是一个端到端机器学习平台，通过内置特征存储、自动模型调优和 Kubernetes 原生部署，实现从数据预处理到生产推理的零配置工作流，显著降低 MLOps 工程复杂度。",
+  "score": 9,
+  "tags": [
+    "机器学习平台",
+    "MLOps",
+    "Kubernetes部署",
+    "自动调优"
+  ],
+  "analyzed": true
+}

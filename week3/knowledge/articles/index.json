@@ -2302,5 +2302,243 @@
       "测试覆盖率"
     ],
     "score": 6
+  },
+  {
+    "id": "github_1120440628",
+    "title": "heart-disease-risk-prediction-mlp",
+    "url": "https://github.com/dnlC9/heart-disease-risk-prediction-mlp",
+    "tags": [
+      "多层感知机",
+      "特征工程",
+      "机器学习流水线",
+      "交互式仪表盘",
+      "心脏病风险预测"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1018743208",
+    "title": "go-react-angular-expense-tracker",
+    "url": "https://github.com/t0n1ks/go-react-angular-expense-tracker",
+    "tags": [
+      "Go",
+      "React",
+      "Angular",
+      "全栈开发",
+      "费用追踪",
+      "JWT认证",
+      "RESTful API",
+      "SQLite"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1103726262",
+    "title": "AromalDileep",
+    "url": "https://github.com/AromalDileep/AromalDileep",
+    "tags": [
+      "机器学习",
+      "PyTorch",
+      "特征工程",
+      "模型部署",
+      "GitHub"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_977699163",
+    "title": "Fake-News-Detection-1",
+    "url": "https://github.com/Dhacks-png/Fake-News-Detection-1",
+    "tags": [
+      "假新闻检测",
+      "逻辑回归",
+      "TF-IDF",
+      "LIAR数据集",
+      "文本分类",
+      "特征工程"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_717559450",
+    "title": "chrisfalvey.github.io",
+    "url": "https://github.com/chrisfalvey/chrisfalvey.github.io",
+    "tags": [
+      "个人网站",
+      "学习设计",
+      "Python",
+      "数据建模",
+      "学习分析"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1212670635",
+    "title": "SemanticAwareScheduling",
+    "url": "https://github.com/krishC1234/SemanticAwareScheduling",
+    "tags": [
+      "分布式深度学习",
+      "任务调度",
+      "Slurm",
+      "语义感知",
+      "资源优化",
+      "拓扑解析",
+      "动态优先级"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1120331175",
+    "title": "Documentations",
+    "url": "https://github.com/krisnaaaaaaaaaaaa/Documentations",
+    "tags": [
+      "前端开发",
+      "技术文档",
+      "React",
+      "Webpack",
+      "CSS",
+      "工程实践"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1228666973",
+    "title": "e-learning",
+    "url": "https://github.com/wednesday28/e-learning",
+    "tags": [
+      "在线学习",
+      "Spring Boot",
+      "Vue",
+      "课程管理",
+      "JWT认证",
+      "Redis缓存",
+      "Elasticsearch搜索",
+      "WebSocket"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1120336979",
+    "title": "schullegerhard",
+    "url": "https://github.com/fitriadijamil/schullegerhard",
+    "tags": [
+      "Solidity",
+      "Web3.js",
+      "以太坊",
+      "DApps",
+      "智能合约",
+      "NFT",
+      "Chainlink"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1231289059",
+    "title": "Customer-Churn-Prediction-System",
+    "url": "https://github.com/Sasanksurya/Customer-Churn-Prediction-System",
+    "tags": [
+      "客户流失预测",
+      "机器学习",
+      "随机森林",
+      "XGBoost",
+      "Streamlit",
+      "特征工程",
+      "AUC优化"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1024676006",
+    "title": "darwin",
+    "url": "https://github.com/Muserano/darwin",
+    "tags": [
+      "机器学习平台",
+      "MLOps",
+      "Kubernetes部署",
+      "自动调优"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1224062666",
+    "title": "python-learning",
+    "url": "https://github.com/xhatch800/python-learning",
+    "tags": [
+      "Python",
+      "编程学习",
+      "代码示例",
+      "数据结构",
+      "算法实现"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1231503790",
+    "title": "RLT",
+    "url": "https://github.com/rqzhu-aide/RLT",
+    "tags": [
+      "随机森林",
+      "强化学习",
+      "线性组合分裂",
+      "方差估计",
+      "生存分析",
+      "节点分裂优化"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_922217795",
+    "title": "Project-Analisis-Sentimen-Review-Film-Mata-Kuliah-Machine-Learning",
+    "url": "https://github.com/Samirxz00/Project-Analisis-Sentimen-Review-Film-Mata-Kuliah-Machine-Learning",
+    "tags": [
+      "情感分析",
+      "NLP",
+      "BERT",
+      "LSTM",
+      "IMDB数据集",
+      "模型对比"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1120287044",
+    "title": "Paper-Comicizer",
+    "url": "https://github.com/Makena123456/Paper-Comicizer",
+    "tags": [
+      "AI漫画生成",
+      "学术可视化",
+      "PDF转换",
+      "教育娱乐化",
+      "多模态对齐",
+      "角色一致性"
+    ],
+    "score": 7
+  },
+  {
+    "id": "github_1231456390",
+    "title": "dementia-mirna-ml-classification",
+    "url": "https://github.com/benjaminzluo-pixel/dementia-mirna-ml-classification",
+    "tags": [
+      "miRNA标志物",
+      "机器学习分类",
+      "痴呆鉴别诊断",
+      "特征选择",
+      "神经退行性疾病"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1181363336",
+    "title": "sql-learning-series",
+    "url": "https://github.com/vishalsvnayar/sql-learning-series",
+    "tags": [
+      "SQL",
+      "数据分析",
+      "学习路径",
+      "窗口函数",
+      "查询优化",
+      "实战案例"
+    ],
+    "score": 9
   }
 ]

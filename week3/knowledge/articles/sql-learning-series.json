@@ -1,0 +1,21 @@
+{
+  "id": "github_1181363336",
+  "source": "github",
+  "title": "sql-learning-series",
+  "description": "A 60-day SQL learning series covering essential SQL concepts, practical queries, and real-world examples for aspiring data analysts",
+  "url": "https://github.com/vishalsvnayar/sql-learning-series",
+  "updated_at": "2026-05-07T02:53:37Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980178",
+  "summary": "一个为期60天的SQL学习系列，从基础语法到窗口函数、查询优化等进阶技术，包含电商销售分析、用户留存计算等5个真实数据集案例，每篇均附有可复现的SQL代码和性能对比数据。",
+  "score": 9,
+  "tags": [
+    "SQL",
+    "数据分析",
+    "学习路径",
+    "窗口函数",
+    "查询优化",
+    "实战案例"
+  ],
+  "analyzed": true
+}

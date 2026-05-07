@@ -23,6 +23,7 @@ from nodes import (
     revise_node,
     save_node,
 )
+from planner import planner_node
 from state import KBState
 
 logger = logging.getLogger(__name__)
@@ -51,6 +52,7 @@ def build_graph() -> StateGraph:
     """
     graph = StateGraph(KBState)
 
+    graph.add_node("planner", planner_node)
     graph.add_node("collect", collect_node)
     graph.add_node("analyze", analyze_node)
     graph.add_node("organize", organize_node)
@@ -59,8 +61,9 @@ def build_graph() -> StateGraph:
     graph.add_node("human_flag", human_flag_node)
     graph.add_node("save", save_node)
 
-    graph.set_entry_point("collect")
+    graph.set_entry_point("planner")
 
+    graph.add_edge("planner", "collect")
     graph.add_edge("collect", "analyze")
     graph.add_edge("analyze", "organize")
     graph.add_edge("organize", "review")
@@ -108,7 +111,12 @@ if __name__ == "__main__":
         print(f"\n{'=' * 50}")
         print(f"[{node_name}] 输出摘要:")
 
-        if node_name == "collect":
+        if node_name == "planner":
+        plan = node_output.get("plan", {})
+        print(f"  策略: {plan.get('tier', '?')} | 目标: {plan.get('target_count', '?')} 条")
+        print(f"  每源上限: {plan.get('per_source_limit', '?')} | 阈值: {plan.get('relevance_threshold', '?')} | 最大迭代: {plan.get('max_iterations', '?')}")
+
+    elif node_name == "collect":
             sources = node_output.get("sources", [])
             print(f"  采集条目数: {len(sources)}")
             for s in sources[:3]:

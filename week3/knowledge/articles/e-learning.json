@@ -1,0 +1,23 @@
+{
+  "id": "github_1228666973",
+  "source": "github",
+  "title": "e-learning",
+  "description": null,
+  "url": "https://github.com/wednesday28/e-learning",
+  "updated_at": "2026-05-07T02:53:56Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980158",
+  "summary": "基于Spring Boot + Vue前后端分离架构的在线学习平台，实现了课程管理（含章节视频上传与播放）、用户认证（JWT Token）、权限控制（学生/教师/管理员三级角色）及在线考试（自动评分）等核心功能。项目亮点包括：使用Redis缓存热门课程数据提升响应速度，通过Elasticsearch实现课程全文检索，并集成WebSocket实现实时消息通知。",
+  "score": 8,
+  "tags": [
+    "在线学习",
+    "Spring Boot",
+    "Vue",
+    "课程管理",
+    "JWT认证",
+    "Redis缓存",
+    "Elasticsearch搜索",
+    "WebSocket"
+  ],
+  "analyzed": true
+}

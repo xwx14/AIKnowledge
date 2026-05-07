@@ -13,7 +13,7 @@ class KBState(TypedDict):
     各节点通过读写此状态进行协作，字段值为结构化摘要，
     不是未经处理的原始数据，确保状态可追溯、可调试。
     """
-
+    plan: dict # 计划
     sources: list[dict]
     """采集到的原始数据。
 

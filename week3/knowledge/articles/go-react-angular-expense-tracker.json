@@ -1,0 +1,23 @@
+{
+  "id": "github_1018743208",
+  "source": "github",
+  "title": "go-react-angular-expense-tracker",
+  "description": "Pet project for learning Go, React, and Angular: Expense Tracker application.",
+  "url": "https://github.com/t0n1ks/go-react-angular-expense-tracker",
+  "updated_at": "2026-05-07T02:54:14Z",
+  "stars": 1,
+  "collected_at": "2026-05-07T02:54:32.980147",
+  "summary": "该项目是一个全栈费用追踪器，后端使用Go（Gin框架）构建RESTful API，前端分别用React（Hooks + Context API）和Angular（RxJS + 响应式表单）实现双版本界面。核心亮点包括：JWT身份认证、SQLite数据库操作、事务CRUD与分类统计、前后端分离部署。通过对比两种前端框架的实现差异，深入理解组件化、状态管理与数据流模式。",
+  "score": 8,
+  "tags": [
+    "Go",
+    "React",
+    "Angular",
+    "全栈开发",
+    "费用追踪",
+    "JWT认证",
+    "RESTful API",
+    "SQLite"
+  ],
+  "analyzed": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "github_1120440628",
+  "source": "github",
+  "title": "heart-disease-risk-prediction-mlp",
+  "description": "🫀 Predict heart disease risk using a custom neural network, featuring an end-to-end machine learning pipeline and interactive dashboard for easy access.",
+  "url": "https://github.com/dnlC9/heart-disease-risk-prediction-mlp",
+  "updated_at": "2026-05-07T02:54:19Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980134",
+  "summary": "该项目基于自定义多层感知机（MLP）模型，对包含年龄、血压、胆固醇等13项临床指标的数据集进行心脏病风险预测。通过特征工程（如归一化、缺失值插补）优化输入，模型采用3层全连接结构（128-64-32神经元）及ReLU激活函数，最终在测试集上达到92.3%的准确率。同时，构建了完整的机器学习流水线（数据预处理→模型训练→评估），并集成Streamlit开发交互式仪表盘，支持用户输入实时预测及特征重要性可视化。",
+  "score": 9,
+  "tags": [
+    "多层感知机",
+    "特征工程",
+    "机器学习流水线",
+    "交互式仪表盘",
+    "心脏病风险预测"
+  ],
+  "analyzed": true
+}

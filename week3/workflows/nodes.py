@@ -73,11 +73,14 @@ def collect_node(state: KBState) -> dict:
     """
     logger.info("[CollectNode] 开始采集 GitHub 数据")
 
+    plan = state.get("plan", {}) or {}
+    per_source_limit = int(plan.get("per_source_limit", 10))
+
     params = urlencode({
         "q": GITHUB_QUERY,
         "sort": "updated",
         "order": "desc",
-        "per_page": 20,
+        "per_page": per_source_limit,
     })
     url = f"{GITHUB_SEARCH_URL}?{params}"
 
@@ -158,7 +161,7 @@ def analyze_node(state: KBState) -> dict:
 def organize_node(state: KBState) -> dict:
     """整理节点：过滤低分、URL 去重，有审核反馈时调用 LLM 修正。
 
-    - 过滤 score < 6 的低分条目
+    - 过滤低于 plan.relevance_threshold 对应分数的低分条目
     - 按 URL 去重
     - iteration > 0 且有 review_feedback 时，调用 LLM 定向修改摘要/标签/评分
     """
@@ -168,6 +171,10 @@ def organize_node(state: KBState) -> dict:
     items = list(state.get("analyses", []))
     iteration = state.get("iteration", 0)
     feedback = state.get("review_feedback", "")
+
+    plan = state.get("plan", {}) or {}
+    relevance_threshold = float(plan.get("relevance_threshold", 0.5))
+    score_threshold = int(relevance_threshold * 10)
 
     # 审核修正轮次：根据反馈用 LLM 定向修改
     if iteration > 0 and feedback:
@@ -195,9 +202,9 @@ def organize_node(state: KBState) -> dict:
             revised.append(item)
         items = revised
 
-    # 过滤低分条目（score < 6）
-    items = [it for it in items if it.get("score", 0) >= 6]
-    logger.info("[OrganizeNode] 低分过滤后剩余 %d 条", len(items))
+    # 过滤低分条目（score < relevance_threshold * 10）
+    items = [it for it in items if it.get("score", 0) >= score_threshold]
+    logger.info("[OrganizeNode] 低分过滤后剩余 %d 条 (threshold=%.1f, score>=%d)", len(items), relevance_threshold, score_threshold)
 
     # URL 去重
     seen_urls: set[str] = set()
@@ -225,7 +232,7 @@ _PASS_THRESHOLD = 7.0
 
 
 def review_node(state: KBState) -> dict:
-    """审核节点：LLM 五维度加权评分（1-10），iteration >= 2 强制通过。
+    """审核节点：LLM 五维度加权评分（1-10），iteration >= max_iterations 强制通过。
 
     审核对象为 state["analyses"]，仅前 5 条（控 token）。
     五维度与权重：
@@ -240,9 +247,11 @@ def review_node(state: KBState) -> dict:
     logger.info("[ReviewNode] 开始审核")
 
     iteration = state.get("iteration", 0)
+    plan = state.get("plan", {}) or {}
+    max_iterations = int(plan.get("max_iterations", 3))
 
-    if iteration >= 2:
-        logger.info("[ReviewNode] iteration=%d >= 2，强制通过", iteration)
+    if iteration >= max_iterations:
+        logger.info("[ReviewNode] iteration=%d >= max_iterations=%d，强制通过", iteration, max_iterations)
         return {"review_passed": True, "review_feedback": "", "iteration": iteration}
 
     cost = dict(state.get("cost_tracker", {}))
