@@ -1,0 +1,28 @@
+{
+  "total_cost": 0.003497,
+  "total_prompt_tokens": 1979,
+  "total_completion_tokens": 759,
+  "total_calls": 11,
+  "budget": 1.0,
+  "usage_ratio": 0.003497,
+  "by_node": {
+    "analyze": {
+      "prompt_tokens": 1434,
+      "completion_tokens": 631,
+      "cost_yuan": 0.0026959999999999996,
+      "calls": 10,
+      "models": [
+        "deepseek-chat"
+      ]
+    },
+    "review": {
+      "prompt_tokens": 545,
+      "completion_tokens": 128,
+      "cost_yuan": 0.0008010000000000001,
+      "calls": 1,
+      "models": [
+        "deepseek-chat"
+      ]
+    }
+  }
+}

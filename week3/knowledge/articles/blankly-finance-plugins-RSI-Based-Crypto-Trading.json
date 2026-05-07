@@ -1,0 +1,20 @@
+{
+  "id": "github_1222765980",
+  "source": "github",
+  "title": "blankly-finance-plugins-RSI-Based-Crypto-Trading",
+  "description": "Blankly-Finance-Plugin: Advanced RSI-Trading-Strategy and Machine-Learning tools. Features a Technical-Analysis-API for Crypto-Asset-Management.",
+  "url": "https://github.com/Proxopnn/blankly-finance-plugins-RSI-Based-Crypto-Trading",
+  "updated_at": "2026-05-07T07:46:03Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T07:46:22.995634",
+  "summary": "基于RSI指标的高级加密货币交易策略插件，集成机器学习工具和技术分析API，支持数字资产自动管理。",
+  "score": 7,
+  "tags": [
+    "加密货币交易",
+    "RSI策略",
+    "技术分析API",
+    "机器学习",
+    "金融插件"
+  ],
+  "analyzed": true
+}

@@ -10,11 +10,13 @@
 未通过且 iteration >= 3 走 human_flag 终止。
 """
 
+import json
 import logging
 
 from langgraph.graph import END, StateGraph
 
 from human_flag import human_flag_node
+from model_client import get_cost_guard
 from nodes import (
     analyze_node,
     collect_node,
@@ -166,3 +168,25 @@ if __name__ == "__main__":
 
     print(f"\n{'=' * 50}")
     print("工作流执行完毕")
+
+    cost_guard = get_cost_guard()
+    report = cost_guard.get_report()
+    print(f"\n{'=' * 50}")
+    print("成本报告")
+    print(f"{'=' * 50}")
+    print(f"  总成本  : ¥{report['total_cost']:.6f}")
+    print(f"  预算    : ¥{report['budget']:.2f}")
+    print(f"  用量比  : {report['usage_ratio']:.1%}")
+    print(f"  总调用  : {report['total_calls']}")
+    print(f"  输入    : {report['total_prompt_tokens']:,} tokens")
+    print(f"  输出    : {report['total_completion_tokens']:,} tokens")
+    for name, info in report.get("by_node", {}).items():
+        print(f"\n  [{name}]")
+        print(f"    调用  : {info['calls']}")
+        print(f"    输入  : {info['prompt_tokens']:,} tokens")
+        print(f"    输出  : {info['completion_tokens']:,} tokens")
+        print(f"    成本  : ¥{info['cost_yuan']:.6f}")
+        print(f"    模型  : {', '.join(info['models'])}")
+    report_path = cost_guard.save_report("cost_report.json")
+    print(f"\n  报告已保存: {report_path}")
+    print(f"{'=' * 50}")

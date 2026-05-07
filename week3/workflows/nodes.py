@@ -9,10 +9,15 @@ import hashlib
 import json
 import logging
 import re
+import sys
 import urllib.request
 from datetime import datetime
+from pathlib import Path
 from typing import Any
 from urllib.parse import urlencode
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tests"))
+from security import sanitize_input, secure_output
 
 from config import ARTICLES_DIR
 from model_client import Usage, chat, chat_json, chat_with_retry
@@ -94,11 +99,17 @@ def collect_node(state: KBState) -> dict:
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             for item in data.get("items", []):
+                raw_title = item.get("name", "")
+                raw_desc = item.get("description", "") or ""
+                clean_title, t_warn = sanitize_input(raw_title)
+                clean_desc, d_warn = sanitize_input(raw_desc)
+                if t_warn or d_warn:
+                    logger.warning("[CollectNode] 采集条目注入检测: id=%s, warnings=%s", item.get("id"), t_warn + d_warn)
                 sources.append({
                     "id": f"github_{item['id']}",
                     "source": "github",
-                    "title": item.get("name", ""),
-                    "description": item.get("description", ""),
+                    "title": clean_title,
+                    "description": clean_desc,
                     "url": item.get("html_url", ""),
                     "updated_at": item.get("updated_at", ""),
                     "stars": item.get("stargazers_count", 0),
@@ -136,7 +147,7 @@ def analyze_node(state: KBState) -> dict:
             f"来源：{item.get('url', '')}"
         )
         try:
-            text, usage = chat(prompt, system_prompt)
+            text, usage = chat(prompt, system_prompt, node_name="analyze")
             cost = accumulate_usage(cost, usage)
             result = _parse_json_from_text(text)
         except Exception as e:
@@ -191,7 +202,7 @@ def organize_node(state: KBState) -> dict:
                 f"当前评分：{item.get('score', 0)}"
             )
             try:
-                text, usage = chat(prompt, "你是一位严谨的内容审核修改专家。")
+                text, usage = chat(prompt, "你是一位严谨的内容审核修改专家。", node_name="organize")
                 cost = accumulate_usage(cost, usage)
                 result = _parse_json_from_text(text)
                 item["summary"] = result.get("summary", item.get("summary", ""))
@@ -205,6 +216,15 @@ def organize_node(state: KBState) -> dict:
     # 过滤低分条目（score < relevance_threshold * 10）
     items = [it for it in items if it.get("score", 0) >= score_threshold]
     logger.info("[OrganizeNode] 低分过滤后剩余 %d 条 (threshold=%.1f, score>=%d)", len(items), relevance_threshold, score_threshold)
+
+    # PII 过滤：对摘要脱敏
+    for item in items:
+        raw_summary = item.get("summary", "")
+        if raw_summary:
+            filtered_summary, pii_detections = secure_output(raw_summary, "organize")
+            if pii_detections:
+                logger.warning("[OrganizeNode] PII 检测: id=%s, detections=%d", item.get("id"), len(pii_detections))
+            item["summary"] = filtered_summary
 
     # URL 去重
     seen_urls: set[str] = set()
@@ -285,7 +305,7 @@ def review_node(state: KBState) -> dict:
     )
 
     try:
-        result, usage = chat_json(prompt, system_prompt, temperature=0.1)
+        result, usage = chat_json(prompt, system_prompt, temperature=0.1, node_name="review")
         cost = accumulate_usage(cost, usage)
 
         scores = result.get("scores", {})
@@ -454,7 +474,7 @@ def revise_node(state: KBState) -> dict:
                 {"role": "system", "content": "你是一位严谨的内容修订专家，擅长针对审核弱项定向改进。"},
                 {"role": "user", "content": prompt},
             ]
-            response = asyncio.run(chat_with_retry(messages, temperature=0.4))
+            response = asyncio.run(chat_with_retry(messages, temperature=0.4, node_name="revise"))
             cost = accumulate_usage(cost, response.usage)
             result = _parse_json_from_text(response.content)
             item["summary"] = result.get("summary", item.get("summary", ""))

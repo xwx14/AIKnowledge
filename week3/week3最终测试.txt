@@ -1,0 +1,211 @@
+python tests/cost_guard.py
+============================================================
+CostGuard 测试
+============================================================
+
+[测试1] 成本追踪正确
+  [PASS] total_prompt_tokens == 500000
+  [PASS] total_completion_tokens == 200000
+  [PASS] total_cost_yuan == 0.9
+  [PASS] 累加后 total_prompt_tokens == 600000
+  [PASS] 累加后 total_cost_yuan == 1.1
+
+[测试2] 预警阈值触发
+  [PASS] status == "warning" (实际: warning)
+  [PASS] usage_ratio >= 0.8 (实际: 80.00%)
+
+[测试3] 预算超限检测
+  [PASS] 抛出 BudgetExceededError
+
+[测试4] 正常状态
+  [PASS] status == "ok" (实际: ok)
+
+[测试5] 报告生成
+  [PASS] total_calls == 3 (实际: 3)
+  [PASS] by_node 包含 analyze
+  [PASS] by_node 包含 review
+  [PASS] analyze 调用 2 次
+  [PASS] review 调用 1 次
+
+[测试6] 保存报告
+  [PASS] 报告文件已创建
+  [PASS] 保存后 total_calls == 3
+
+============================================================
+测试结果: 16 通过, 0 失败
+============================================================
+
+E:\myProject\MyProject\aiKnowledge-merged\week3>python3 tests/security.py
+
+E:\myProject\MyProject\aiKnowledge-merged\week3>python tests/security.py
+============================================================
+Agent 安全防护测试
+============================================================
+
+[测试1] 输入清洗（防 Prompt 注入）
+  [PASS] 正常输入保留
+  [PASS] 正常输入无警告
+  [PASS] 注入检测触发 (2 条警告)
+  [PASS] 中文注入检测触发 (1 条警告)
+  [PASS] 控制字符已清除
+  [PASS] 超长输入已截断
+  [PASS] 截断警告存在
+
+[测试2] 输出过滤（PII 检测）
+  [PASS] 手机号已掩码
+  [PASS] 邮箱已掩码
+  [PASS] IP 已掩码
+  [PASS] 检测到 3 条 PII (实际: 3)
+  [PASS] 干净文本无 PII 检测
+  [PASS] 身份证号已掩码
+  [PASS] 信用卡号已掩码
+
+[测试3] 速率限制（滑动窗口）
+  [PASS] 第1次调用允许
+  [PASS] 第2次调用允许
+  [PASS] 第3次调用允许
+  [PASS] 第4次调用被限流
+  [PASS] 剩余次数为 0
+  [PASS] 新用户剩余 3 次
+  [PASS] 窗口内剩余为 0
+  [PASS] 窗口过期后剩余恢复
+
+[测试4] 审计日志
+  [PASS] 共 3 条记录 (实际: 3)
+  [PASS] 共 2 条警告 (实际: 2)
+  [PASS] by_type 包含 INPUT
+  [PASS] by_type 包含 OUTPUT
+  [PASS] 审计日志文件已创建
+  [PASS] 导出 3 条记录 (实际: 3)
+
+[测试5] 便捷集成函数 (secure_input / secure_output)
+  [PASS] secure_input 返回 str
+  [PASS] secure_output 已掩码 PII
+  [PASS] 限流集成函数生效
+
+============================================================
+测试结果: 31 通过, 0 失败
+============================================================
+
+E:\myProject\MyProject\aiKnowledge-merged\week3>python workflows\graph.py
+C:\Users\xwx14\AppData\Roaming\Python\Python313\site-packages\langgraph\cache\base\__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+INFO:__main__:工作流图编译完成，开始执行
+INFO:planner:[Planner] 目标 10 条 → standard 策略 (per_source=10, threshold=0.5, max_iter=2)
+
+==================================================
+[planner] 输出摘要:
+  策略: standard | 目标: 10 条
+  每源上限: 10 | 阈值: 0.5 | 最大迭代: 2
+INFO:nodes:[CollectNode] 开始采集 GitHub 数据
+INFO:nodes:[CollectNode] 采集完成，共 10 条
+
+==================================================
+[collect] 输出摘要:
+  采集条目数: 10
+  - Applied-Machine-Learning-Course (github_503650803)
+  - New-Grad-Data-Science-Jobs-2026 (github_1037580209)
+  - Java-Learning-Journey (github_1227944772)
+  ... 及其他 7 条
+INFO:nodes:[AnalyzeNode] 开始分析 10 条数据
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:nodes:[AnalyzeNode] 分析完成，共 10 条
+
+==================================================
+[analyze] 输出摘要:
+  分析条目数: 10
+  - [8] Applied-Machine-Learning-Course | ['机器学习', '深度学习', '进化算法', '实践课程', 'GitHub资源']
+  - [8] New-Grad-Data-Science-Jobs-2026 | ['数据科学', '机器学习', '应届生招聘', '美国就业', 'AI']
+  - [7] Java-Learning-Journey | ['Java', '编程学习', 'GitHub项目', '技术教程']
+  ... 及其他 7 条
+  Token 累计: 2065 | 调用次数: 10
+INFO:nodes:[OrganizeNode] 开始整理数据
+INFO:nodes:[OrganizeNode] 低分过滤后剩余 10 条 (threshold=0.5, score>=5)
+INFO:nodes:[OrganizeNode] 整理完成，共 10 条
+
+==================================================
+[organize] 输出摘要:
+  整理后条目数: 10
+  - [8] Applied-Machine-Learning-Course
+  - [8] New-Grad-Data-Science-Jobs-2026
+  - [7] Java-Learning-Journey
+  ... 及其他 7 条
+  Token 累计: 2065 | 调用次数: 10
+INFO:nodes:[ReviewNode] 开始审核
+INFO:model_client:Initialized deepseek provider with model deepseek-chat
+INFO:model_client:Sending request to deepseek-chat with 2 messages
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:nodes:[ReviewNode] 评分: summary=7, depth=6, relevance=8, originality=6, formatting=9, weighted=7.10
+INFO:nodes:[ReviewNode] 审核结果: passed=True, weighted=7.10, iteration=0->0
+
+==================================================
+[review] 输出摘要:
+  审核通过: True
+  当前轮次: 0
+  反馈: 多数条目摘要准确简洁，但部分缺乏深度（如Java-Learning-Journey仅罗列主题，未体现教学特色或难点）；技术深度普遍一般，缺少具体方法、数据或实验细节；原创性中等，多为常见资源整理。建议在摘要中增加独到见解或具体案例，提升技术描述的具体性。
+  Token 累计: 2738 | 调用次数: 11
+INFO:nodes:[SaveNode] 开始保存 10 篇文章
+INFO:nodes:[SaveNode] 保存完成，共 10 篇，索引 173 条
+
+==================================================
+[save] 输出摘要:
+  保存文章数: 10
+
+==================================================
+工作流执行完毕
+
+==================================================
+成本报告
+==================================================
+  总成本  : ¥0.003497
+  预算    : ¥1.00
+  用量比  : 0.3%
+  总调用  : 11
+  输入    : 1,979 tokens
+  输出    : 759 tokens
+
+  [analyze]
+    调用  : 10
+    输入  : 1,434 tokens
+    输出  : 631 tokens
+    成本  : ¥0.002696
+    模型  : deepseek-chat
+
+  [review]
+    调用  : 1
+    输入  : 545 tokens
+    输出  : 128 tokens
+    成本  : ¥0.000801
+    模型  : deepseek-chat
+
+  报告已保存: cost_report.json
+==================================================

@@ -8,11 +8,15 @@ import json
 import logging
 import os
 import re
+import sys
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from dotenv import load_dotenv
 from typing import Any, TextIO
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tests"))
+from cost_guard import BudgetExceededError, CostGuard
 
 # Load environment variables from .env file if it exists
 env_path = Path(__file__).parent.parent / ".env"
@@ -179,6 +183,30 @@ class CostTracker:
 
 
 tracker = CostTracker()
+
+_cost_guard: CostGuard | None = None
+
+
+def get_cost_guard() -> CostGuard:
+    """懒加载全局 CostGuard 单例。
+
+    budget_yuan 从环境变量 BUDGET_YUAN 读取（默认 1.0），
+    input/output 价格使用 COST_TABLE 中当前 provider 的价格。
+    """
+    global _cost_guard
+    if _cost_guard is not None:
+        return _cost_guard
+
+    provider_name = os.getenv("LLM_PROVIDER", "deepseek").lower()
+    prices = COST_TABLE.get(provider_name, {"input": 1.0, "output": 2.0})
+    budget = float(os.getenv("BUDGET_YUAN", "1.0"))
+
+    _cost_guard = CostGuard(
+        budget_yuan=budget,
+        input_price_per_million=prices["input"],
+        output_price_per_million=prices["output"],
+    )
+    return _cost_guard
 
 
 class LLMProvider(ABC):
@@ -361,6 +389,7 @@ async def chat_with_retry(
     temperature: float = 0.7,
     max_tokens: int | None = None,
     max_retries: int = 3,
+    node_name: str = "unknown",
 ) -> LLMResponse:
     """Send chat request with retry logic.
 
@@ -389,6 +418,10 @@ async def chat_with_retry(
                 max_tokens=max_tokens,
             )
             tracker.record(response.usage, provider_name)
+            model_name = model or PROVIDER_CONFIG.get(provider_name, {}).get("model", provider_name)
+            cost_guard = get_cost_guard()
+            cost_guard.record(node_name, {"prompt_tokens": response.usage.prompt_tokens, "completion_tokens": response.usage.completion_tokens}, model_name)
+            cost_guard.check()
             return response
         except httpx.HTTPError as e:
             if attempt < max_retries - 1:
@@ -469,19 +502,19 @@ async def quick_chat(
     return response.content
 
 
-def chat(prompt: str, system_prompt: str = "You are a helpful assistant.", temperature: float = 0.7) -> tuple[str, Usage]:
+def chat(prompt: str, system_prompt: str = "You are a helpful assistant.", temperature: float = 0.7, node_name: str = "unknown") -> tuple[str, Usage]:
     """Synchronous chat returning (text, usage) tuple."""
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": prompt},
     ]
-    response = asyncio.run(chat_with_retry(messages, temperature=temperature))
+    response = asyncio.run(chat_with_retry(messages, temperature=temperature, node_name=node_name))
     return response.content, response.usage
 
 
-def chat_json(prompt: str, system_prompt: str = "You are a helpful assistant.", temperature: float = 0.7) -> tuple[dict, Usage]:
+def chat_json(prompt: str, system_prompt: str = "You are a helpful assistant.", temperature: float = 0.7, node_name: str = "unknown") -> tuple[dict, Usage]:
     """Synchronous chat returning (parsed_json, usage) tuple."""
-    text, usage = chat(prompt, system_prompt, temperature=temperature)
+    text, usage = chat(prompt, system_prompt, temperature=temperature, node_name=node_name)
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if match:
         return json.loads(match.group()), usage

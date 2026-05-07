@@ -46,7 +46,7 @@ class Analyzer:
 
         try:
             messages = [{"role": "user", "content": prompt}]
-            response = await chat_with_retry(messages)
+            response = await chat_with_retry(messages, node_name="analyze")
             content = response.content.strip()
 
             json_match = re.search(r"\{.*\}", content, re.DOTALL)
