@@ -1,0 +1,19 @@
+{
+  "id": "github_1226513737",
+  "source": "github",
+  "title": "credito_banco",
+  "description": "Projeto de aprovação de crédito em banco usando Machine Learning",
+  "url": "https://github.com/gussntolv/credito_banco",
+  "summary": "This project involves developing a machine learning model for credit approval in a banking context. It likely uses historical financial data to predict loan default risk and automate decision-making. The work is relevant to AI applications in finance, particularly for risk assessment.",
+  "score": 0.85,
+  "tags": [
+    "credit approval",
+    "machine learning",
+    "banking",
+    "risk assessment",
+    "financial AI"
+  ],
+  "updated_at": "2026-05-01T14:05:29Z",
+  "collected_at": "2026-05-01T14:06:20.811475",
+  "analyzed": true
+}

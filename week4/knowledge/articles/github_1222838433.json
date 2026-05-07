@@ -1,0 +1,13 @@
+{
+  "id": "github_1222838433",
+  "source": "github",
+  "title": "phishing-email-detector",
+  "description": "This project is a phishing email detection system built using Python and machine learning. It uses natural language processing (NLP) and a Naive Bayes classifier to identify whether an email is phishing or legitimate. The model is trained on sample data and deployed for real-time prediction.",
+  "url": "https://github.com/patidaranushka1212/phishing-email-detector",
+  "summary": "",
+  "score": 0.0,
+  "tags": [],
+  "updated_at": "2026-05-01T14:03:21Z",
+  "collected_at": "2026-05-01T14:03:57.427434",
+  "analyzed": false
+}

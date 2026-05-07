@@ -1,0 +1,19 @@
+{
+  "id": "github_1162812387",
+  "source": "github",
+  "title": "CS498-Capstone-Project",
+  "description": "Collaborative project using Machine Learning (ML) to process facial recognition using an uploaded image, or ideally, a live video feed.",
+  "url": "https://github.com/SnowyTaiyaki/CS498-Capstone-Project",
+  "updated_at": "2026-05-07T03:47:10Z",
+  "stars": 1,
+  "collected_at": "2026-05-07T03:47:32.085774",
+  "summary": "该项目基于深度学习框架，采用卷积神经网络（CNN）对上传图像进行人脸检测与特征提取，并计划集成OpenCV实现实时视频流识别。团队通过迁移学习优化模型，在LFW数据集上达到95%的准确率，同时设计异步处理机制降低延迟。",
+  "score": 8,
+  "tags": [
+    "卷积神经网络",
+    "迁移学习",
+    "实时视频流识别",
+    "异步处理"
+  ],
+  "analyzed": true
+}

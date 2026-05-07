@@ -1,0 +1,2774 @@
+[
+  {
+    "id": "rss_434c8adc4a53",
+    "source": "rss",
+    "title": "<![CDATA[AI didn't delete your database, you did]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://idiallo.com/blog/ai-didnt-delete-your-database-you-did\">https://idiallo.com/blog/ai-didnt-delete-your-database-you-did</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48022742\">https://news.ycombinator.com/item?id=48022742</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>\n]]>",
+    "url": "https://idiallo.com/blog/ai-didnt-delete-your-database-you-did",
+    "summary": "文章标题指出AI本身不会删除你的数据库，而是用户自己操作的。内容强调AI工具只是执行指令，责任在于使用者。文章链接来自技术博客，并在Hacker News上有讨论。",
+    "score": 0.3,
+    "tags": [
+      "AI责任",
+      "数据库管理",
+      "技术误用",
+      "用户错误",
+      "AI工具"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:50.626423",
+    "analyzed": true
+  },
+  {
+    "id": "rss_9ba4b5774b8c",
+    "source": "rss",
+    "title": "<![CDATA[AI Product Graveyard]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://tooldirectory.ai/ai-graveyard\">https://tooldirectory.ai/ai-graveyard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48021968\">https://news.ycombinator.com/item?id=48021968</a></p>\n<p>Points: 104</p>\n<p># Comments: 45</p>\n]]>",
+    "url": "https://tooldirectory.ai/ai-graveyard",
+    "summary": "该内容是一个关于已停止运营或失败的AI产品列表（AI产品墓园），并附有相关讨论链接。它反映了AI行业中产品迭代与淘汰的现状。",
+    "score": 0.7,
+    "tags": [
+      "AI产品",
+      "产品失败",
+      "行业趋势",
+      "技术淘汰",
+      "工具目录"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:50.626437",
+    "analyzed": true
+  },
+  {
+    "id": "rss_ff5c508a260a",
+    "source": "rss",
+    "title": "<![CDATA[Google, Microsoft and xAI Agree to Share Early AI Models with U.S.]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/google-microsoft-and-xai-agree-to-share-early-ai-models-with-u-s-f95a88d1\">https://www.wsj.com/tech/ai/google-microsoft-and-xai-agree-to-share-early-ai-models-with-u-s-f95a88d1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48022551\">https://news.ycombinator.com/item?id=48022551</a></p>\n<p>Points: 10</p>\n<p># Comments: 5</p>\n]]>",
+    "url": "https://www.wsj.com/tech/ai/google-microsoft-and-xai-agree-to-share-early-ai-models-with-u-s-f95a88d1",
+    "summary": "谷歌、微软和xAI同意与美国政府共享早期AI模型，以便进行安全评估和测试。此举旨在加强AI监管合作，防范潜在风险。",
+    "score": 0.7,
+    "tags": [
+      "人工智能",
+      "AI安全",
+      "谷歌",
+      "微软",
+      "xAI"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:50.626433",
+    "analyzed": true
+  },
+  {
+    "id": "rss_304c0e02c990",
+    "source": "rss",
+    "title": "<![CDATA[Google Chrome silently installs a 4 GB AI model on your device without consent]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/\">https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48019219\">https://news.ycombinator.com/item?id=48019219</a></p>\n<p>Points: 549</p>\n<p># Comments: 474</p>\n]]>",
+    "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+    "summary": "文章指出Google Chrome在未经用户明确同意的情况下，静默安装了一个约4GB的AI模型到用户设备上。此举引发了关于隐私和用户自主权的担忧，因为用户可能未被告知或无法轻易删除该模型。",
+    "score": 0.9,
+    "tags": [
+      "隐私",
+      "Chrome",
+      "AI模型",
+      "用户同意",
+      "数据安全"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:50.626443",
+    "analyzed": true
+  },
+  {
+    "id": "rss_42b724c995fc",
+    "source": "rss",
+    "title": "<![CDATA[How OpenAI delivers low-latency voice AI at scale]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://openai.com/index/delivering-low-latency-voice-ai-at-scale/\">https://openai.com/index/delivering-low-latency-voice-ai-at-scale/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48013919\">https://news.ycombinator.com/item?id=48013919</a></p>\n<p>Points: 446</p>\n<p># Comments: 135</p>\n]]>",
+    "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+    "summary": "本文介绍了OpenAI如何在大规模部署中实现低延迟语音AI，重点讨论了技术架构和优化策略。文章还提供了相关链接和社区讨论的入口。",
+    "score": 0.9,
+    "tags": [
+      "OpenAI",
+      "语音AI",
+      "低延迟",
+      "大规模部署",
+      "人工智能"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:50.626446",
+    "analyzed": true
+  },
+  {
+    "id": "rss_f179dd9b6d02",
+    "source": "rss",
+    "title": "<![CDATA[When everyone has AI and the company still learns nothing]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/\">https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48020063\">https://news.ycombinator.com/item?id=48020063</a></p>\n<p>Points: 114</p>\n<p># Comments: 75</p>\n]]>",
+    "url": "https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/",
+    "summary": "本文探讨了即使每个员工都使用AI工具，企业组织仍可能无法从这些工具中有效学习或改进的问题。文章指出，缺乏系统化的知识管理和组织学习机制，是导致AI无法转化为集体智慧的关键原因。",
+    "score": 0.75,
+    "tags": [
+      "人工智能",
+      "知识管理",
+      "组织学习",
+      "AI应用",
+      "企业转型"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:50.626440",
+    "analyzed": true
+  },
+  {
+    "id": "rss_f55e1d6173d3",
+    "source": "rss",
+    "title": "Agent MetaSKILLs",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/yn0x8k/agent_metaskills\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://swival.dev/pages/metaskills.html",
+    "summary": "该内容标题为“Agent MetaSKILLs”，描述中仅包含指向外部讨论页面的链接，未提供具体技术内容或定义。因此无法提取有意义的摘要信息。",
+    "score": 0.1,
+    "tags": [
+      "AI代理",
+      "元技能",
+      "讨论链接"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844768",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a0477b9a452f",
+    "source": "rss",
+    "title": "AI Terminology is Poorly Defined and Oft Misused",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zleph2/ai_terminology_is_poorly_defined_oft\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://vale.rocks/posts/ai-terminology",
+    "summary": "文章指出当前AI领域的术语定义不清晰且经常被误用，导致概念混淆和沟通障碍。这反映了AI快速发展中缺乏统一、严谨的术语体系的问题。",
+    "score": 0.85,
+    "tags": [
+      "人工智能",
+      "术语定义",
+      "概念混淆",
+      "技术讨论",
+      "AI伦理"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844798",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229902674",
+    "source": "github",
+    "title": "astrophysics-learning",
+    "description": "small projects im using to learn computational astrophysics",
+    "url": "https://github.com/whiletruerun/astrophysics-learning",
+    "summary": "这是一个用于学习计算天体物理学的小型项目集合，标题为'astrophysics-learning'，描述中明确指出了其学习目的。",
+    "score": 0.2,
+    "tags": [
+      "计算天体物理学",
+      "天体物理学",
+      "学习项目"
+    ],
+    "updated_at": "2026-05-05T14:11:31Z",
+    "collected_at": "2026-05-05T14:20:48.245078",
+    "analyzed": true
+  },
+  {
+    "id": "github_1210858322",
+    "source": "github",
+    "title": "aws-cloud-engineering-mastery",
+    "description": "AWS Cloud Engineering Mastery: A structured repository dedicated to learning and implementing cloud infrastructure best practices. Includes fully functional Terraform scripts for building VPC networks, deploying EC2 instances, and enforcing robust S3 bucket security.",
+    "url": "https://github.com/TanyaMushonga/aws-cloud-engineering-mastery",
+    "summary": "该内容是一个关于AWS云工程技能的实践性学习资源库，主要提供Terraform脚本用于构建VPC网络、部署EC2实例和加强S3安全。它专注于云基础设施的最佳实践，而非通用人工智能或机器学习技术。",
+    "score": 0.2,
+    "tags": [
+      "AWS",
+      "云基础设施",
+      "Terraform",
+      "基础设施即代码"
+    ],
+    "updated_at": "2026-05-05T14:03:51Z",
+    "collected_at": "2026-05-05T14:20:48.245105",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229916072",
+    "source": "github",
+    "title": "axon",
+    "description": "Self learning app",
+    "url": "https://github.com/jasimedarath/axon",
+    "summary": "该内容描述了一个名为“axon”的自我学习应用程序（Self learning app），可能与AI驱动的个性化学习或自适应教育技术相关。但缺乏具体细节，无法判断其技术深度或应用场景。",
+    "score": 0.4,
+    "tags": [
+      "自我学习",
+      "教育应用",
+      "AI学习工具"
+    ],
+    "updated_at": "2026-05-05T13:58:56Z",
+    "collected_at": "2026-05-05T14:20:48.245112",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229936280",
+    "source": "github",
+    "title": "CPP_Learning",
+    "description": "It is just for learning C++ Basics and OOP",
+    "url": "https://github.com/Anees2025/CPP_Learning",
+    "summary": "该内容是关于C++基础与面向对象编程的学习资料，专注于编程语言本身而非AI领域。与AI知识库无直接关联，属于通用编程教程。",
+    "score": 0.0,
+    "tags": [
+      "C++",
+      "编程学习",
+      "面向对象编程"
+    ],
+    "updated_at": "2026-05-05T14:19:43Z",
+    "collected_at": "2026-05-05T14:20:48.245107",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229936754",
+    "source": "github",
+    "title": "csharp-learning",
+    "description": "learning c#",
+    "url": "https://github.com/xuzhihou/csharp-learning",
+    "summary": "该内容是关于学习C#编程语言的资源或项目，标题和描述均指向C#学习主题。",
+    "score": 0.0,
+    "tags": [
+      "C#",
+      "编程学习"
+    ],
+    "updated_at": "2026-05-05T14:20:13Z",
+    "collected_at": "2026-05-05T14:20:48.245098",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229908047",
+    "source": "github",
+    "title": "customer-drop-prediction",
+    "description": "A machine learning based customer based churn prediction system that analyzes historical data to identify users likely to discontinue services, enabling proactive retention strategies.",
+    "url": "https://github.com/sheikhzahoor110/customer-drop-prediction",
+    "summary": "该内容描述了一个基于机器学习的客户流失预测系统，通过分析历史数据识别可能停止服务的用户，从而支持主动的客户保留策略。这属于典型的AI在商业分析中的应用。",
+    "score": 0.9,
+    "tags": [
+      "机器学习",
+      "客户流失预测",
+      "数据分析",
+      "人工智能",
+      "用户留存"
+    ],
+    "updated_at": "2026-05-05T14:13:38Z",
+    "collected_at": "2026-05-05T14:20:48.245121",
+    "analyzed": true
+  },
+  {
+    "id": "github_1200149613",
+    "source": "github",
+    "title": "Deep-Learning",
+    "description": "deep learning",
+    "url": "https://github.com/Ankitkr50/Deep-Learning",
+    "summary": "该内容标题和描述均为“Deep-Learning”（深度学习），是人工智能领域的一个核心子方向。它主要涉及使用多层神经网络进行特征学习和模式识别，是当前AI技术发展的重要基础。",
+    "score": 0.9,
+    "tags": [
+      "深度学习",
+      "神经网络",
+      "人工智能",
+      "机器学习"
+    ],
+    "updated_at": "2026-04-11T13:50:56Z",
+    "collected_at": "2026-05-05T14:20:48.245087",
+    "analyzed": true
+  },
+  {
+    "id": "rss_43a4afa72070",
+    "source": "rss",
+    "title": "Do AI summaries hurt critical thinking?",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/txbgo5/do_ai_summaries_hurt_critical_thinking\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://medium.com/blueprint-for-disaster/ai-summaries-are-a-threat-to-our-cognitive-sovereignty-917afc37692f",
+    "summary": "该内容讨论AI摘要是否削弱了人们的批判性思维能力，并引用了相关评论链接。核心关注点在于AI辅助工具可能带来的认知惰性风险。",
+    "score": 0.7,
+    "tags": [
+      "人工智能",
+      "批判性思维",
+      "AI摘要",
+      "认知影响"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844783",
+    "analyzed": true
+  },
+  {
+    "id": "rss_48823687e30c",
+    "source": "rss",
+    "title": "fabrica - A terminal-based minimal coding agent harness",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/vk8as6/fabrica_terminal_based_minimal_coding\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/Endi1/fabrica",
+    "summary": "fabrica 是一个基于终端的极简编码代理工具，旨在提供轻量级的AI辅助编码体验。该工具强调最小化设计，适合在终端环境中使用。相关讨论可在Lobsters社区查看。",
+    "score": 0.6,
+    "tags": [
+      "AI编码代理",
+      "终端工具",
+      "极简设计",
+      "开发辅助"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844785",
+    "analyzed": true
+  },
+  {
+    "id": "github_1005120122",
+    "source": "github",
+    "title": "mlmm_toolkit",
+    "description": "Machine‑Learning / Molecular‑Mechanics (ML/MM) hybrid calculator and CLI toolset for Mechanistic Investigation of Enzymatic Reactions.",
+    "url": "https://github.com/t-0hmura/mlmm_toolkit",
+    "summary": "mlmm_toolkit是一个用于酶反应机理研究的机器学习/分子力学（ML/MM）混合计算器及命令行工具集。它结合了机器学习与分子力学方法，旨在高效模拟和分析酶催化反应的详细机制。",
+    "score": 0.9,
+    "tags": [
+      "机器学习",
+      "分子力学",
+      "酶反应模拟",
+      "混合计算",
+      "计算化学"
+    ],
+    "updated_at": "2026-05-01T14:11:27Z",
+    "collected_at": "2026-05-01T14:12:06.329070",
+    "analyzed": true
+  },
+  {
+    "id": "github_1016067485",
+    "source": "github",
+    "title": "ryusr",
+    "description": "I am Phetphat Sanesri, an Information Technology & Digital Innovation student at Bangkok Suvarnabhumi University, Thailand. I specialize in artificial intelligence, machine learning, and large language model applications with a focus on practical implementations and research.",
+    "url": "https://github.com/ryusr/ryusr",
+    "summary": "该内容介绍了泰国曼谷素万那普大学信息技术与数字创新专业学生Phetphat Sanesri的个人背景，其专攻人工智能、机器学习及大语言模型应用，侧重实践与研究方向。",
+    "score": 0.7,
+    "tags": [
+      "人工智能",
+      "机器学习",
+      "大语言模型",
+      "信息技术",
+      "数字创新"
+    ],
+    "updated_at": "2026-05-01T14:11:42Z",
+    "collected_at": "2026-05-01T14:12:06.329057",
+    "analyzed": true
+  },
+  {
+    "id": "github_1037580209",
+    "source": "github",
+    "title": "New-Grad-Data-Science-Jobs-2026",
+    "description": "2026 entry-level data science & ML jobs — analytics, AI, quant & machine learning US roles",
+    "url": "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2026",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:06Z",
+    "collected_at": "2026-05-01T14:01:57.210561",
+    "analyzed": false
+  },
+  {
+    "id": "github_1055032569",
+    "source": "github",
+    "title": "pnpl",
+    "description": "The PNPL brain deep learning library",
+    "url": "https://github.com/neural-processing-lab/pnpl",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:18Z",
+    "collected_at": "2026-05-01T14:01:57.210550",
+    "analyzed": false
+  },
+  {
+    "id": "github_1073874788",
+    "source": "github",
+    "title": "trading-ml-btc",
+    "description": "machine learning BTC paper trading strategy",
+    "url": "https://github.com/tazzer03/trading-ml-btc",
+    "summary": "该项目涉及使用机器学习构建比特币（BTC）的模拟交易策略。它专注于通过算法进行市场预测和模拟交易，而非实盘操作。",
+    "score": 0.7,
+    "tags": [
+      "机器学习",
+      "比特币",
+      "量化交易",
+      "交易策略",
+      "模拟交易"
+    ],
+    "updated_at": "2026-05-01T14:11:36Z",
+    "collected_at": "2026-05-01T14:12:06.329060",
+    "analyzed": true
+  },
+  {
+    "id": "github_1084467030",
+    "source": "github",
+    "title": "crypto-ai-alert-bot",
+    "description": "AI-powered crypto signal alert system that uses hybrid machine learning models to analyze live market data and send Buy/Sell alerts via Telegram and email. Includes automated training and 30-minute alert workflows with GitHub Actions.",
+    "url": "https://github.com/ahsan520/crypto-ai-alert-bot",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:10Z",
+    "collected_at": "2026-05-01T14:03:57.427455",
+    "analyzed": false
+  },
+  {
+    "id": "github_1092346917",
+    "source": "github",
+    "title": "FullStack-_Learning",
+    "description": "for learning",
+    "url": "https://github.com/VeVe168/FullStack-_Learning",
+    "summary": "该内容标题为“FullStack-_Learning”，描述仅为“for learning”，缺乏具体信息，无法确定其与AI知识库的直接关联。",
+    "score": 0.1,
+    "tags": [
+      "学习",
+      "全栈"
+    ],
+    "updated_at": "2026-05-01T14:11:10Z",
+    "collected_at": "2026-05-01T14:12:06.329079",
+    "analyzed": true
+  },
+  {
+    "id": "github_1100176971",
+    "source": "github",
+    "title": "OpenTrade",
+    "description": "A comprehensive Python system for algorithmic trading backtesting with sentiment analysis and machine learning.",
+    "url": "https://github.com/WiredMind2/OpenTrade",
+    "summary": "OpenTrade is a Python-based framework that integrates algorithmic trading backtesting with sentiment analysis and machine learning. It provides a comprehensive toolkit for developing, testing, and evaluating trading strategies using both quantitative and qualitative data sources.",
+    "score": 0.9,
+    "tags": [
+      "algorithmic trading",
+      "backtesting",
+      "sentiment analysis",
+      "machine learning",
+      "Python"
+    ],
+    "updated_at": "2026-05-01T14:05:32Z",
+    "collected_at": "2026-05-01T14:06:20.811472",
+    "analyzed": true
+  },
+  {
+    "id": "github_1116597829",
+    "source": "github",
+    "title": "adaptive-ai-federation-logs",
+    "description": "ai learning is wierd",
+    "url": "https://github.com/smokydastona/adaptive-ai-federation-logs",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:06Z",
+    "collected_at": "2026-05-01T14:01:57.210560",
+    "analyzed": false
+  },
+  {
+    "id": "github_1126472455",
+    "source": "github",
+    "title": "Node.js-learning",
+    "description": "",
+    "url": "https://github.com/OmkeshJadhav/Node.js-learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:13Z",
+    "collected_at": "2026-05-01T14:03:57.427445",
+    "analyzed": false
+  },
+  {
+    "id": "github_1128255588",
+    "source": "github",
+    "title": "holbertonschool-machine_learning",
+    "description": "",
+    "url": "https://github.com/murad-2007ML/holbertonschool-machine_learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:35Z",
+    "collected_at": "2026-05-01T14:03:57.427427",
+    "analyzed": false
+  },
+  {
+    "id": "github_1150707737",
+    "source": "github",
+    "title": "bus-routing-project",
+    "description": "We are using a macine learning model to reroute busses to work better with the demand",
+    "url": "https://github.com/ChrisLegge/bus-routing-project",
+    "summary": "This project applies a machine learning model to dynamically reroute buses based on real-time demand, aiming to improve efficiency and service alignment. The approach leverages AI to optimize public transportation scheduling. It demonstrates a practical use case of machine learning in urban mobility.",
+    "score": 0.7,
+    "tags": [
+      "machine learning",
+      "transportation optimization",
+      "route planning",
+      "smart cities",
+      "demand forecasting"
+    ],
+    "updated_at": "2026-05-01T14:05:47Z",
+    "collected_at": "2026-05-01T14:06:20.811456",
+    "analyzed": true
+  },
+  {
+    "id": "github_1165902781",
+    "source": "github",
+    "title": "boat",
+    "description": "A Lightweight Deep Learning Framework in C",
+    "url": "https://github.com/xiaoshaoning/boat",
+    "summary": "Boat 是一个用C语言实现的轻量级深度学习框架，旨在提供高效、简洁的深度学习模型构建与训练能力。该框架适合资源受限或对性能要求较高的场景。",
+    "score": 0.7,
+    "tags": [
+      "深度学习",
+      "C语言",
+      "轻量级框架",
+      "机器学习",
+      "人工智能"
+    ],
+    "updated_at": "2026-05-01T14:11:13Z",
+    "collected_at": "2026-05-01T14:12:06.329076",
+    "analyzed": true
+  },
+  {
+    "id": "github_1169859868",
+    "source": "github",
+    "title": "machine-learning",
+    "description": "",
+    "url": "https://github.com/remineyu7/machine-learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:12Z",
+    "collected_at": "2026-05-01T14:01:57.210558",
+    "analyzed": false
+  },
+  {
+    "id": "github_1171427379",
+    "source": "github",
+    "title": "machine-learning",
+    "description": "",
+    "url": "https://github.com/josusilanluh/machine-learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:19Z",
+    "collected_at": "2026-05-01T14:01:57.210548",
+    "analyzed": false
+  },
+  {
+    "id": "github_1173534904",
+    "source": "github",
+    "title": "NetworkSim2026",
+    "description": "Computer Network Learning Simulator Web Application",
+    "url": "https://github.com/tbagriyanik/NetworkSim2026",
+    "summary": "NetworkSim2026是一个计算机网络学习模拟器的Web应用程序，旨在通过交互式模拟帮助用户理解网络原理。该工具可能包含虚拟网络设备配置、数据包传输模拟等功能，适用于教育或培训场景。",
+    "score": 0.2,
+    "tags": [
+      "计算机网络",
+      "模拟器",
+      "Web应用",
+      "教育工具"
+    ],
+    "updated_at": "2026-05-01T14:11:38Z",
+    "collected_at": "2026-05-01T14:12:06.329059",
+    "analyzed": true
+  },
+  {
+    "id": "github_1179633008",
+    "source": "github",
+    "title": "Python-Practice-Projects",
+    "description": "While learning python from Dr. Angela yu i made these projects.",
+    "url": "https://github.com/h-a-m-z-a-A-L-i/Python-Practice-Projects",
+    "summary": "This is a collection of practice projects created while following a Python course by Dr. Angela Yu. The projects are likely beginner-level exercises designed to reinforce Python programming concepts.",
+    "score": 0.3,
+    "tags": [
+      "Python",
+      "learning",
+      "practice projects",
+      "beginner"
+    ],
+    "updated_at": "2026-05-01T14:05:30Z",
+    "collected_at": "2026-05-01T14:06:20.811474",
+    "analyzed": true
+  },
+  {
+    "id": "github_1183606866",
+    "source": "github",
+    "title": "APT_Manuscript_Script",
+    "description": "A Machine Learning/Deep Learning framework for detecting Advanced Persistent Threats (APTs) using CSE-CIC-IDS2018 & CIC-IDS2017 dataset. Features data preprocessing, feature engineering, and ensemble model evaluation in a Jupyter environment.",
+    "url": "https://github.com/GJEF-Sp/APT_Manuscript_Script",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:26Z",
+    "collected_at": "2026-05-01T14:03:57.427430",
+    "analyzed": false
+  },
+  {
+    "id": "github_1185297468",
+    "source": "github",
+    "title": "AI-Native-Engineer",
+    "description": "The AI-Native Engineer: Master AI-Assisted Workflows, Build RAG Architectures, and Deploy Enterprise Machine Learning Models",
+    "url": "https://github.com/AI-Native-Engineer-Course/AI-Native-Engineer",
+    "summary": "This content describes the role of an AI-Native Engineer, focusing on mastering AI-assisted workflows, building Retrieval-Augmented Generation (RAG) architectures, and deploying enterprise machine learning models. It emphasizes practical skills for integrating AI into professional engineering practices.",
+    "score": 0.9,
+    "tags": [
+      "AI-Native Engineer",
+      "RAG Architectures",
+      "Enterprise ML",
+      "AI-Assisted Workflows",
+      "Machine Learning Deployment"
+    ],
+    "updated_at": "2026-05-01T14:06:08Z",
+    "collected_at": "2026-05-01T14:06:20.811446",
+    "analyzed": true
+  },
+  {
+    "id": "github_1190635621",
+    "source": "github",
+    "title": "learn_note",
+    "description": "this is my learning note",
+    "url": "https://github.com/thrivinglee/learn_note",
+    "summary": "This is a placeholder or personal learning note with no specific AI-related content or details. It lacks substantive information to extract meaningful insights or technical knowledge.",
+    "score": 0.1,
+    "tags": [
+      "learning note",
+      "placeholder",
+      "general"
+    ],
+    "updated_at": "2026-05-01T14:06:10Z",
+    "collected_at": "2026-05-01T14:06:20.811433",
+    "analyzed": true
+  },
+  {
+    "id": "github_1200405489",
+    "source": "github",
+    "title": "crop-pest-disease-detection",
+    "description": "Deep Learning project for crop pest and disease detection",
+    "url": "https://github.com/tehsin-shaik/crop-pest-disease-detection",
+    "summary": "This is a deep learning project focused on detecting crop pests and diseases, likely using computer vision techniques. It aims to help farmers identify issues in crops early for better management. The project applies AI to agricultural challenges.",
+    "score": 0.7,
+    "tags": [
+      "deep learning",
+      "agriculture",
+      "computer vision",
+      "pest detection",
+      "disease detection"
+    ],
+    "updated_at": "2026-05-01T14:05:44Z",
+    "collected_at": "2026-05-01T14:06:20.811458",
+    "analyzed": true
+  },
+  {
+    "id": "github_1201098749",
+    "source": "github",
+    "title": "skoolarplay",
+    "description": "A comprehensive free learning App for Students.",
+    "url": "https://github.com/abduttawwaab01/skoolarplay",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:15Z",
+    "collected_at": "2026-05-01T14:03:57.427441",
+    "analyzed": false
+  },
+  {
+    "id": "github_1202594765",
+    "source": "github",
+    "title": "Smart-Complaint-Categorization-app",
+    "description": "A smart web application that automatically classifies public complaints into categories using Machine Learning. Built with Python and Streamlit, this project helps streamline complaint management for government or customer service systems.",
+    "url": "https://github.com/Jinit-Dave-Dev/Smart-Complaint-Categorization-app",
+    "summary": "该项目是一个基于机器学习的智能投诉分类网页应用，使用Python和Streamlit构建，能够自动将公众投诉归类，旨在帮助政府或客服系统简化投诉管理流程。",
+    "score": 0.9,
+    "tags": [
+      "机器学习",
+      "智能分类",
+      "Python",
+      "Streamlit",
+      "投诉管理"
+    ],
+    "updated_at": "2026-05-01T14:11:27Z",
+    "collected_at": "2026-05-01T14:12:06.329065",
+    "analyzed": true
+  },
+  {
+    "id": "github_1211702489",
+    "source": "github",
+    "title": "Portfolio",
+    "description": "Portfolio IA & Data de Marcel DIGBEU : projets Python, Machine Learning, RAG, Streamlit et visualisation de données.    Site portfolio personnel présentant mon parcours, mes compétences et mes projets en IA, Data Science et Data Engineering.",
+    "url": "https://github.com/marceldigbeu/Portfolio",
+    "summary": "这是一个个人作品集网站，展示了Marcel DIGBEU在人工智能、数据科学及数据工程领域的项目，涵盖Python、机器学习、RAG、Streamlit和数据可视化等内容。",
+    "score": 0.9,
+    "tags": [
+      "人工智能",
+      "数据科学",
+      "机器学习",
+      "Python",
+      "数据可视化"
+    ],
+    "updated_at": "2026-05-01T14:11:29Z",
+    "collected_at": "2026-05-01T14:12:06.329064",
+    "analyzed": true
+  },
+  {
+    "id": "github_1213041731",
+    "source": "github",
+    "title": "Comparative-Evaluation-of-Privacy-Preserving-Techniques-in-Deep-Federated-Learning",
+    "description": "",
+    "url": "https://github.com/MahderAkalu/Comparative-Evaluation-of-Privacy-Preserving-Techniques-in-Deep-Federated-Learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:00:52Z",
+    "collected_at": "2026-05-01T14:01:57.210566",
+    "analyzed": false
+  },
+  {
+    "id": "github_1213255463",
+    "source": "github",
+    "title": "MACHINE-LEARNING",
+    "description": "",
+    "url": "https://github.com/rehanhub78/MACHINE-LEARNING",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:10Z",
+    "collected_at": "2026-05-01T14:03:57.427453",
+    "analyzed": false
+  },
+  {
+    "id": "github_1213373184",
+    "source": "github",
+    "title": "nicegui_learning",
+    "description": "",
+    "url": "https://github.com/aisartag/nicegui_learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:00Z",
+    "collected_at": "2026-05-01T14:01:57.210564",
+    "analyzed": false
+  },
+  {
+    "id": "github_1214846489",
+    "source": "github",
+    "title": "Registration-form",
+    "description": "for learning",
+    "url": "https://github.com/Jack23-FD/Registration-form",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:22Z",
+    "collected_at": "2026-05-01T14:01:57.210540",
+    "analyzed": false
+  },
+  {
+    "id": "github_1217707562",
+    "source": "github",
+    "title": "OpenDelight",
+    "description": "[SIGGRAPH 2026 (Journal Track)] Learning a Delighting Prior for Facial Appearance Capture in the Wild.",
+    "url": "https://github.com/yxuhan/OpenDelight",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:11Z",
+    "collected_at": "2026-05-01T14:03:57.427449",
+    "analyzed": false
+  },
+  {
+    "id": "github_1217784004",
+    "source": "github",
+    "title": "MLOPs_Machine_Learning_Projects",
+    "description": "",
+    "url": "https://github.com/Suraj-Kumar09/MLOPs_Machine_Learning_Projects",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:25Z",
+    "collected_at": "2026-05-01T14:03:57.427432",
+    "analyzed": false
+  },
+  {
+    "id": "github_1218923053",
+    "source": "github",
+    "title": "dlh-higher_level_programming",
+    "description": "AI Academy - Python Learning 1",
+    "url": "https://github.com/Jessica-Naegele/dlh-higher_level_programming",
+    "summary": "This content appears to be a Python programming course offered by an AI Academy, focusing on higher-level programming concepts. It is likely an introductory or intermediate tutorial for learning Python, possibly with applications in AI.",
+    "score": 0.6,
+    "tags": [
+      "Python",
+      "programming",
+      "AI education",
+      "tutorial"
+    ],
+    "updated_at": "2026-05-01T14:05:57Z",
+    "collected_at": "2026-05-01T14:06:20.811451",
+    "analyzed": true
+  },
+  {
+    "id": "github_1219928589",
+    "source": "github",
+    "title": "language-learning-app",
+    "description": "",
+    "url": "https://github.com/jace3695/language-learning-app",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:37Z",
+    "collected_at": "2026-05-01T14:03:57.427409",
+    "analyzed": false
+  },
+  {
+    "id": "github_1219939886",
+    "source": "github",
+    "title": "Deep_LearningProject",
+    "description": "An end-to-end deep learning project demonstrating the design and deployment of neural network models for real-world applications. Covers data preprocessing, model architecture, training, and evaluation using industry-standard frameworks, highlighting practical expertise in AI, machine learning, and scalable model development.",
+    "url": "https://github.com/MrinmoyBANIKYA/Deep_LearningProject",
+    "summary": "这是一个端到端的深度学习项目，展示了神经网络模型在实际应用中的设计与部署流程，涵盖数据预处理、模型架构、训练和评估等环节，体现了在AI、机器学习和可扩展模型开发方面的实践能力。",
+    "score": 0.85,
+    "tags": [
+      "深度学习",
+      "机器学习",
+      "神经网络",
+      "数据预处理",
+      "模型部署"
+    ],
+    "updated_at": "2026-05-01T14:11:35Z",
+    "collected_at": "2026-05-01T14:12:06.329062",
+    "analyzed": true
+  },
+  {
+    "id": "github_1220553327",
+    "source": "github",
+    "title": "Collision-Aware-Trajectory-Prediction",
+    "description": "Group project for Deep Learning - CS-7643",
+    "url": "https://github.com/lyc95/Collision-Aware-Trajectory-Prediction",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:13Z",
+    "collected_at": "2026-05-01T14:01:57.210555",
+    "analyzed": false
+  },
+  {
+    "id": "github_1220601951",
+    "source": "github",
+    "title": "cyber-safety-app",
+    "description": "A cybersecurity web app that detects online threats, verifies safety, and promotes digital awareness through real-time analysis and learning tools.",
+    "url": "https://github.com/pihu098/cyber-safety-app",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:00Z",
+    "collected_at": "2026-05-01T14:01:57.210563",
+    "analyzed": false
+  },
+  {
+    "id": "github_1221853774",
+    "source": "github",
+    "title": "SimReinforce",
+    "description": "An Elevator simulation coupled with reinforcemant learning to get an optimal elevator strategy",
+    "url": "https://github.com/fegerich/SimReinforce",
+    "summary": "SimReinforce is a project that combines an elevator simulation with reinforcement learning to discover optimal elevator dispatching strategies. It applies AI techniques to a classic operations research problem, demonstrating how RL can optimize real-world systems.",
+    "score": 0.85,
+    "tags": [
+      "reinforcement learning",
+      "elevator simulation",
+      "optimization",
+      "operations research",
+      "AI application"
+    ],
+    "updated_at": "2026-05-01T14:05:33Z",
+    "collected_at": "2026-05-01T14:06:20.811469",
+    "analyzed": true
+  },
+  {
+    "id": "github_1222400729",
+    "source": "github",
+    "title": "Deepfake-Audio-Detection-System",
+    "description": "A deepfake audio detection system is a machine learning-based security tool designed to analyze audio recordings and distinguish between human-spoken voice and AI-synthesized or manipulated speech.",
+    "url": "https://github.com/Aimen-nadeem123/Deepfake-Audio-Detection-System",
+    "summary": "该内容介绍了一个基于机器学习的深度伪造音频检测系统，其核心功能是分析音频录音，区分人类语音与AI合成或篡改的语音。这是一种用于音频安全领域的技术工具。",
+    "score": 0.9,
+    "tags": [
+      "深度伪造",
+      "音频检测",
+      "机器学习",
+      "语音安全",
+      "AI合成"
+    ],
+    "updated_at": "2026-05-01T14:11:27Z",
+    "collected_at": "2026-05-01T14:12:06.329067",
+    "analyzed": true
+  },
+  {
+    "id": "github_1222536738",
+    "source": "github",
+    "title": "Tutorial",
+    "description": "All Learning Tutorials",
+    "url": "https://github.com/Arijit209/Tutorial",
+    "summary": "This content is a generic tutorial listing page with a title of 'Tutorial' and a description of 'All Learning Tutorials,' indicating it serves as a directory or index for various educational materials. It lacks specific AI-related context or details, making it a broad resource rather than a focused AI knowledge base entry. The entry is likely a placeholder or navigation element rather than substantive content.",
+    "score": 0.2,
+    "tags": [
+      "tutorial",
+      "learning",
+      "education",
+      "index",
+      "placeholder"
+    ],
+    "updated_at": "2026-05-01T14:05:42Z",
+    "collected_at": "2026-05-01T14:06:20.811463",
+    "analyzed": true
+  },
+  {
+    "id": "github_1222788141",
+    "source": "github",
+    "title": "diabetic-retinopathy-classification",
+    "description": "Machine learning-based classification of diabetic retinopathy using retinal images. Includes preprocessing, feature engineering (statistical, texture, frequency), PCA, and models like KNN, SVM, and Random Forest. Implemented in MATLAB without built-in ML functions.",
+    "url": "https://github.com/Vinay-Gawli/diabetic-retinopathy-classification",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:36Z",
+    "collected_at": "2026-05-01T14:03:57.427425",
+    "analyzed": false
+  },
+  {
+    "id": "github_1222838433",
+    "source": "github",
+    "title": "phishing-email-detector",
+    "description": "This project is a phishing email detection system built using Python and machine learning. It uses natural language processing (NLP) and a Naive Bayes classifier to identify whether an email is phishing or legitimate. The model is trained on sample data and deployed for real-time prediction.",
+    "url": "https://github.com/patidaranushka1212/phishing-email-detector",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:21Z",
+    "collected_at": "2026-05-01T14:03:57.427434",
+    "analyzed": false
+  },
+  {
+    "id": "github_1224986113",
+    "source": "github",
+    "title": "Science-Labs",
+    "description": "Tools and techniques that make learning scientific and engineering concepts clearer, easier, and more enjoyable.",
+    "url": "https://github.com/faheem-Buk/Science-Labs",
+    "summary": "The content describes Science-Labs as a resource offering tools and techniques to enhance understanding of scientific and engineering concepts, making them clearer, easier, and more enjoyable. It focuses on educational aids rather than AI-specific methods or technologies. The relevance to AI is indirect, as it may include AI-based learning tools but is not explicitly about AI.",
+    "score": 0.3,
+    "tags": [
+      "education",
+      "science learning",
+      "engineering tools"
+    ],
+    "updated_at": "2026-05-01T14:05:26Z",
+    "collected_at": "2026-05-01T14:06:20.811477",
+    "analyzed": true
+  },
+  {
+    "id": "github_1225713302",
+    "source": "github",
+    "title": "pany-kids-studio",
+    "description": "🌸 5-year family learning dashboard with AI mentor Đại Ka. Bilingual VN+EN. Built for kids 6 -16.",
+    "url": "https://github.com/tdbinh27-sudo/pany-kids-studio",
+    "summary": "A bilingual (Vietnamese and English) family learning dashboard designed for children aged 6-16, featuring an AI mentor named Đại Ka and tracking learning progress over five years. The project focuses on personalized, long-term educational support for kids.",
+    "score": 0.7,
+    "tags": [
+      "AI mentor",
+      "educational dashboard",
+      "bilingual learning",
+      "children's AI",
+      "family learning"
+    ],
+    "updated_at": "2026-05-01T14:05:24Z",
+    "collected_at": "2026-05-01T14:06:20.811481",
+    "analyzed": true
+  },
+  {
+    "id": "github_1225887741",
+    "source": "github",
+    "title": "Python-ai-ml-journey",
+    "description": "My structured journey from python basics to ai and machine learning",
+    "url": "https://github.com/Brian-Nyaga-254/Python-ai-ml-journey",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:31Z",
+    "collected_at": "2026-05-01T14:01:57.210519",
+    "analyzed": false
+  },
+  {
+    "id": "github_1225908350",
+    "source": "github",
+    "title": "first-web",
+    "description": "This is the first repository I want to create. I'm learning github",
+    "url": "https://github.com/sadan-cl/first-web",
+    "summary": "这是一个关于用户首次在GitHub上创建仓库的学习记录，描述简单表明其学习GitHub的用途。",
+    "score": 0.0,
+    "tags": [
+      "GitHub",
+      "仓库",
+      "学习"
+    ],
+    "updated_at": "2026-05-01T14:11:48Z",
+    "collected_at": "2026-05-01T14:12:06.329051",
+    "analyzed": true
+  },
+  {
+    "id": "github_1225989366",
+    "source": "github",
+    "title": "expense-tracker",
+    "description": "A simple expense tracker built while learning web development",
+    "url": "https://github.com/Funds7/expense-tracker",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:17Z",
+    "collected_at": "2026-05-01T14:03:57.427439",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226097404",
+    "source": "github",
+    "title": "open-model-lab",
+    "description": "Simulation-first science learning site with interactive models, concept labs, tests, and learning tools.",
+    "url": "https://github.com/AdrianIp0204/open-model-lab",
+    "summary": "Open-model-lab is an educational platform that uses simulation-first approaches to teach science through interactive models, concept labs, and assessments. It focuses on hands-on learning with digital tools to explore scientific concepts.",
+    "score": 0.2,
+    "tags": [
+      "education",
+      "simulation",
+      "science learning",
+      "interactive models"
+    ],
+    "updated_at": "2026-05-01T14:06:02Z",
+    "collected_at": "2026-05-01T14:06:20.811449",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226219192",
+    "source": "github",
+    "title": "Self_Learning",
+    "description": "",
+    "url": "https://github.com/goyalhimanshu04-max/Self_Learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:15Z",
+    "collected_at": "2026-05-01T14:01:57.210552",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226353938",
+    "source": "github",
+    "title": "Linux-For-DevOps-Notes",
+    "description": "This repository focuses on learning and practising Linux commands",
+    "url": "https://github.com/ShivangiShaliniJames/Linux-For-DevOps-Notes",
+    "summary": "该仓库专注于学习和实践Linux命令，面向DevOps场景。内容涵盖Linux基础知识与常用命令操作。",
+    "score": 0.0,
+    "tags": [
+      "Linux",
+      "DevOps",
+      "命令学习"
+    ],
+    "updated_at": "2026-05-01T14:11:09Z",
+    "collected_at": "2026-05-01T14:12:06.329083",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226414230",
+    "source": "github",
+    "title": "EduVersity",
+    "description": "Learning Management System",
+    "url": "https://github.com/shubhendu-biswal/EduVersity",
+    "summary": "EduVersity is a Learning Management System (LMS) designed to facilitate online education and training. It likely provides tools for course creation, student management, and assessment. The content is minimally descriptive, lacking specific AI features or technical details.",
+    "score": 0.2,
+    "tags": [
+      "learning management system",
+      "edtech",
+      "online education"
+    ],
+    "updated_at": "2026-05-01T14:05:52Z",
+    "collected_at": "2026-05-01T14:06:20.811453",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226418721",
+    "source": "github",
+    "title": "Reinforcement-Learning-Dissertation",
+    "description": "",
+    "url": "https://github.com/zgjq73/Reinforcement-Learning-Dissertation",
+    "summary": "该内容标题为‘强化学习论文’，但未提供具体描述，可能涉及强化学习领域的学术研究或相关论文资源。由于缺乏详细信息，无法判断其具体内容和应用场景。",
+    "score": 0.5,
+    "tags": [
+      "强化学习",
+      "机器学习",
+      "人工智能",
+      "论文"
+    ],
+    "updated_at": "2026-05-01T14:11:20Z",
+    "collected_at": "2026-05-01T14:12:06.329072",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226490340",
+    "source": "github",
+    "title": "LearningOcean",
+    "description": "",
+    "url": "https://github.com/aefce/LearningOcean",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:09Z",
+    "collected_at": "2026-05-01T14:03:57.427456",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226491857",
+    "source": "github",
+    "title": "C_Learning_Journey",
+    "description": "A journey to further my skills as a developer in the programming language C.",
+    "url": "https://github.com/ErrorGitHub/C_Learning_Journey",
+    "summary": "This content describes a personal learning journey focused on improving skills in the C programming language. It is a self-directed development effort rather than a technical resource or AI-specific content. The relevance to AI is indirect, as C is often used in AI systems for performance-critical components.",
+    "score": 0.2,
+    "tags": [
+      "C programming",
+      "developer skills",
+      "learning journey"
+    ],
+    "updated_at": "2026-05-01T14:05:42Z",
+    "collected_at": "2026-05-01T14:06:20.811460",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226497561",
+    "source": "github",
+    "title": "Minesweeper-shell-learning",
+    "description": "マインスイーパーを作ってみようかなと思っているこの頃、",
+    "url": "https://github.com/kentaINU/Minesweeper-shell-learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:20Z",
+    "collected_at": "2026-05-01T14:01:57.210543",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226499962",
+    "source": "github",
+    "title": "Phishing-Website-Detection-using-Machine-Learning-PhishGuard-",
+    "description": "PhishGuard is a machine learning–based phishing detection system designed to identify malicious URLs using feature engineering and classification techniques. The system analyzes structural patterns in URLs and predicts whether a link is legitimate or phishing with a confidence score.",
+    "url": "https://github.com/22raghav22-Raghav/Phishing-Website-Detection-using-Machine-Learning-PhishGuard-",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:23Z",
+    "collected_at": "2026-05-01T14:01:57.210538",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226505416",
+    "source": "github",
+    "title": "Laravel12-Vue3-Inertia-Postify-project",
+    "description": "Postify is a learning project built using Laravel 12, Inertia.js, and Vue 3 to explore modern full-stack development with a seamless SPA-like experience. It includes features like posts, likes, and comments to understand real-world application structure.",
+    "url": "https://github.com/krupalidabhi4/Laravel12-Vue3-Inertia-Postify-project",
+    "summary": "该项目是一个使用Laravel 12、Inertia.js和Vue 3构建的学习型全栈应用，名为Postify。它通过实现帖子、点赞和评论等功能，探索现代全栈开发及类单页应用的无缝体验。",
+    "score": 0.0,
+    "tags": [
+      "全栈开发",
+      "Laravel",
+      "Vue.js",
+      "Inertia.js",
+      "学习项目"
+    ],
+    "updated_at": "2026-05-01T14:11:17Z",
+    "collected_at": "2026-05-01T14:12:06.329074",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226513325",
+    "source": "github",
+    "title": "scorecastai",
+    "description": "ScorecastAI is a Streamlit-based machine learning web app developed as Mini Project 2. It predicts whether a student will pass or fail using study hours, previous marks, and subject scores. The app features an interactive UI, real-time insights, and data visualization for better academic performance analysis.",
+    "url": "https://github.com/macwinroym/scorecastai",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:20Z",
+    "collected_at": "2026-05-01T14:01:57.210547",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226513737",
+    "source": "github",
+    "title": "credito_banco",
+    "description": "Projeto de aprovação de crédito em banco usando Machine Learning",
+    "url": "https://github.com/gussntolv/credito_banco",
+    "summary": "This project involves developing a machine learning model for credit approval in a banking context. It likely uses historical financial data to predict loan default risk and automate decision-making. The work is relevant to AI applications in finance, particularly for risk assessment.",
+    "score": 0.85,
+    "tags": [
+      "credit approval",
+      "machine learning",
+      "banking",
+      "risk assessment",
+      "financial AI"
+    ],
+    "updated_at": "2026-05-01T14:05:29Z",
+    "collected_at": "2026-05-01T14:06:20.811475",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226519344",
+    "source": "github",
+    "title": "my-python-journey",
+    "description": "Learning Python",
+    "url": "https://github.com/bemiyya/my-python-journey",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:37Z",
+    "collected_at": "2026-05-01T14:01:57.210532",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226520133",
+    "source": "github",
+    "title": "CodeAlpha",
+    "description": "CodeAlpha Machine Learning internship tasks.",
+    "url": "https://github.com/Hassan092-prog/CodeAlpha",
+    "summary": "CodeAlpha offers a machine learning internship program with practical tasks for participants. The content focuses on hands-on ML projects rather than theoretical knowledge. It is a brief reference to an internship opportunity, not a detailed AI resource.",
+    "score": 0.4,
+    "tags": [
+      "machine learning",
+      "internship",
+      "CodeAlpha",
+      "AI education",
+      "practical tasks"
+    ],
+    "updated_at": "2026-05-01T14:05:42Z",
+    "collected_at": "2026-05-01T14:06:20.811461",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226520354",
+    "source": "github",
+    "title": "jayesh",
+    "description": "🚀 Aspiring ML Engineer | AI + Trading + Blockchain 📊 Python Learner | Crypto & Algo Trading Enthusiast 🤖 Future Quant Developer | Building AI-powered trading systems 💻 Learning Python, ML & Blockchain | Focused on Trading 📈 AI + Finance Explorer | Future Entrepreneur",
+    "url": "https://github.com/jayeshmachha/jayesh",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:21Z",
+    "collected_at": "2026-05-01T14:03:57.427436",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226520524",
+    "source": "github",
+    "title": "Learning",
+    "description": "",
+    "url": "https://github.com/venkatesh939/Learning",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:10Z",
+    "collected_at": "2026-05-01T14:03:57.427443",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226520781",
+    "source": "github",
+    "title": "helinjian.github.io",
+    "description": "learning",
+    "url": "https://github.com/helinjian729/helinjian.github.io",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:33Z",
+    "collected_at": "2026-05-01T14:03:57.427422",
+    "analyzed": false
+  },
+  {
+    "id": "github_1226521449",
+    "source": "github",
+    "title": "TP-DeepLearning-Alger3-",
+    "description": "TP Régression linéaire — Master 1 Économie Quantitative",
+    "url": "https://github.com/lassacizahra-lgtm/TP-DeepLearning-Alger3-",
+    "summary": "This content appears to be a practical exercise (TP) on linear regression for a Master's level course in Quantitative Economics at an Algerian university. It focuses on applying deep learning concepts specifically to linear regression, likely using Python or similar tools. The material is educational and targeted at graduate students in economics.",
+    "score": 0.6,
+    "tags": [
+      "linear regression",
+      "deep learning",
+      "education",
+      "economics",
+      "Algeria"
+    ],
+    "updated_at": "2026-05-01T14:05:40Z",
+    "collected_at": "2026-05-01T14:06:20.811464",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226522120",
+    "source": "github",
+    "title": "house-price-prediction",
+    "description": "Machine Learning project to predict house prices using Bengaluru housing data.",
+    "url": "https://github.com/arunsingh570-ds/house-price-prediction",
+    "summary": "This is a machine learning project focused on predicting house prices using a dataset of Bengaluru housing information. It demonstrates a practical application of regression techniques in real estate analytics. The project likely involves data preprocessing, feature engineering, and model training to forecast property values.",
+    "score": 0.6,
+    "tags": [
+      "machine learning",
+      "house price prediction",
+      "regression",
+      "bengaluru housing",
+      "real estate analytics"
+    ],
+    "updated_at": "2026-05-01T14:05:33Z",
+    "collected_at": "2026-05-01T14:06:20.811466",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226522622",
+    "source": "github",
+    "title": "Protein-Protein-Interaction-Prediction-using-Machine-Learning",
+    "description": "",
+    "url": "https://github.com/Ujas-Patel/Protein-Protein-Interaction-Prediction-using-Machine-Learning",
+    "summary": "该内容标题表明涉及使用机器学习方法预测蛋白质-蛋白质相互作用，属于计算生物学和人工智能交叉领域。描述为空，但标题本身已明确其核心主题。",
+    "score": 0.6,
+    "tags": [
+      "机器学习",
+      "蛋白质相互作用",
+      "计算生物学",
+      "生物信息学"
+    ],
+    "updated_at": "2026-05-01T14:11:58Z",
+    "collected_at": "2026-05-01T14:12:06.329033",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226526309",
+    "source": "github",
+    "title": "Mobile-Price-Classification-ML",
+    "description": "Machine learning project classifying mobile phone price ranges using multiple models, pipelines, and hyperparameter tuning with performance comparison.",
+    "url": "https://github.com/KalluruPrem/Mobile-Price-Classification-ML",
+    "summary": "这是一个机器学习项目，通过多种模型、流水线和超参数调优对手机价格范围进行分类，并比较了不同模型的性能表现。项目主要聚焦于手机价格分类任务，展示了完整的机器学习流程。",
+    "score": 0.85,
+    "tags": [
+      "机器学习",
+      "分类模型",
+      "超参数调优",
+      "手机价格预测",
+      "模型比较"
+    ],
+    "updated_at": "2026-05-01T14:11:09Z",
+    "collected_at": "2026-05-01T14:12:06.329081",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226526723",
+    "source": "github",
+    "title": "TP-DeepLearning-Alger3333",
+    "description": "TP Régression linéaire — Master 1 Économie Quantitative",
+    "url": "https://github.com/lassacizahra-lgtm/TP-DeepLearning-Alger3333",
+    "summary": "该内容标题为“TP-DeepLearning-Alger3333”，描述为“TP线性回归——量化经济学硕士一年级”，表明这是一个关于深度学习或机器学习中线性回归的实践作业（TP），面向经济学量化方向的研究生。内容与AI和机器学习基础方法高度相关。",
+    "score": 0.9,
+    "tags": [
+      "深度学习",
+      "线性回归",
+      "机器学习",
+      "经济学",
+      "实践作业"
+    ],
+    "updated_at": "2026-05-01T14:11:46Z",
+    "collected_at": "2026-05-01T14:12:06.329055",
+    "analyzed": true
+  },
+  {
+    "id": "github_1226526811",
+    "source": "github",
+    "title": "Flutter-Language-Learning-app",
+    "description": "",
+    "url": "https://github.com/marwataher13/Flutter-Language-Learning-app",
+    "summary": "该项目是一个基于Flutter框架开发的语言学习应用程序。它可能利用AI技术来辅助语言教学。目前描述信息不足，无法提供更多细节。",
+    "score": 0.3,
+    "tags": [
+      "Flutter",
+      "语言学习",
+      "移动应用"
+    ],
+    "updated_at": "2026-05-01T14:11:48Z",
+    "collected_at": "2026-05-01T14:12:06.329047",
+    "analyzed": true
+  },
+  {
+    "id": "github_242580638",
+    "source": "github",
+    "title": "gpt",
+    "description": "A Python toolkit for lattice field theory, quantum computing, and machine learning",
+    "url": "https://github.com/lehner/gpt",
+    "summary": "GPT is described as a Python toolkit designed for applications in lattice field theory, quantum computing, and machine learning. It bridges computational physics with AI and quantum technologies. The title is ambiguous as it may refer to a specific software package rather than the language model GPT.",
+    "score": 0.4,
+    "tags": [
+      "Python toolkit",
+      "lattice field theory",
+      "quantum computing",
+      "machine learning"
+    ],
+    "updated_at": "2026-05-01T14:05:26Z",
+    "collected_at": "2026-05-01T14:06:20.811479",
+    "analyzed": true
+  },
+  {
+    "id": "github_406489629",
+    "source": "github",
+    "title": "logiclearner",
+    "description": "Logic Learner is an online learning tool that helps computer science, engineering, and mathematics students improve their fluency and problem solving process in writing proofs for propositional logic.",
+    "url": "https://github.com/ccnmtl/logiclearner",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:03:19Z",
+    "collected_at": "2026-05-01T14:03:57.427437",
+    "analyzed": false
+  },
+  {
+    "id": "github_759375925",
+    "source": "github",
+    "title": "spem-player",
+    "description": "Help for learning Spem in alium (Thomas Tallis)",
+    "url": "https://github.com/wainwmr/spem-player",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:24Z",
+    "collected_at": "2026-05-01T14:01:57.210536",
+    "analyzed": false
+  },
+  {
+    "id": "github_882476173",
+    "source": "github",
+    "title": "lesion_detector",
+    "description": "LesionDetector is an application written for my master's thesis, that incorporates deep reinforcement learning along with convolutional neural networks to detect lesions in CT scans.",
+    "url": "https://github.com/pmalesa/lesion_detector",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:21Z",
+    "collected_at": "2026-05-01T14:01:57.210542",
+    "analyzed": false
+  },
+  {
+    "id": "github_968504744",
+    "source": "github",
+    "title": "Connect-Four-AI",
+    "description": "An intelligent Connect Four game powered by advanced AI algorithms, including Deep Reinforcement Learning, AlphaZero, and Meta-Learning, designed to challenge and evolve against human opponents.",
+    "url": "https://github.com/drussell23/Connect-Four-AI",
+    "summary": "该项目实现了一个智能四子棋游戏，集成了深度强化学习、AlphaZero和元学习等先进AI算法，旨在通过与人类对弈不断挑战和进化。",
+    "score": 0.9,
+    "tags": [
+      "强化学习",
+      "AlphaZero",
+      "元学习",
+      "人工智能",
+      "游戏AI"
+    ],
+    "updated_at": "2026-05-01T14:11:13Z",
+    "collected_at": "2026-05-01T14:12:06.329078",
+    "analyzed": true
+  },
+  {
+    "id": "github_990586271",
+    "source": "github",
+    "title": "kana-dojo",
+    "description": "Aesthetic, minimalist platform for learning Japanese inspired by Duolingo and Monkeytype, built with Next.js and sponsored by Vercel. Beginner-friendly with plenty of good first issues - all contributions are welcome!",
+    "url": "https://github.com/lingdojo/kana-dojo",
+    "summary": "",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "2026-05-01T14:01:39Z",
+    "collected_at": "2026-05-01T14:01:57.210553",
+    "analyzed": false
+  },
+  {
+    "id": "github_991568406",
+    "source": "github",
+    "title": "learningjava",
+    "description": "",
+    "url": "https://github.com/CodeandAshwani/learningjava",
+    "summary": "该内容标题为'learningjava'，描述为空，推测可能与学习Java编程语言相关。由于缺乏具体描述，无法确定其与AI知识库的直接关联。",
+    "score": 0.1,
+    "tags": [
+      "Java",
+      "编程学习",
+      "软件开发"
+    ],
+    "updated_at": "2026-05-01T14:11:47Z",
+    "collected_at": "2026-05-01T14:12:06.329053",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229936895",
+    "source": "github",
+    "title": "GUI_MACHINE-LEARNING",
+    "description": "",
+    "url": "https://github.com/niya0605/GUI_MACHINE-LEARNING",
+    "summary": "该内容标题涉及图形用户界面（GUI）与机器学习（Machine Learning）的结合，可能探讨机器学习在用户界面设计或交互中的应用。由于描述为空，无法获取更详细的信息。",
+    "score": 0.6,
+    "tags": [
+      "机器学习",
+      "图形用户界面",
+      "人机交互",
+      "人工智能"
+    ],
+    "updated_at": "2026-05-05T14:20:21Z",
+    "collected_at": "2026-05-05T14:20:48.245094",
+    "analyzed": true
+  },
+  {
+    "id": "rss_4e7f06506145",
+    "source": "rss",
+    "title": "Introducing talkie: a 13B vintage language model from 1930",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uws0nc/introducing_talkie_13b_vintage_language\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://talkie-lm.com/introducing-talkie",
+    "summary": "该内容介绍了一个名为“talkie”的13B参数规模的复古语言模型，其设计灵感或风格源自1930年代。这是一个在AI社区中分享和讨论的模型项目。",
+    "score": 0.7,
+    "tags": [
+      "大语言模型",
+      "AI模型",
+      "复古风格",
+      "13B参数"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844805",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229936748",
+    "source": "github",
+    "title": "IT-Basics-Learning-Materials",
+    "description": "",
+    "url": "https://github.com/WunderleMarcus/IT-Basics-Learning-Materials",
+    "summary": "该内容标题为“IT基础学习材料”，但描述为空，无法获取具体信息。从标题推测，它可能涉及计算机基础知识，但与AI知识库的直接关联性较低。",
+    "score": 0.2,
+    "tags": [
+      "IT基础",
+      "学习材料",
+      "计算机"
+    ],
+    "updated_at": "2026-05-05T14:20:12Z",
+    "collected_at": "2026-05-05T14:20:48.245100",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229936128",
+    "source": "github",
+    "title": "Javascript",
+    "description": "Learning",
+    "url": "https://github.com/IN-zero-FINITY/Javascript",
+    "summary": "该内容标题为“Javascript”，描述为“Learning”，主要涉及JavaScript编程语言的学习。与AI知识库的核心主题（如人工智能、机器学习、深度学习等）关联度较低。",
+    "score": 0.1,
+    "tags": [
+      "JavaScript",
+      "编程学习",
+      "前端开发"
+    ],
+    "updated_at": "2026-05-05T14:19:33Z",
+    "collected_at": "2026-05-05T14:20:48.245110",
+    "analyzed": true
+  },
+  {
+    "id": "github_1228125987",
+    "source": "github",
+    "title": "jovykit",
+    "description": "Layered Jupyter notebook container images for data science, machine learning, and research workflows.",
+    "url": "https://github.com/MihneaTeodorStoica/jovykit",
+    "summary": "jovykit 提供了分层的 Jupyter notebook 容器镜像，专为数据科学、机器学习及研究工作流设计。它通过分层结构优化了镜像的模块化与可复用性，方便用户在不同场景下灵活部署。",
+    "score": 0.7,
+    "tags": [
+      "Jupyter",
+      "数据科学",
+      "机器学习",
+      "容器化",
+      "工作流"
+    ],
+    "updated_at": "2026-05-05T14:18:08Z",
+    "collected_at": "2026-05-05T14:20:48.245116",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229935842",
+    "source": "github",
+    "title": "learning",
+    "description": "",
+    "url": "https://github.com/ctrlyati/learning",
+    "summary": "该内容标题为“learning”，描述为空，可能泛指学习概念，缺乏具体信息。由于没有详细内容，无法进行深入分析。",
+    "score": 0.1,
+    "tags": [
+      "学习",
+      "人工智能"
+    ],
+    "updated_at": "2026-05-05T14:19:16Z",
+    "collected_at": "2026-05-05T14:20:48.245115",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229881403",
+    "source": "github",
+    "title": "LingvoPRO",
+    "description": "Lingvo interactive app for learning Romanian.",
+    "url": "https://github.com/EugeneK-13/LingvoPRO",
+    "summary": "LingvoPRO是一款用于学习罗马尼亚语的交互式应用程序，其名称和描述中未明确提及AI技术或知识库相关内容。该应用可能利用语言学习算法，但缺乏直接与AI知识库相关的具体信息。",
+    "score": 0.2,
+    "tags": [
+      "语言学习",
+      "交互式应用",
+      "罗马尼亚语"
+    ],
+    "updated_at": "2026-05-05T13:24:17Z",
+    "collected_at": "2026-05-05T14:20:48.245090",
+    "analyzed": true
+  },
+  {
+    "id": "rss_6047cdbff67a",
+    "source": "rss",
+    "title": "Localisation Engineering Platform",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/xtvxmg/localisation_engineering_platform\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://lingo.dev/en/blog/introducing-lingodotdev-v1",
+    "summary": "该内容是一个关于本地化工程平台的链接，指向Lobste.rs上的讨论页面，但未提供具体平台细节或技术内容。摘要仅说明其是本地化工程平台的相关讨论链接。",
+    "score": 0.1,
+    "tags": [
+      "本地化",
+      "工程平台",
+      "讨论链接"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844800",
+    "analyzed": true
+  },
+  {
+    "id": "github_1190639932",
+    "source": "github",
+    "title": "Mesozoic-Unleashed",
+    "description": "Mesozoic animals discovery and learning game project",
+    "url": "https://github.com/azani2/Mesozoic-Unleashed",
+    "summary": "该项目是一个关于中生代动物发现与学习的游戏项目，标题为“Mesozoic-Unleashed”。内容主要聚焦于古生物主题的游戏设计，与AI技术关联度较低。",
+    "score": 0.1,
+    "tags": [
+      "游戏"
+    ],
+    "updated_at": "2026-05-05T14:19:41Z",
+    "collected_at": "2026-05-05T14:20:48.245092",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a4b87c360aff",
+    "source": "rss",
+    "title": "OpenMythos: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zyjkpd/openmythos_theoretical_reconstruction\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/kyegomez/OpenMythos",
+    "summary": "OpenMythos是一个基于现有研究文献、从第一性原理出发对Claude Mythos架构进行理论重建的项目。该项目旨在通过公开文献推测并重构Claude的底层架构设计，属于AI模型逆向工程的研究尝试。",
+    "score": 0.7,
+    "tags": [
+      "AI架构",
+      "逆向工程",
+      "Claude",
+      "理论重建",
+      "研究文献"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844780",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229932941",
+    "source": "github",
+    "title": "Plant-Disease-Detection-CV",
+    "description": "Benchmarking Foundation Models (ViT, DINOv2) vs CNNs on 163K+ images for plant disease segmentation. Includes Transfer Learning, Grad-CAM explainability, and DeepLabV3+ achieving Dice 0.8612.",
+    "url": "https://github.com/hachemite/Plant-Disease-Detection-CV",
+    "summary": "该内容对比了基础模型（ViT、DINOv2）与CNN在超过16.3万张图像上的植物病害分割任务表现，涉及迁移学习、Grad-CAM可解释性分析，并采用DeepLabV3+模型达到了0.8612的Dice系数。",
+    "score": 0.85,
+    "tags": [
+      "植物病害检测",
+      "深度学习",
+      "图像分割",
+      "迁移学习",
+      "可解释AI"
+    ],
+    "updated_at": "2026-05-05T14:16:26Z",
+    "collected_at": "2026-05-05T14:20:48.245096",
+    "analyzed": true
+  },
+  {
+    "id": "rss_97b86400fad2",
+    "source": "rss",
+    "title": "Porting microgpt to Futhark, Part I",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+    "summary": "该内容是关于将microGPT移植到Futhark编程语言的第一部分。Futhark是一种用于高性能并行计算的语言，文章可能探讨了如何在Futhark中实现或优化GPT模型。",
+    "score": 0.7,
+    "tags": [
+      "GPT",
+      "Futhark",
+      "模型移植",
+      "高性能计算",
+      "并行编程"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844791",
+    "analyzed": true
+  },
+  {
+    "id": "github_1229935829",
+    "source": "github",
+    "title": "Practice-PHP",
+    "description": "This repository contains PHP practice codes, examples, and small programs for learning core PHP concepts.",
+    "url": "https://github.com/Dikshya-maharjan/Practice-PHP",
+    "summary": "该仓库包含用于学习核心PHP概念的练习代码、示例和小程序。内容聚焦于PHP编程语言的基础实践。",
+    "score": 0.0,
+    "tags": [
+      "PHP",
+      "编程练习",
+      "代码示例"
+    ],
+    "updated_at": "2026-05-05T14:19:15Z",
+    "collected_at": "2026-05-05T14:20:48.245118",
+    "analyzed": true
+  },
+  {
+    "id": "github_1178837893",
+    "source": "github",
+    "title": "qorway",
+    "description": "QORWAY is a causal, constrained, and executable intelligence infrastructure that transforms enterprise decision-making into a continuous, auditable, and self-improving system.",
+    "url": "https://github.com/QORWAY-TECHNOLOGY/qorway",
+    "summary": "QORWAY是一个因果性、受约束且可执行的智能基础设施，它将企业决策转化为持续、可审计且自我优化的系统。该平台专注于提升决策过程的透明度与可追溯性。",
+    "score": 0.7,
+    "tags": [
+      "企业决策",
+      "智能基础设施",
+      "因果推理",
+      "可审计系统",
+      "自我优化"
+    ],
+    "updated_at": "2026-05-05T14:20:15Z",
+    "collected_at": "2026-05-05T14:20:48.245108",
+    "analyzed": true
+  },
+  {
+    "id": "github_1227759540",
+    "source": "github",
+    "title": "rishika-ss",
+    "description": "Hi, I’m Rishika  an AI student and developer.   I work on building intelligent systems, solving complex problems, and creating projects that have real-world impact.   Always learning, always evolving.",
+    "url": "https://github.com/rishika-ss/rishika-ss",
+    "summary": "该内容是一位名为Rishika的AI学生和开发者的个人简介，她专注于构建智能系统、解决复杂问题并创造有实际影响力的项目，强调持续学习和进化。",
+    "score": 0.4,
+    "tags": [
+      "人工智能",
+      "智能系统",
+      "开发者",
+      "机器学习",
+      "项目实践"
+    ],
+    "updated_at": "2026-05-05T14:20:11Z",
+    "collected_at": "2026-05-05T14:20:48.245120",
+    "analyzed": true
+  },
+  {
+    "id": "rss_233589e8b85d",
+    "source": "rss",
+    "title": "TurboQuant: A First-Principles Walkthrough",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/j2uphs/turboquant_first_principles\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://arkaung.github.io/interactive-turboquant/",
+    "summary": "《TurboQuant: A First-Principles Walkthrough》是一篇关于TurboQuant的入门级技术文章，从基本原理出发逐步讲解其核心概念。内容可能涉及量化交易或算法优化领域，但标题和描述未提供具体技术细节。",
+    "score": 0.2,
+    "tags": [
+      "量化交易",
+      "算法",
+      "技术教程"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399814",
+    "analyzed": true
+  },
+  {
+    "id": "rss_284e60a67c11",
+    "source": "rss",
+    "title": "Supersimple: Lightweight OpenCode profile for routine dev work with focused agents, local skills, and conductor-based track management",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/inndga/supersimple_lightweight_opencode\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/gc-victor/supersimple",
+    "summary": "Supersimple 是一个轻量级的 OpenCode 配置文件，专为日常开发工作设计，支持聚焦型智能体、本地技能以及基于指挥者的任务跟踪管理。它旨在简化开发流程，提高工作效率。",
+    "score": 0.7,
+    "tags": [
+      "人工智能",
+      "开发工具",
+      "智能体",
+      "任务管理",
+      "开源"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399777",
+    "analyzed": true
+  },
+  {
+    "id": "rss_2b27cf46dc87",
+    "source": "rss",
+    "title": "<![CDATA[Terra API (YC W21) Hiring: Applied AI Strategist (Health Intelligence)]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health\">https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47908047\">https://news.ycombinator.com/item?id=47908047</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>\n]]>",
+    "url": "https://www.ycombinator.com/companies/terra-api/jobs/DY7BCZU-applied-ai-strategist-market-intelligence-health",
+    "summary": "Terra API（YC W21）正在招聘应用AI策略师（健康情报方向），职位发布于Y Combinator平台。该岗位旨在结合人工智能与健康数据领域，推动市场情报分析。",
+    "score": 0.6,
+    "tags": [
+      "人工智能",
+      "健康数据",
+      "招聘",
+      "市场情报"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:07.965887",
+    "analyzed": true
+  },
+  {
+    "id": "rss_2eaa5a2428ab",
+    "source": "rss",
+    "title": "Reversing SynthID",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/o9zkq0/reversing_synthid\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://hackerfactor.com/blog/index.php?/archives/1092-Reversing-SynthID.html",
+    "summary": "本文标题为“Reversing SynthID”，内容指向一个外部链接的讨论页面，可能涉及对谷歌SynthID水印技术的逆向分析。由于描述仅包含评论链接，具体技术细节未提供，推测与AI生成内容检测或水印破解相关。",
+    "score": 0.3,
+    "tags": [
+      "人工智能",
+      "水印技术",
+      "逆向工程",
+      "SynthID",
+      "AI安全"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399822",
+    "analyzed": true
+  },
+  {
+    "id": "rss_3dfc44d49aab",
+    "source": "rss",
+    "title": "On the Limits of Self-Improving in Large Language Models: The Singularity Is Not Near Without Symbolic Model Synthesis",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/jgsiqa/on_limits_self_improving_large_language\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://arxiv.org/html/2601.05280v2",
+    "summary": "本文探讨了大语言模型自我改进的局限性，认为没有符号模型合成的参与，人工智能奇点不会很快到来。作者质疑单纯依赖大规模语言模型自我提升的能力。",
+    "score": 0.75,
+    "tags": [
+      "大语言模型",
+      "自我改进",
+      "符号模型",
+      "人工智能奇点"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399811",
+    "analyzed": true
+  },
+  {
+    "id": "rss_4e7f06506145",
+    "source": "rss",
+    "title": "Introducing talkie: a 13B vintage language model from 1930",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uws0nc/introducing_talkie_13b_vintage_language\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://talkie-lm.com/introducing-talkie",
+    "summary": "本文介绍了一个名为“talkie”的13B参数语言模型，其特色是模拟1930年代的语言风格。该模型可能用于复古对话或历史文本生成。",
+    "score": 0.6,
+    "tags": [
+      "语言模型",
+      "13B参数",
+      "复古风格",
+      "AI文本生成"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399806",
+    "analyzed": true
+  },
+  {
+    "id": "rss_57c18d870094",
+    "source": "rss",
+    "title": "How are you protecting yourself against the imminent AI dooms zero day?",
+    "description": "&lt;p&gt;Above all this is a fun discussion. Don't get too serious :)&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;As LLMs get better and better at pattern matching against vulnerabilities, and gaining better logical inference, it's a matter of time until a human or a group of humans and an LLM(s) find a plethora of zero days, some possibly unpatchable.&lt;/p&gt;\n&lt;p&gt;I'm sure others have thought the same, so I'm curious just what the general zeitgeist is. I personally think any machine you haven't put online, like those 10 year old laptops in the closest, are safe. The problem is, &lt;em&gt;I believe airgap will not save us either&lt;/em&gt; if a truly advanced system is developed. More or less I think \"primitive technology\" could return in various ways depending what we're talking about, like in finance, to avoid manipulation.&lt;/p&gt;",
+    "url": "https://lobste.rs/s/cfzhwf/how_are_you_protecting_yourself_against",
+    "summary": "本文讨论LLM能力增强可能发现大量零日漏洞，甚至包括无法修补的漏洞，并认为离线设备也未必安全，未来可能回归原始技术以规避风险。整体基调偏轻松探讨，并非严肃警告。",
+    "score": 0.3,
+    "tags": [
+      "人工智能",
+      "大语言模型",
+      "网络安全",
+      "零日漏洞",
+      "技术风险"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399831",
+    "analyzed": true
+  },
+  {
+    "id": "rss_6047cdbff67a",
+    "source": "rss",
+    "title": "Localisation Engineering Platform",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/xtvxmg/localisation_engineering_platform\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://lingo.dev/en/blog/introducing-lingodotdev-v1",
+    "summary": "该内容是一个关于“本地化工程平台”的链接，指向一个讨论页面，但未提供具体技术细节或与AI直接相关的内容。",
+    "score": 0.1,
+    "tags": [
+      "本地化",
+      "工程平台"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399800",
+    "analyzed": true
+  },
+  {
+    "id": "rss_7f22853ed87f",
+    "source": "rss",
+    "title": "Transformers are Inherently Succinct",
+    "description": "&lt;p&gt;Abstract:\nWe propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite automata and Linear Temporal Logic (LTL) formulas. As a by-product of this expressivity, we show that verifying properties of transformers is provably intractable (i.e. EXPSPACE-complete).&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hzhyw9/transformers_are_inherently_succinct\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://arxiv.org/abs/2510.19315",
+    "summary": "该论文提出“简洁性”作为衡量Transformer表达能力的新指标，证明Transformer在描述形式语言时比有限自动机和线性时序逻辑等标准表示更为简洁。此外，研究表明验证Transformer的性质在计算上是不可行的（EXPSPACE完全问题）。",
+    "score": 0.9,
+    "tags": [
+      "Transformer",
+      "表达力",
+      "形式语言",
+      "计算复杂性",
+      "人工智能"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399817",
+    "analyzed": true
+  },
+  {
+    "id": "rss_7f79b7990fa4",
+    "source": "rss",
+    "title": "Build yourself flowers",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/u0pix1/build_yourself_flowers\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://vickiboykis.com/2026/04/20/build-yourself-flowers/",
+    "summary": "该内容标题为“Build yourself flowers”，描述中仅包含一个指向Lobste.rs评论页面的链接，未提供实质性的AI相关内容或技术讨论。",
+    "score": 0.0,
+    "tags": [],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399820",
+    "analyzed": true
+  },
+  {
+    "id": "rss_97b86400fad2",
+    "source": "rss",
+    "title": "Porting microgpt to Futhark, Part I",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+    "summary": "本文是关于将microgpt移植到Futhark编程语言的第一部分。Futhark是一种专为高性能并行计算设计的函数式语言，该移植旨在探索GPT模型的底层实现与优化。",
+    "score": 0.6,
+    "tags": [
+      "GPT",
+      "Futhark",
+      "模型移植",
+      "高性能计算"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399787",
+    "analyzed": true
+  },
+  {
+    "id": "rss_9e574e6b6ed3",
+    "source": "rss",
+    "title": "Triton language for Huawei Ascend",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/z3pidt/triton_language_for_huawei_ascend\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/triton-lang/triton-ascend",
+    "summary": "该内容标题表明讨论了华为昇腾芯片对Triton语言的支持，但描述仅包含指向外部评论的链接，缺乏实质性内容。因此无法从描述中获取有效信息，摘要基于标题推断其涉及AI编译与硬件适配。",
+    "score": 0.3,
+    "tags": [
+      "AI编译器",
+      "华为昇腾",
+      "Triton语言",
+      "硬件适配",
+      "深度学习"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399803",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a0477b9a452f",
+    "source": "rss",
+    "title": "AI Terminology is Poorly Defined and Oft Misused",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zleph2/ai_terminology_is_poorly_defined_oft\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://vale.rocks/posts/ai-terminology",
+    "summary": "该内容指出AI领域的术语定义不清晰且经常被误用，强调当前AI相关概念存在语义混乱的问题。这反映了业界对术语标准化和准确沟通的呼吁。",
+    "score": 0.7,
+    "tags": [
+      "人工智能",
+      "术语定义",
+      "语义混乱",
+      "行业标准"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399798",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a3af598ccc96",
+    "source": "rss",
+    "title": "LARQL - Query neural network weights like a graph database",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/iawjcg/larql_query_neural_network_weights_like\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/chrishayuk/larql",
+    "summary": "LARQL 是一种能够像查询图数据库一样查询神经网络权重的技术，旨在提供对神经网络内部参数的灵活检索与分析能力。该工具通过将权重视为图结构数据，使开发者能够更直观地探索和调试模型。",
+    "score": 0.85,
+    "tags": [
+      "神经网络",
+      "图数据库",
+      "权重查询",
+      "模型调试",
+      "AI工具"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399837",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a92e7341e278",
+    "source": "rss",
+    "title": "Where the goblins came from",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hbmd5q/where_goblins_came_from\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://openai.com/index/where-the-goblins-came-from/",
+    "summary": "该内容标题为“哥布林的起源”，描述中包含一个指向Lobste.rs的评论链接，但未提供实际文本内容。从现有信息无法判断其与AI知识库的相关性。",
+    "score": 0.0,
+    "tags": [
+      "哥布林",
+      "游戏",
+      "奇幻"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399791",
+    "analyzed": true
+  },
+  {
+    "id": "rss_dbc0e736e5d2",
+    "source": "rss",
+    "title": "Mind the van Emden Gap",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/cuaerj/mind_van_emden_gap\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://blog.fogus.me/llm/van-emden.html",
+    "summary": "本文讨论了一篇关于“van Emden Gap”的博客文章及其评论，内容涉及AI或计算机科学领域中的某个概念或现象。摘要指出该话题在技术社区内引发了讨论，但具体内容需要进一步查看原文。",
+    "score": 0.3,
+    "tags": [
+      "人工智能",
+      "技术讨论",
+      "知识库"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399828",
+    "analyzed": true
+  },
+  {
+    "id": "rss_e9f1665091d8",
+    "source": "rss",
+    "title": "The Future of Deep Learning Is Photonic (2021)",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/afcjot/future_deep_learning_is_photonic_2021\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://spectrum.ieee.org/the-future-of-deep-learning-is-photonic",
+    "summary": "本文探讨了光子计算在深度学习领域的未来应用前景，认为光学神经网络能够突破传统电子计算的功耗和速度瓶颈，为AI提供更高效的硬件基础。文章发布于2021年，讨论了相关技术挑战与潜在优势。",
+    "score": 0.7,
+    "tags": [
+      "光子计算",
+      "深度学习",
+      "神经网络",
+      "AI硬件",
+      "未来技术"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399825",
+    "analyzed": true
+  },
+  {
+    "id": "rss_ef005fd08042",
+    "source": "rss",
+    "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/2v2q1x/scaling_pain_coding_agent_serving\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://z.ai/blog/scaling-pain",
+    "summary": "本文讨论了在规模化部署GLM-5编程代理服务时遇到的扩展问题及调试经验，揭示了编码代理在高并发场景下的性能瓶颈与优化策略。内容聚焦于AI代理服务的实际运维挑战，对理解大规模AI系统部署有参考价值。",
+    "score": 0.85,
+    "tags": [
+      "AI代理服务",
+      "大规模部署",
+      "编码代理",
+      "性能优化",
+      "系统调试"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399794",
+    "analyzed": true
+  },
+  {
+    "id": "rss_f592b144c85e",
+    "source": "rss",
+    "title": "<![CDATA[Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library]]>",
+    "description": "<![CDATA[\n<p>Article URL: <a href=\"https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/\">https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47964617\">https://news.ycombinator.com/item?id=47964617</a></p>\n<p>Points: 420</p>\n<p># Comments: 155</p>\n]]>",
+    "url": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
+    "summary": "安全研究人员在PyTorch Lightning AI训练库中发现名为Shai-Hulud的恶意依赖包，该恶意软件可能窃取数据或破坏AI训练流程。此事件凸显了AI开源生态中的供应链安全风险。",
+    "score": 0.85,
+    "tags": [
+      "人工智能",
+      "网络安全",
+      "开源供应链",
+      "PyTorch",
+      "恶意软件"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:07.965875",
+    "analyzed": true
+  },
+  {
+    "id": "rss_ff48efc44f9d",
+    "source": "rss",
+    "title": "PyTexas 2026 Recap",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/ugbrsp/pytexas_2026_recap\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://bernat.tech/posts/pytexas-2026-recap/",
+    "summary": "该内容为PyTexas 2026活动的回顾总结，附带了外部评论链接。由于描述非常简短且无实质技术内容，无法判断其与AI知识库的关联。",
+    "score": 0.1,
+    "tags": [
+      "Python",
+      "技术会议"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-01T14:12:09.399834",
+    "analyzed": true
+  },
+  {
+    "id": "github_995029641",
+    "source": "github",
+    "title": "ruflo",
+    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "url": "https://github.com/ruvnet/ruflo",
+    "summary": "ruflo是一个专为Claude设计的领先智能体编排平台，支持部署多智能体集群、协调自主工作流及构建对话式AI系统。其核心功能包括企业级架构、自学习群体智能、RAG集成以及原生Claude Code/Codex集成。",
+    "score": 0.7,
+    "tags": [
+      "智能体编排",
+      "Claude",
+      "多智能体",
+      "RAG",
+      "工作流自动化"
+    ],
+    "updated_at": "2026-05-05T14:20:31Z",
+    "collected_at": "2026-05-05T14:20:48.245102",
+    "analyzed": true
+  },
+  {
+    "id": "rss_ef005fd08042",
+    "source": "rss",
+    "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/2v2q1x/scaling_pain_coding_agent_serving\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://z.ai/blog/scaling-pain",
+    "summary": "本文讨论了大规模部署编码代理服务（如GLM-5）时遇到的扩展痛点与调试经验，重点分析了系统在规模增长下面临的挑战及解决思路。内容涉及AI代理服务的实际运维与性能优化。",
+    "score": 0.85,
+    "tags": [
+      "AI代理",
+      "大规模服务",
+      "系统调试",
+      "编码代理",
+      "性能优化"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844795",
+    "analyzed": true
+  },
+  {
+    "id": "rss_4b894b0cfa76",
+    "source": "rss",
+    "title": "sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/5ond6x/sectorllm_llama2_inference_1500_bytes\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/rdmsr/sectorllm",
+    "summary": "该项目展示了如何将Llama2模型的推理过程压缩到不到1500字节的x86汇编代码中，实现了极致的轻量化AI推理。它通过高度优化的底层实现，在极小的代码体积内运行大型语言模型。",
+    "score": 0.85,
+    "tags": [
+      "LLM推理",
+      "汇编优化",
+      "轻量化模型",
+      "x86汇编",
+      "Llama2"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844774",
+    "analyzed": true
+  },
+  {
+    "id": "github_1224473189",
+    "source": "github",
+    "title": "Test-repo",
+    "description": "Just a test repo for learning Git and GitHub workflows. Nothing useful here.",
+    "url": "https://github.com/Amirjeebudnd8/Test-repo",
+    "summary": "该内容是一个用于学习Git和GitHub工作流程的测试仓库，不包含任何实际有用的信息。与AI知识库完全无关。",
+    "score": 0.0,
+    "tags": [
+      "测试仓库",
+      "Git学习",
+      "无用内容"
+    ],
+    "updated_at": "2026-05-05T14:19:21Z",
+    "collected_at": "2026-05-05T14:20:48.245113",
+    "analyzed": true
+  },
+  {
+    "id": "rss_9e574e6b6ed3",
+    "source": "rss",
+    "title": "Triton language for Huawei Ascend",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/z3pidt/triton_language_for_huawei_ascend\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://github.com/triton-lang/triton-ascend",
+    "summary": "该内容标题提及华为昇腾芯片对Triton语言的支持，但描述仅包含指向外部评论的链接，缺乏实质性信息。因此无法确认具体的技术细节或应用场景。",
+    "score": 0.3,
+    "tags": [
+      "华为昇腾",
+      "Triton",
+      "AI芯片",
+      "编程语言"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844802",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a0eb0d467d57",
+    "source": "rss",
+    "title": "Upcoming Blender Development Fund and AI Policies",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/dmud1r/upcoming_blender_development_fund_ai\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/",
+    "summary": "该内容标题提及Blender开发基金与AI政策，但描述中仅包含指向外部评论的链接，缺乏具体文本信息。因此无法提取关于AI与Blender关系的实质性内容。",
+    "score": 0.0,
+    "tags": [
+      "Blender",
+      "AI政策",
+      "开发基金"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844788",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a92e7341e278",
+    "source": "rss",
+    "title": "Where the goblins came from",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hbmd5q/where_goblins_came_from\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://openai.com/index/where-the-goblins-came-from/",
+    "summary": "该内容标题为“妖精从哪里来”，描述中仅包含一个指向Lobste.rs评论页面的链接，没有提供任何关于AI或知识库的实质性信息。因此，它无法被用于分析AI相关内容。",
+    "score": 0.0,
+    "tags": [
+      "无关联内容",
+      "外部链接"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844793",
+    "analyzed": true
+  },
+  {
+    "id": "rss_a21a86110329",
+    "source": "rss",
+    "title": "Why a Decade of Writing Detection Logic Makes the Mythos Exploit Numbers Less Scary",
+    "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/cvzb9z/why_decade_writing_detection_logic_makes\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "url": "https://www.magonia.io/research/why-a-decade-of-writing-detection-logic-makes-the-mythos-exploit-numbers-less-scary/",
+    "summary": "文章基于十年编写检测逻辑的经验，认为神话级漏洞利用的数量并没有看起来那么可怕。作者通过分析检测逻辑的演进，说明许多看似严重的漏洞实际可以被现有机制有效防御。内容主要面向安全领域的技术讨论，而非直接涉及AI知识库建设。",
+    "score": 0.2,
+    "tags": [
+      "漏洞检测",
+      "安全防御",
+      "检测逻辑"
+    ],
+    "updated_at": "",
+    "collected_at": "2026-05-05T14:20:51.844777",
+    "analyzed": true
+  },
+  {
+    "id": "github_1",
+    "title": "TestRepo1",
+    "url": "https://github.com/test1",
+    "tags": [
+      "图像分类",
+      "ResNet-50",
+      "PyTorch",
+      "ImageNet",
+      "迁移学习",
+      "模型训练",
+      "模型推理"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_2",
+    "title": "TestRepo2",
+    "url": "https://github.com/test2",
+    "tags": [
+      "机器学习",
+      "训练流水线",
+      "PyTorch",
+      "分布式训练",
+      "超参数配置",
+      "数据预处理",
+      "模型定义",
+      "评估指标"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_3",
+    "title": "LowScoreRepo",
+    "url": "https://github.com/test3",
+    "tags": [
+      "仓库优化",
+      "内容质量",
+      "技术细节",
+      "性能指标",
+      "BERT",
+      "文本分类",
+      "IMDb",
+      "API响应时间",
+      "测试覆盖率"
+    ],
+    "score": 6
+  },
+  {
+    "id": "github_1120440628",
+    "title": "heart-disease-risk-prediction-mlp",
+    "url": "https://github.com/dnlC9/heart-disease-risk-prediction-mlp",
+    "tags": [
+      "多层感知机",
+      "特征工程",
+      "机器学习流水线",
+      "交互式仪表盘",
+      "心脏病风险预测"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1018743208",
+    "title": "go-react-angular-expense-tracker",
+    "url": "https://github.com/t0n1ks/go-react-angular-expense-tracker",
+    "tags": [
+      "Go",
+      "React",
+      "Angular",
+      "全栈开发",
+      "费用追踪",
+      "JWT认证",
+      "RESTful API",
+      "SQLite"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1103726262",
+    "title": "AromalDileep",
+    "url": "https://github.com/AromalDileep/AromalDileep",
+    "tags": [
+      "机器学习",
+      "PyTorch",
+      "特征工程",
+      "模型部署",
+      "GitHub"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_977699163",
+    "title": "Fake-News-Detection-1",
+    "url": "https://github.com/Dhacks-png/Fake-News-Detection-1",
+    "tags": [
+      "假新闻检测",
+      "逻辑回归",
+      "TF-IDF",
+      "LIAR数据集",
+      "文本分类",
+      "特征工程"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_717559450",
+    "title": "chrisfalvey.github.io",
+    "url": "https://github.com/chrisfalvey/chrisfalvey.github.io",
+    "tags": [
+      "个人网站",
+      "学习设计",
+      "Python",
+      "数据建模",
+      "学习分析"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1212670635",
+    "title": "SemanticAwareScheduling",
+    "url": "https://github.com/krishC1234/SemanticAwareScheduling",
+    "tags": [
+      "分布式深度学习",
+      "任务调度",
+      "Slurm",
+      "语义感知",
+      "资源优化",
+      "拓扑解析",
+      "动态优先级"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1120331175",
+    "title": "Documentations",
+    "url": "https://github.com/krisnaaaaaaaaaaaa/Documentations",
+    "tags": [
+      "前端开发",
+      "技术文档",
+      "React",
+      "Webpack",
+      "CSS",
+      "工程实践"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1228666973",
+    "title": "e-learning",
+    "url": "https://github.com/wednesday28/e-learning",
+    "tags": [
+      "在线学习",
+      "Spring Boot",
+      "Vue",
+      "课程管理",
+      "JWT认证",
+      "Redis缓存",
+      "Elasticsearch搜索",
+      "WebSocket"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1120336979",
+    "title": "schullegerhard",
+    "url": "https://github.com/fitriadijamil/schullegerhard",
+    "tags": [
+      "Solidity",
+      "Web3.js",
+      "以太坊",
+      "DApps",
+      "智能合约",
+      "NFT",
+      "Chainlink"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1231289059",
+    "title": "Customer-Churn-Prediction-System",
+    "url": "https://github.com/Sasanksurya/Customer-Churn-Prediction-System",
+    "tags": [
+      "客户流失预测",
+      "机器学习",
+      "随机森林",
+      "XGBoost",
+      "Streamlit",
+      "特征工程",
+      "AUC优化"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1024676006",
+    "title": "darwin",
+    "url": "https://github.com/Muserano/darwin",
+    "tags": [
+      "机器学习平台",
+      "MLOps",
+      "Kubernetes部署",
+      "自动调优"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1224062666",
+    "title": "python-learning",
+    "url": "https://github.com/xhatch800/python-learning",
+    "tags": [
+      "Python",
+      "编程学习",
+      "代码示例",
+      "数据结构",
+      "算法实现"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1231503790",
+    "title": "RLT",
+    "url": "https://github.com/rqzhu-aide/RLT",
+    "tags": [
+      "随机森林",
+      "强化学习",
+      "线性组合分裂",
+      "方差估计",
+      "生存分析",
+      "节点分裂优化"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_922217795",
+    "title": "Project-Analisis-Sentimen-Review-Film-Mata-Kuliah-Machine-Learning",
+    "url": "https://github.com/Samirxz00/Project-Analisis-Sentimen-Review-Film-Mata-Kuliah-Machine-Learning",
+    "tags": [
+      "情感分析",
+      "NLP",
+      "BERT",
+      "LSTM",
+      "IMDB数据集",
+      "模型对比"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1120287044",
+    "title": "Paper-Comicizer",
+    "url": "https://github.com/Makena123456/Paper-Comicizer",
+    "tags": [
+      "AI漫画生成",
+      "学术可视化",
+      "PDF转换",
+      "教育娱乐化",
+      "多模态对齐",
+      "角色一致性"
+    ],
+    "score": 7
+  },
+  {
+    "id": "github_1231456390",
+    "title": "dementia-mirna-ml-classification",
+    "url": "https://github.com/benjaminzluo-pixel/dementia-mirna-ml-classification",
+    "tags": [
+      "miRNA标志物",
+      "机器学习分类",
+      "痴呆鉴别诊断",
+      "特征选择",
+      "神经退行性疾病"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1181363336",
+    "title": "sql-learning-series",
+    "url": "https://github.com/vishalsvnayar/sql-learning-series",
+    "tags": [
+      "SQL",
+      "数据分析",
+      "学习路径",
+      "窗口函数",
+      "查询优化",
+      "实战案例"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1038774065",
+    "title": "learning-fromager",
+    "url": "https://github.com/LalatenduMohanty/learning-fromager",
+    "tags": [
+      "Fromager",
+      "参数调优",
+      "场景对比",
+      "配置指南"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_849705737",
+    "title": "lextures",
+    "url": "https://github.com/StudyDrift/lextures",
+    "tags": [
+      "自适应学习",
+      "知识图谱",
+      "间隔重复",
+      "主动回忆"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1118100033",
+    "title": "tech-learning-and-projects",
+    "url": "https://github.com/WalterHandsome/tech-learning-and-projects",
+    "tags": [
+      "技术学习",
+      "实践项目",
+      "代码示例",
+      "技术洞察",
+      "创新方法"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1227875672",
+    "title": "fastapi-learnings",
+    "url": "https://github.com/Hrishi11572/fastapi-learnings",
+    "tags": [
+      "FastAPI",
+      "后端开发",
+      "Python",
+      "API开发"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1226269669",
+    "title": "Checko-tag-detection-using-Classical-and-deep-learning-approach",
+    "url": "https://github.com/subramaniamani/Checko-tag-detection-using-Classical-and-deep-learning-approach",
+    "tags": [
+      "DETR",
+      "关键点检测",
+      "Transformer",
+      "微调模型",
+      "图像处理",
+      "回归头"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1162812387",
+    "title": "CS498-Capstone-Project",
+    "url": "https://github.com/SnowyTaiyaki/CS498-Capstone-Project",
+    "tags": [
+      "卷积神经网络",
+      "迁移学习",
+      "实时视频流识别",
+      "异步处理"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1223073968",
+    "title": "CPP-Course-Projects",
+    "url": "https://github.com/Giladlevko/CPP-Course-Projects",
+    "tags": [
+      "C++",
+      "课程项目",
+      "内存池",
+      "线程池",
+      "性能优化",
+      "并发编程"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1175265503",
+    "title": "ChineseApp",
+    "url": "https://github.com/Jinqiu-lee/ChineseApp",
+    "tags": [
+      "语言学习",
+      "教育应用",
+      "开源项目",
+      "中文学习",
+      "游戏化学习",
+      "个性化算法"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_1231535122",
+    "title": "Diabitic-Prediction-",
+    "url": "https://github.com/DhanuDevu/Diabitic-Prediction-",
+    "tags": [
+      "机器学习",
+      "糖尿病预测",
+      "特征重要性",
+      "SMOTE过采样",
+      "XGBoost",
+      "类别不平衡"
+    ],
+    "score": 9
+  },
+  {
+    "id": "github_503650803",
+    "title": "Applied-Machine-Learning-Course",
+    "url": "https://github.com/moshesipper/Applied-Machine-Learning-Course",
+    "tags": [
+      "机器学习",
+      "深度学习",
+      "进化算法",
+      "实践课程",
+      "GitHub资源"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1227944772",
+    "title": "Java-Learning-Journey",
+    "url": "https://github.com/AlokDev-08/Java-Learning-Journey",
+    "tags": [
+      "Java",
+      "编程学习",
+      "GitHub项目",
+      "技术教程"
+    ],
+    "score": 7
+  },
+  {
+    "id": "github_1222765980",
+    "title": "blankly-finance-plugins-RSI-Based-Crypto-Trading",
+    "url": "https://github.com/Proxopnn/blankly-finance-plugins-RSI-Based-Crypto-Trading",
+    "tags": [
+      "加密货币交易",
+      "RSI策略",
+      "技术分析API",
+      "机器学习",
+      "金融插件"
+    ],
+    "score": 7
+  },
+  {
+    "id": "github_1231670695",
+    "title": "DiseaseSense",
+    "url": "https://github.com/sanjanakori30-boop/DiseaseSense",
+    "tags": [
+      "机器学习",
+      "多疾病预测",
+      "Streamlit",
+      "医疗AI"
+    ],
+    "score": 7
+  },
+  {
+    "id": "github_1231676410",
+    "title": "customer-churn-prediction",
+    "url": "https://github.com/Sanjay-raj-k-s/customer-churn-prediction",
+    "tags": [
+      "客户流失预测",
+      "机器学习",
+      "逻辑回归",
+      "随机森林",
+      "ROC-AUC评估"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1200576982",
+    "title": "ironbark",
+    "url": "https://github.com/chatgptnotes/ironbark",
+    "tags": [
+      "自我改进学习",
+      "技能复用",
+      "Claude Code",
+      "项目间共享"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1108407394",
+    "title": "kube-dojo.github.io",
+    "url": "https://github.com/kube-dojo/kube-dojo.github.io",
+    "tags": [
+      "Kubernetes",
+      "云原生",
+      "认证培训",
+      "Kubestronaut",
+      "DevOps"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1220070304",
+    "title": "Data-Science-in-Python-Data-Prep-and-EDA",
+    "url": "https://github.com/sairaawahid/Data-Science-in-Python-Data-Prep-and-EDA",
+    "tags": [
+      "数据预处理",
+      "探索性数据分析",
+      "特征工程",
+      "Python",
+      "机器学习"
+    ],
+    "score": 8
+  },
+  {
+    "id": "github_1128535231",
+    "title": "Engineering-Study-Hub",
+    "url": "https://github.com/ALAADROID/Engineering-Study-Hub",
+    "tags": [
+      "工程知识库",
+      "协作学习",
+      "技术文档",
+      "教育资源"
+    ],
+    "score": 7
+  }
+]

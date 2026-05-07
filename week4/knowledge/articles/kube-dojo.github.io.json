@@ -1,0 +1,20 @@
+{
+  "id": "github_1108407394",
+  "source": "github",
+  "title": "kube-dojo.github.io",
+  "description": "Free, comprehensive training for all 5 Kubernetes certifications (Kubestronaut path)",
+  "url": "https://github.com/kube-dojo/kube-dojo.github.io",
+  "updated_at": "2026-05-07T07:45:43Z",
+  "stars": 3,
+  "collected_at": "2026-05-07T07:46:22.995699",
+  "summary": "该项目提供免费的Kubernetes认证培训，覆盖全部5个Kubestronaut路径认证，包含动手实践和综合学习资源。",
+  "score": 8,
+  "tags": [
+    "Kubernetes",
+    "云原生",
+    "认证培训",
+    "Kubestronaut",
+    "DevOps"
+  ],
+  "analyzed": true
+}

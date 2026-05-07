@@ -1,0 +1,19 @@
+{
+  "id": "github_1005120122",
+  "source": "github",
+  "title": "mlmm_toolkit",
+  "description": "Machine‑Learning / Molecular‑Mechanics (ML/MM) hybrid calculator and CLI toolset for Mechanistic Investigation of Enzymatic Reactions.",
+  "url": "https://github.com/t-0hmura/mlmm_toolkit",
+  "summary": "mlmm_toolkit是一个用于酶反应机理研究的机器学习/分子力学（ML/MM）混合计算器及命令行工具集。它结合了机器学习与分子力学方法，旨在高效模拟和分析酶催化反应的详细机制。",
+  "score": 0.9,
+  "tags": [
+    "机器学习",
+    "分子力学",
+    "酶反应模拟",
+    "混合计算",
+    "计算化学"
+  ],
+  "updated_at": "2026-05-01T14:11:27Z",
+  "collected_at": "2026-05-01T14:12:06.329070",
+  "analyzed": true
+}

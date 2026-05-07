@@ -1,0 +1,19 @@
+{
+  "id": "github_1200405489",
+  "source": "github",
+  "title": "crop-pest-disease-detection",
+  "description": "Deep Learning project for crop pest and disease detection",
+  "url": "https://github.com/tehsin-shaik/crop-pest-disease-detection",
+  "summary": "This is a deep learning project focused on detecting crop pests and diseases, likely using computer vision techniques. It aims to help farmers identify issues in crops early for better management. The project applies AI to agricultural challenges.",
+  "score": 0.7,
+  "tags": [
+    "deep learning",
+    "agriculture",
+    "computer vision",
+    "pest detection",
+    "disease detection"
+  ],
+  "updated_at": "2026-05-01T14:05:44Z",
+  "collected_at": "2026-05-01T14:06:20.811458",
+  "analyzed": true
+}

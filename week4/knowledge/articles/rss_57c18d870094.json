@@ -1,0 +1,19 @@
+{
+  "id": "rss_57c18d870094",
+  "source": "rss",
+  "title": "How are you protecting yourself against the imminent AI dooms zero day?",
+  "description": "&lt;p&gt;Above all this is a fun discussion. Don't get too serious :)&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;As LLMs get better and better at pattern matching against vulnerabilities, and gaining better logical inference, it's a matter of time until a human or a group of humans and an LLM(s) find a plethora of zero days, some possibly unpatchable.&lt;/p&gt;\n&lt;p&gt;I'm sure others have thought the same, so I'm curious just what the general zeitgeist is. I personally think any machine you haven't put online, like those 10 year old laptops in the closest, are safe. The problem is, &lt;em&gt;I believe airgap will not save us either&lt;/em&gt; if a truly advanced system is developed. More or less I think \"primitive technology\" could return in various ways depending what we're talking about, like in finance, to avoid manipulation.&lt;/p&gt;",
+  "url": "https://lobste.rs/s/cfzhwf/how_are_you_protecting_yourself_against",
+  "summary": "本文讨论LLM能力增强可能发现大量零日漏洞，甚至包括无法修补的漏洞，并认为离线设备也未必安全，未来可能回归原始技术以规避风险。整体基调偏轻松探讨，并非严肃警告。",
+  "score": 0.3,
+  "tags": [
+    "人工智能",
+    "大语言模型",
+    "网络安全",
+    "零日漏洞",
+    "技术风险"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:09.399831",
+  "analyzed": true
+}

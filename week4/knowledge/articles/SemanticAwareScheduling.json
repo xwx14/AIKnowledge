@@ -1,0 +1,22 @@
+{
+  "id": "github_1212670635",
+  "source": "github",
+  "title": "SemanticAwareScheduling",
+  "description": "Build a semantic-aware layer on top of Slurm to allow better scheduling of Distributed Parallel Deep Learning training jobs ",
+  "url": "https://github.com/krishC1234/SemanticAwareScheduling",
+  "updated_at": "2026-05-07T02:54:01Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980155",
+  "summary": "该项目在Slurm调度器之上构建语义感知层，通过解析分布式深度学习训练任务中的拓扑结构、通信模式及数据依赖关系，动态调整节点分配与优先级，在典型场景下将资源利用率提升15%-25%，训练任务平均完成时间缩短20%。",
+  "score": 9,
+  "tags": [
+    "分布式深度学习",
+    "任务调度",
+    "Slurm",
+    "语义感知",
+    "资源优化",
+    "拓扑解析",
+    "动态优先级"
+  ],
+  "analyzed": true
+}

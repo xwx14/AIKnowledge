@@ -1,0 +1,18 @@
+{
+  "id": "github_1226097404",
+  "source": "github",
+  "title": "open-model-lab",
+  "description": "Simulation-first science learning site with interactive models, concept labs, tests, and learning tools.",
+  "url": "https://github.com/AdrianIp0204/open-model-lab",
+  "summary": "Open-model-lab is an educational platform that uses simulation-first approaches to teach science through interactive models, concept labs, and assessments. It focuses on hands-on learning with digital tools to explore scientific concepts.",
+  "score": 0.2,
+  "tags": [
+    "education",
+    "simulation",
+    "science learning",
+    "interactive models"
+  ],
+  "updated_at": "2026-05-01T14:06:02Z",
+  "collected_at": "2026-05-01T14:06:20.811449",
+  "analyzed": true
+}

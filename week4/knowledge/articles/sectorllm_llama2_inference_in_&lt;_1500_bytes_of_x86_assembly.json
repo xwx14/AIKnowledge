@@ -1,0 +1,19 @@
+{
+  "id": "rss_4b894b0cfa76",
+  "source": "rss",
+  "title": "sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/5ond6x/sectorllm_llama2_inference_1500_bytes\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://github.com/rdmsr/sectorllm",
+  "summary": "该项目展示了如何将Llama2模型的推理过程压缩到不到1500字节的x86汇编代码中，实现了极致的轻量化AI推理。它通过高度优化的底层实现，在极小的代码体积内运行大型语言模型。",
+  "score": 0.85,
+  "tags": [
+    "LLM推理",
+    "汇编优化",
+    "轻量化模型",
+    "x86汇编",
+    "Llama2"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-05T14:20:51.844774",
+  "analyzed": true
+}

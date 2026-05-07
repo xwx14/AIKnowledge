@@ -1,0 +1,18 @@
+{
+  "id": "rss_4e7f06506145",
+  "source": "rss",
+  "title": "Introducing talkie: a 13B vintage language model from 1930",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uws0nc/introducing_talkie_13b_vintage_language\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://talkie-lm.com/introducing-talkie",
+  "summary": "本文介绍了一个名为“talkie”的13B参数语言模型，其特色是模拟1930年代的语言风格。该模型可能用于复古对话或历史文本生成。",
+  "score": 0.6,
+  "tags": [
+    "语言模型",
+    "13B参数",
+    "复古风格",
+    "AI文本生成"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:09.399806",
+  "analyzed": true
+}

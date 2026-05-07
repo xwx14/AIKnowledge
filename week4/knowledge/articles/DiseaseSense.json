@@ -1,0 +1,19 @@
+{
+  "id": "github_1231670695",
+  "source": "github",
+  "title": "DiseaseSense",
+  "description": "AI-powered multi-disease prediction system using Machine Learning and Streamlit for Diabetes, Heart Disease, and Parkinson’s prediction.",
+  "url": "https://github.com/sanjanakori30-boop/DiseaseSense",
+  "updated_at": "2026-05-07T07:45:53Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T07:46:22.995651",
+  "summary": "基于机器学习和Streamlit的AI多疾病预测系统，支持糖尿病、心脏病和帕金森病的预测分析。",
+  "score": 7,
+  "tags": [
+    "机器学习",
+    "多疾病预测",
+    "Streamlit",
+    "医疗AI"
+  ],
+  "analyzed": true
+}

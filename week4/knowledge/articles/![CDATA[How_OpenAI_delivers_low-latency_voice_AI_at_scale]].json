@@ -1,0 +1,19 @@
+{
+  "id": "rss_42b724c995fc",
+  "source": "rss",
+  "title": "<![CDATA[How OpenAI delivers low-latency voice AI at scale]]>",
+  "description": "<![CDATA[\n<p>Article URL: <a href=\"https://openai.com/index/delivering-low-latency-voice-ai-at-scale/\">https://openai.com/index/delivering-low-latency-voice-ai-at-scale/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48013919\">https://news.ycombinator.com/item?id=48013919</a></p>\n<p>Points: 446</p>\n<p># Comments: 135</p>\n]]>",
+  "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+  "summary": "本文介绍了OpenAI如何在大规模部署中实现低延迟语音AI，重点讨论了技术架构和优化策略。文章还提供了相关链接和社区讨论的入口。",
+  "score": 0.9,
+  "tags": [
+    "OpenAI",
+    "语音AI",
+    "低延迟",
+    "大规模部署",
+    "人工智能"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-05T14:20:50.626446",
+  "analyzed": true
+}

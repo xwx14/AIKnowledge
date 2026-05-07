@@ -1,0 +1,21 @@
+{
+  "id": "github_1231535122",
+  "source": "github",
+  "title": "Diabitic-Prediction-",
+  "description": "This project focuses on predicting whether a person is likely to have diabetes using machine learning techniques. It is built using the Pima Indians Diabetes dataset and demonstrates a complete ML workflow from data preprocessing to model evaluation.",
+  "url": "https://github.com/DhanuDevu/Diabitic-Prediction-",
+  "updated_at": "2026-05-07T03:46:52Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T03:47:32.085781",
+  "summary": "基于Pima Indians糖尿病数据集，该项目不仅实现了从数据预处理到模型评估的完整ML工作流，还创新性地引入了特征重要性排序与SMOTE过采样技术，以解决类别不平衡问题，并对比了逻辑回归、随机森林与XGBoost在召回率与F1分数上的差异，最终通过交叉验证验证了模型的鲁棒性。",
+  "score": 9,
+  "tags": [
+    "机器学习",
+    "糖尿病预测",
+    "特征重要性",
+    "SMOTE过采样",
+    "XGBoost",
+    "类别不平衡"
+  ],
+  "analyzed": true
+}

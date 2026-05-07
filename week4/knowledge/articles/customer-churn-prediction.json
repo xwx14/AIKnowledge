@@ -1,0 +1,20 @@
+{
+  "id": "github_1231676410",
+  "source": "github",
+  "title": "customer-churn-prediction",
+  "description": "Machine Learning project for predicting telecom customer churn using Logistic Regression, Decision Tree, and Random Forest with EDA, feature engineering, and ROC-AUC evaluation.",
+  "url": "https://github.com/Sanjay-raj-k-s/customer-churn-prediction",
+  "updated_at": "2026-05-07T07:46:16Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T07:46:22.995671",
+  "summary": "该项目利用逻辑回归、决策树和随机森林算法，结合探索性数据分析、特征工程及ROC-AUC评估，构建电信客户流失预测模型。",
+  "score": 8,
+  "tags": [
+    "客户流失预测",
+    "机器学习",
+    "逻辑回归",
+    "随机森林",
+    "ROC-AUC评估"
+  ],
+  "analyzed": true
+}

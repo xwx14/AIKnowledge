@@ -1,0 +1,18 @@
+{
+  "id": "rss_9e574e6b6ed3",
+  "source": "rss",
+  "title": "Triton language for Huawei Ascend",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/z3pidt/triton_language_for_huawei_ascend\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://github.com/triton-lang/triton-ascend",
+  "summary": "该内容标题提及华为昇腾芯片对Triton语言的支持，但描述仅包含指向外部评论的链接，缺乏实质性信息。因此无法确认具体的技术细节或应用场景。",
+  "score": 0.3,
+  "tags": [
+    "华为昇腾",
+    "Triton",
+    "AI芯片",
+    "编程语言"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-05T14:20:51.844802",
+  "analyzed": true
+}

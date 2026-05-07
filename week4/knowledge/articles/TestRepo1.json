@@ -1,0 +1,19 @@
+{
+  "id": "github_1",
+  "source": "github",
+  "title": "TestRepo1",
+  "description": "A test AI repo",
+  "url": "https://github.com/test1",
+  "summary": "TestRepo1是一个基于PyTorch实现的ResNet-50图像分类模型仓库，在ImageNet验证集上达到76.1%的Top-1准确率，提供完整的训练和推理代码。",
+  "score": 9,
+  "tags": [
+    "图像分类",
+    "ResNet-50",
+    "PyTorch",
+    "ImageNet",
+    "迁移学习",
+    "模型训练",
+    "模型推理"
+  ],
+  "analyzed": true
+}

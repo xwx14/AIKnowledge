@@ -1,0 +1,21 @@
+{
+  "id": "github_3",
+  "source": "github",
+  "title": "LowScoreRepo",
+  "description": "Not relevant",
+  "url": "https://github.com/test3",
+  "summary": "LowScoreRepo 是一个因内容质量或相关性不足导致评分较低的仓库。改进方向包括：1）补充技术细节，如使用的算法、框架或数据集（例如基于BERT的文本分类模型，在IMDb数据集上准确率达92%）；2）提供量化数据，如性能指标、响应时间或代码覆盖率（例如API响应时间<200ms，测试覆盖率达85%）。",
+  "score": 6,
+  "tags": [
+    "仓库优化",
+    "内容质量",
+    "技术细节",
+    "性能指标",
+    "BERT",
+    "文本分类",
+    "IMDb",
+    "API响应时间",
+    "测试覆盖率"
+  ],
+  "analyzed": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rss_2eaa5a2428ab",
+  "source": "rss",
+  "title": "Reversing SynthID",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/o9zkq0/reversing_synthid\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://hackerfactor.com/blog/index.php?/archives/1092-Reversing-SynthID.html",
+  "summary": "本文标题为“Reversing SynthID”，内容指向一个外部链接的讨论页面，可能涉及对谷歌SynthID水印技术的逆向分析。由于描述仅包含评论链接，具体技术细节未提供，推测与AI生成内容检测或水印破解相关。",
+  "score": 0.3,
+  "tags": [
+    "人工智能",
+    "水印技术",
+    "逆向工程",
+    "SynthID",
+    "AI安全"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:09.399822",
+  "analyzed": true
+}

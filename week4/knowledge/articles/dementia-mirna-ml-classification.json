@@ -1,0 +1,20 @@
+{
+  "id": "github_1231456390",
+  "source": "github",
+  "title": "dementia-mirna-ml-classification",
+  "description": "Code and processed datasets for miRNA-based machine learning classification of Alzheimer’s disease, Lewy body dementia, and frontotemporal dementia.",
+  "url": "https://github.com/benjaminzluo-pixel/dementia-mirna-ml-classification",
+  "updated_at": "2026-05-07T02:53:39Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980176",
+  "summary": "该项目利用公开的miRNA表达数据集，通过特征工程（如方差过滤、递归特征消除）筛选关键miRNA标志物，并对比支持向量机、随机森林和XGBoost等模型在阿尔茨海默病、路易体痴呆和额颞叶痴呆三分类任务中的表现。最终模型在独立测试集上达到92%的宏平均F1分数，并识别出miR-132、miR-146a等与神经炎症相关的差异表达特征。",
+  "score": 9,
+  "tags": [
+    "miRNA标志物",
+    "机器学习分类",
+    "痴呆鉴别诊断",
+    "特征选择",
+    "神经退行性疾病"
+  ],
+  "analyzed": true
+}

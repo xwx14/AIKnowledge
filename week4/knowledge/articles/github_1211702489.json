@@ -1,0 +1,19 @@
+{
+  "id": "github_1211702489",
+  "source": "github",
+  "title": "Portfolio",
+  "description": "Portfolio IA & Data de Marcel DIGBEU : projets Python, Machine Learning, RAG, Streamlit et visualisation de données.    Site portfolio personnel présentant mon parcours, mes compétences et mes projets en IA, Data Science et Data Engineering.",
+  "url": "https://github.com/marceldigbeu/Portfolio",
+  "summary": "这是一个个人作品集网站，展示了Marcel DIGBEU在人工智能、数据科学及数据工程领域的项目，涵盖Python、机器学习、RAG、Streamlit和数据可视化等内容。",
+  "score": 0.9,
+  "tags": [
+    "人工智能",
+    "数据科学",
+    "机器学习",
+    "Python",
+    "数据可视化"
+  ],
+  "updated_at": "2026-05-01T14:11:29Z",
+  "collected_at": "2026-05-01T14:12:06.329064",
+  "analyzed": true
+}

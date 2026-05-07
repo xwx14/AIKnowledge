@@ -1,0 +1,18 @@
+{
+  "id": "rss_97b86400fad2",
+  "source": "rss",
+  "title": "Porting microgpt to Futhark, Part I",
+  "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+  "url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+  "summary": "本文是关于将microgpt移植到Futhark编程语言的第一部分。Futhark是一种专为高性能并行计算设计的函数式语言，该移植旨在探索GPT模型的底层实现与优化。",
+  "score": 0.6,
+  "tags": [
+    "GPT",
+    "Futhark",
+    "模型移植",
+    "高性能计算"
+  ],
+  "updated_at": "",
+  "collected_at": "2026-05-01T14:12:09.399787",
+  "analyzed": true
+}

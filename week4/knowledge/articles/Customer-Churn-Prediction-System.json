@@ -1,0 +1,22 @@
+{
+  "id": "github_1231289059",
+  "source": "github",
+  "title": "Customer-Churn-Prediction-System",
+  "description": "End-to-end machine learning project for customer churn prediction using Random Forest, XGBoost, and Streamlit.",
+  "url": "https://github.com/Sasanksurya/Customer-Churn-Prediction-System",
+  "updated_at": "2026-05-07T02:53:53Z",
+  "stars": 1,
+  "collected_at": "2026-05-07T02:54:32.980164",
+  "summary": "基于随机森林与XGBoost构建的客户流失预测系统，通过特征工程（如用户活跃度、消费频次）提升模型AUC至0.92，并利用Streamlit实现实时输入预测与可视化展示。",
+  "score": 9,
+  "tags": [
+    "客户流失预测",
+    "机器学习",
+    "随机森林",
+    "XGBoost",
+    "Streamlit",
+    "特征工程",
+    "AUC优化"
+  ],
+  "analyzed": true
+}

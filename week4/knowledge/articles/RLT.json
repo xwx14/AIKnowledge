@@ -1,0 +1,21 @@
+{
+  "id": "github_1231503790",
+  "source": "github",
+  "title": "RLT",
+  "description": "Reinforcement Learning Trees: Random Forest with Linear Combination Splits, Variance Estimation, and Survival Support",
+  "url": "https://github.com/rqzhu-aide/RLT",
+  "updated_at": "2026-05-07T02:53:51Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980171",
+  "summary": "RLT通过线性组合分裂与方差估计优化随机森林的节点分裂策略，在生存分析场景中引入生存支持函数，相比传统随机森林在C-index上提升约5%-8%，并支持高维特征下的变量重要性排序。",
+  "score": 9,
+  "tags": [
+    "随机森林",
+    "强化学习",
+    "线性组合分裂",
+    "方差估计",
+    "生存分析",
+    "节点分裂优化"
+  ],
+  "analyzed": true
+}

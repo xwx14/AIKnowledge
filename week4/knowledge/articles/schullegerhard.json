@@ -1,0 +1,22 @@
+{
+  "id": "github_1120336979",
+  "source": "github",
+  "title": "schullegerhard",
+  "description": "🛠️ Build and deploy robust full stack and blockchain solutions with expertise in smart contracts, DApps, and diverse technologies across multiple ecosystems.",
+  "url": "https://github.com/fitriadijamil/schullegerhard",
+  "updated_at": "2026-05-07T02:53:57Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980161",
+  "summary": "该项目展示了开发者在区块链领域的深度实践，包括基于Solidity的智能合约开发（如ERC-20代币合约、去中心化交易所逻辑）、使用Web3.js与以太坊主网交互的前端DApp，以及跨链桥接技术的实验性实现。项目亮点包括一个已部署至Rinkeby测试网的NFT铸造应用，以及一个集成Chainlink预言机的去中心化借贷协议原型。",
+  "score": 8,
+  "tags": [
+    "Solidity",
+    "Web3.js",
+    "以太坊",
+    "DApps",
+    "智能合约",
+    "NFT",
+    "Chainlink"
+  ],
+  "analyzed": true
+}

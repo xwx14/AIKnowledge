@@ -1,0 +1,19 @@
+{
+  "id": "github_1227875672",
+  "source": "github",
+  "title": "fastapi-learnings",
+  "description": "Introduction to fast-api and backend development ",
+  "url": "https://github.com/Hrishi11572/fastapi-learnings",
+  "updated_at": "2026-05-07T03:47:18Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T03:47:32.085771",
+  "summary": "基于FastAPI的实战学习项目，深入解析路由装饰器与异步请求处理机制，通过自定义中间件实现请求日志与错误拦截，并利用Pydantic模型进行参数校验与数据序列化，提升API开发效率与代码健壮性。",
+  "score": 8,
+  "tags": [
+    "FastAPI",
+    "后端开发",
+    "Python",
+    "API开发"
+  ],
+  "analyzed": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "github_1173534904",
+  "source": "github",
+  "title": "NetworkSim2026",
+  "description": "Computer Network Learning Simulator Web Application",
+  "url": "https://github.com/tbagriyanik/NetworkSim2026",
+  "summary": "NetworkSim2026是一个计算机网络学习模拟器的Web应用程序，旨在通过交互式模拟帮助用户理解网络原理。该工具可能包含虚拟网络设备配置、数据包传输模拟等功能，适用于教育或培训场景。",
+  "score": 0.2,
+  "tags": [
+    "计算机网络",
+    "模拟器",
+    "Web应用",
+    "教育工具"
+  ],
+  "updated_at": "2026-05-01T14:11:38Z",
+  "collected_at": "2026-05-01T14:12:06.329059",
+  "analyzed": true
+}

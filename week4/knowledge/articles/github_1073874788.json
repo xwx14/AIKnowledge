@@ -1,0 +1,19 @@
+{
+  "id": "github_1073874788",
+  "source": "github",
+  "title": "trading-ml-btc",
+  "description": "machine learning BTC paper trading strategy",
+  "url": "https://github.com/tazzer03/trading-ml-btc",
+  "summary": "该项目涉及使用机器学习构建比特币（BTC）的模拟交易策略。它专注于通过算法进行市场预测和模拟交易，而非实盘操作。",
+  "score": 0.7,
+  "tags": [
+    "机器学习",
+    "比特币",
+    "量化交易",
+    "交易策略",
+    "模拟交易"
+  ],
+  "updated_at": "2026-05-01T14:11:36Z",
+  "collected_at": "2026-05-01T14:12:06.329060",
+  "analyzed": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "github_717559450",
+  "source": "github",
+  "title": "chrisfalvey.github.io",
+  "description": "Educator transitioning into Learning Design, building projects in instructional design, Python, and data modelling.",
+  "url": "https://github.com/chrisfalvey/chrisfalvey.github.io",
+  "updated_at": "2026-05-07T02:54:05Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T02:54:32.980153",
+  "summary": "该仓库托管个人GitHub页面，展示从教育者向学习设计转型的项目，包括使用Python进行学习数据分析的案例（如学生成绩预测模型）和教学设计框架的代码实现，突出数据驱动决策与课程优化的具体实践。",
+  "score": 8,
+  "tags": [
+    "个人网站",
+    "学习设计",
+    "Python",
+    "数据建模",
+    "学习分析"
+  ],
+  "analyzed": true
+}

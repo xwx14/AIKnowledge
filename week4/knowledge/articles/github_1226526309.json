@@ -1,0 +1,19 @@
+{
+  "id": "github_1226526309",
+  "source": "github",
+  "title": "Mobile-Price-Classification-ML",
+  "description": "Machine learning project classifying mobile phone price ranges using multiple models, pipelines, and hyperparameter tuning with performance comparison.",
+  "url": "https://github.com/KalluruPrem/Mobile-Price-Classification-ML",
+  "summary": "这是一个机器学习项目，通过多种模型、流水线和超参数调优对手机价格范围进行分类，并比较了不同模型的性能表现。项目主要聚焦于手机价格分类任务，展示了完整的机器学习流程。",
+  "score": 0.85,
+  "tags": [
+    "机器学习",
+    "分类模型",
+    "超参数调优",
+    "手机价格预测",
+    "模型比较"
+  ],
+  "updated_at": "2026-05-01T14:11:09Z",
+  "collected_at": "2026-05-01T14:12:06.329081",
+  "analyzed": true
+}

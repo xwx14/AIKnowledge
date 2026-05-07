@@ -1,0 +1,21 @@
+{
+  "id": "github_1175265503",
+  "source": "github",
+  "title": "ChineseApp",
+  "description": "A fun Chinese learning App that will unlock your Chinese learning journey ! ",
+  "url": "https://github.com/Jinqiu-lee/ChineseApp",
+  "updated_at": "2026-05-07T03:47:01Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T03:47:32.085779",
+  "summary": "ChineseApp 是一个基于 GitHub 的开源中文学习应用，采用游戏化互动与情境化练习（如汉字拼图、语音识别纠错）提升学习效果，并引入个性化学习路径算法，根据用户进度动态调整难度，区别于传统填鸭式教学。",
+  "score": 9,
+  "tags": [
+    "语言学习",
+    "教育应用",
+    "开源项目",
+    "中文学习",
+    "游戏化学习",
+    "个性化算法"
+  ],
+  "analyzed": true
+}

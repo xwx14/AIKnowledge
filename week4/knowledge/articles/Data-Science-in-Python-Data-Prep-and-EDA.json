@@ -1,0 +1,20 @@
+{
+  "id": "github_1220070304",
+  "source": "github",
+  "title": "Data-Science-in-Python-Data-Prep-and-EDA",
+  "description": "A collection of of projects focused on data preparation and EDA in Python, covering real-world workflows from data gathering, cleaning to feature engineering for machine learning.",
+  "url": "https://github.com/sairaawahid/Data-Science-in-Python-Data-Prep-and-EDA",
+  "updated_at": "2026-05-07T07:45:45Z",
+  "stars": 1,
+  "collected_at": "2026-05-07T07:46:22.995720",
+  "summary": "该项目集合了Python数据准备与探索性数据分析的实战项目，涵盖数据收集、清洗及特征工程等机器学习全流程。",
+  "score": 8,
+  "tags": [
+    "数据预处理",
+    "探索性数据分析",
+    "特征工程",
+    "Python",
+    "机器学习"
+  ],
+  "analyzed": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "github_1223073968",
+  "source": "github",
+  "title": "CPP-Course-Projects",
+  "description": "This is all the CPP projects I made so far through the course I follow. This repository is purely for learning purposes",
+  "url": "https://github.com/Giladlevko/CPP-Course-Projects",
+  "updated_at": "2026-05-07T03:47:06Z",
+  "stars": 0,
+  "collected_at": "2026-05-07T03:47:32.085776",
+  "summary": "该仓库收录了C++课程从基础语法到进阶特性的完整项目实践，涵盖STL容器应用、内存管理、多线程编程等核心知识点。其中，项目'MemoryPool'通过自定义内存池实现，展示了如何减少动态内存分配开销，并对比了与标准malloc的性能差异；'ThreadPool'则基于C++11的std::thread和锁机制，实现了可动态调整线程数的任务队列调度器，体现了并发编程中的资源复用与同步控制技巧。",
+  "score": 9,
+  "tags": [
+    "C++",
+    "课程项目",
+    "内存池",
+    "线程池",
+    "性能优化",
+    "并发编程"
+  ],
+  "analyzed": true
+}
