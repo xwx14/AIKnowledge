@@ -9,7 +9,8 @@ logging.basicConfig(
     stream=sys.stdout,
 )
 
-from nodes import organize_node, review_node_test, save_node
+from nodes import organize_node, save_node
+from review import review_node_test
 
 initial_state = {
     "sources": [
