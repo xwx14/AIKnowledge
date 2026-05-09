@@ -221,9 +221,15 @@ class FeishuPublisher(BasePublisher):
 
         self._app_id = app_id or os.getenv("FEISHU_APP_ID", "")
         self._app_secret = app_secret or os.getenv("FEISHU_APP_SECRET", "")
-        self._chat_id = chat_id or os.getenv("FEISHU_CHAT_ID", "")
         self._timeout = timeout
-        self._id_type = "chat_id"
+        raw_chat_id = chat_id or os.getenv("FEISHU_CHAT_ID", "")
+        self._chat_id = raw_chat_id
+        if raw_chat_id.startswith("ou_"):
+            self._id_type = "open_id"
+        elif raw_chat_id.startswith("oc_"):
+            self._id_type = "chat_id"
+        else:
+            self._id_type = "chat_id"
 
     @property
     def channel_name(self) -> str:
