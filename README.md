@@ -67,6 +67,10 @@ knowledge/raw/     knowledge/analysis/    knowledge/articles/
 - Agent 严格权限隔离：Collector/Analyzer 无写权限，Organizer 无网络权限
 - 绝不编造 URL 和分析内容
 
+### 运行截图
+
+![skill采集1](week1/skill采集1.png)
+
 ---
 
 ## Week2 — 自动版（Pipeline + Hooks + CI/CD）
@@ -129,6 +133,12 @@ Linux Crontab (每日采集, 周日分析)
 | Kimi | moonshot-v1-8k | $12/1M | $12/1M |
 | GLM-4 | glm-4 | $0.1/1M | $0.1/1M |
 
+### 运行截图
+
+![调用-仅收集github](week2/调用-仅收集github.png)
+
+![运行过后已有消耗统计](week2/运行过后已有消耗统计.png)
+
 ---
 
 ## Week3 — 生产版（成本 + 安全 + 审核工作流）
@@ -185,6 +195,14 @@ Linux Crontab (每日采集, 周日分析)
 | relevance | 20% | 相关性 |
 | originality | 15% | 原创性/新颖性 |
 | formatting | 15% | 格式规范性 |
+
+### 运行截图
+
+![安全防护测试](week3/安全防护测试.png)
+
+![costGuard测试](week3/costGuard测试.png)
+
+![审核修正流程运行](week3/审核修正流程运行.png)
 
 ---
 
@@ -272,6 +290,10 @@ Linux Crontab (每日采集, 周日分析)
 | `订阅\|subscribe\|取消订阅\|unsubscribe` | subscription-manager | 订阅管理 |
 | `最高评分\|top.rated\|best` | top-rated | 最高评分搜索 |
 | `*` | general-chat | 通用对话（兜底） |
+
+### 运行截图
+
+![飞书查找知识库成功](week4/飞书查找知识库成功.png)
 
 ### Docker 部署
 
