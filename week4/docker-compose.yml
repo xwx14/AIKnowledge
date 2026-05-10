@@ -1,0 +1,100 @@
+# ============================================================
+# AI 知识库 V4 — Docker Compose 编排
+# ============================================================
+# 两个容器服务：
+#   pipeline  — 定时采集分析流水线（cron 触发）
+#   bot       — 知识库机器人 HTTP 服务（常驻运行）
+#
+# OpenClaw 网关不在此 Compose 中——它是 Node CLI，直接装在宿主机：
+#   npm install -g openclaw@latest
+#   openclaw daemon start
+# 详见 openclaw/openclaw.json5。Compose 里的 pipeline/bot 通过挂载
+# knowledge/ 和 data/ 卷与 host 上的 openclaw 共享数据。
+# ============================================================
+
+services:
+  # ----------------------------------------------------------
+  # 流水线服务 — 定时执行采集→分析→审核→整理→保存→发布
+  # ----------------------------------------------------------
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kb-pipeline
+    restart: unless-stopped
+    command: >
+      sh -c "
+        echo '0 8 * * * cd /app && python -m pipeline.pipeline >> /app/data/pipeline.log 2>&1' > /tmp/crontab &&
+        echo '0 20 * * * cd /app && python -m pipeline.pipeline >> /app/data/pipeline.log 2>&1' >> /tmp/crontab &&
+        crontab /tmp/crontab &&
+        cron -f
+      "
+    volumes:
+      - knowledge-data:/app/knowledge
+      - app-data:/app/data
+    env_file:
+      - .env
+    environment:
+      - TZ=Asia/Shanghai
+      - PYTHONPATH=/app
+    networks:
+      - kb-network
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # ----------------------------------------------------------
+  # 机器人服务 — 知识库 HTTP API + 健康检查（常驻）
+  # ----------------------------------------------------------
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kb-bot
+    restart: unless-stopped
+    command: ["python", "-m", "bot", "--serve", "--port", "8080"]
+    ports:
+      - "8080:8080"
+    volumes:
+      - knowledge-data:/app/knowledge
+      - app-data:/app/data
+    env_file:
+      - .env
+    environment:
+      - TZ=Asia/Shanghai
+      - PYTHONPATH=/app
+    depends_on:
+      - pipeline
+    networks:
+      - kb-network
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+# ============================================================
+# 持久化卷 — bind mount 到本地目录
+# ============================================================
+volumes:
+  knowledge-data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./knowledge
+  app-data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./data
+
+# ============================================================
+# 网络
+# ============================================================
+networks:
+  kb-network:
+    driver: bridge

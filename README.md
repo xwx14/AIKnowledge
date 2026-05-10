@@ -235,6 +235,7 @@ Linux Crontab (每日采集, 周日分析)
 | 分类 | 文件 | 说明 |
 |------|------|------|
 | **机器人** | `bot/knowledge_bot.py` | 知识库交互机器人（953行）：意图识别、搜索引擎、RBAC、标签订阅 |
+| **机器人** | `bot/__main__.py` | 机器人 CLI 入口：REPL 调试模式 / HTTP 服务模式 |
 | **机器人** | `bot/README.md` | 机器人模块使用文档 |
 | **网关** | `openclaw/openclaw.json5` | 消息网关配置：双渠道接入、5 Agent 绑定、限流 |
 | **网关** | `openclaw/SOUL.md` | Agent 灵魂设定（身份/性格/回答规范） |
@@ -244,6 +245,9 @@ Linux Crontab (每日采集, 周日分析)
 | **推送** | `distribution/publisher.py` | 异步推送器（BasePublisher → TelegramPublisher / FeishuPublisher） |
 | **权限** | `data/permissions.json` | RBAC 权限数据 |
 | **订阅** | `data/subscriptions.json` | 用户标签订阅数据 |
+| **入口** | `pipeline/pipeline.py` | LangGraph 工作流薄封装 + 分发层（pipeline 服务入口） |
+| **部署** | `Dockerfile` | 多阶段构建镜像（python:3.12-slim，非 root 运行） |
+| **部署** | `docker-compose.yml` | 双服务编排：pipeline(cron) + bot(HTTP) |
 | **测试** | `tests/test_knowledge_bot.py` | 知识库机器人单元测试 |
 | **测试** | `tests/test_formatter.py` | 格式化器测试 |
 | **测试** | `tests/test_publisher.py` | 推送器异步测试 |
@@ -268,6 +272,41 @@ Linux Crontab (每日采集, 周日分析)
 | `订阅\|subscribe\|取消订阅\|unsubscribe` | subscription-manager | 订阅管理 |
 | `最高评分\|top.rated\|best` | top-rated | 最高评分搜索 |
 | `*` | general-chat | 通用对话（兜底） |
+
+### Docker 部署
+
+```bash
+cd week4
+
+# 构建镜像
+docker compose build
+
+# 启动全部服务（pipeline + bot）
+docker compose up -d
+
+# 查看日志
+docker compose logs -f pipeline
+docker compose logs -f bot
+
+# 停止
+docker compose down
+```
+
+#### 服务说明
+
+| 服务 | 容器名 | 职责 | 触发方式 |
+|------|--------|------|----------|
+| `pipeline` | kb-pipeline | 跑 LangGraph 工作流 + 推送到 Telegram/飞书 | Cron（08:00 和 20:00） |
+| `bot` | kb-bot | HTTP 健康检查 + 知识库 API（端口 8080） | 常驻运行 |
+
+> OpenClaw 网关不在 Docker 内——它是 Node CLI 工具，安装在宿主机：`npm install -g openclaw@latest && openclaw daemon start`。网关通过卷挂载与容器共享 `knowledge/` 和 `data/` 目录。
+
+#### 数据卷
+
+| 卷名 | 挂载点 | 说明 |
+|------|--------|------|
+| `knowledge-data` | `./knowledge` | 知识条目（raw + articles），与宿主机 OpenClaw 共享 |
+| `app-data` | `./data` | 运行时数据（订阅、权限、日志） |
 
 ---
 
@@ -297,6 +336,8 @@ Week3 (生产)                               Week4 (产品)  │
 
 ## 快速开始
 
+### 本地运行
+
 ```bash
 # 进入对应阶段目录
 cd week2  # 或 week3 / week4
@@ -324,18 +365,40 @@ python hooks/check_quality.py knowledge/articles/*.json
 python mcp/mcp_knowledge_server.py
 ```
 
+### Docker 部署（Week4）
+
+```bash
+cd week4
+
+# 构建并启动
+docker compose up -d --build
+
+# 查看 pipeline 日志
+docker compose logs -f pipeline
+
+# 查看 bot 日志
+docker compose logs -f bot
+
+# 验证 bot 健康检查
+curl http://localhost:8080/health
+
+# 停止
+docker compose down
+```
+
 ---
 
 ## 技术栈
 
 | 类别 | 技术 |
 |------|------|
-| 语言 | Python 3.9+, TypeScript (OpenCode Plugin) |
+| 语言 | Python 3.12+, TypeScript (OpenCode Plugin) |
 | LLM SDK | 自研统一客户端（httpx + OpenAI 兼容 API） |
 | LLM 提供商 | DeepSeek, Qwen, GLM-4, Kimi (Moonshot) |
 | 工作流 | LangGraph (StateGraph + 条件路由) |
 | CI/CD | GitHub Actions (daily-collect.yml) |
-| 定时任务 | Linux Crontab |
+| 定时任务 | Linux Crontab / Docker Crontab |
+| 容器化 | Docker 多阶段构建 + Docker Compose 编排 |
 | 消息推送 | Telegram Bot API, 飞书开放平台 API |
 | 消息网关 | OpenClaw (JSON5 配置路由分发) |
 | AI Agent | OpenCode Agent (权限隔离 + 技能系统) |
