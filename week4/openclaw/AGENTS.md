@@ -1,13 +1,18 @@
 # AGENTS.md — OpenClaw Agent 配置
 
 > OpenClaw 网关的 Agent 路由与协作配置。
-> 每个 Agent 对应一种用户意图，由 openclaw.json5 中的 bindings 进行消息分发。
+> 每个 Agent 对应一种用户意图，由 `openclaw.json5` 中的 bindings 进行消息分发。
 
 ## Agent 列表
 
 ### knowledge-query（知识检索）
 
-**触发条件**：用户消息包含"知识""搜索""查询"等关键词，或使用 `/search` 命令
+| 属性 | 值 |
+|------|-----|
+| Skill | `./skills/knowledge-query/SKILL.md` |
+| 超时 | 30s |
+| 路由 pattern | `知识\|搜索\|查询\|search\|find` |
+| 命令 | `/search <关键词>` |
 
 **职责**：
 
@@ -16,15 +21,19 @@
 - 按相关性评分排序，返回 Top 5 结果
 - 格式化输出，包含标题、摘要、来源链接
 
-**可用工具**：
+**可用工具**：Read、Glob、Grep
 
-- Read — 读取知识库 JSON 文件
-- Glob — 按文件名模式匹配
-- Grep — 全文搜索
+---
 
 ### daily-briefing（每日简报）
 
-**触发条件**：用户消息包含"简报""摘要""今日"等关键词，或使用 `/today` 命令
+| 属性 | 值 |
+|------|-----|
+| Skill | `./skills/daily-digest/SKILL.md` |
+| Script | `../distribution/formatter.py` |
+| 超时 | 60s |
+| 路由 pattern | `简报\|摘要\|今日\|daily\|digest` |
+| 命令 | `/today` |
 
 **职责**：
 
@@ -33,14 +42,17 @@
 - 生成结构化简报（标题 + 一句话摘要 + 标签）
 - 支持 Markdown 和 Feishu 卡片两种输出格式
 
-**可用工具**：
+**可用工具**：Read、Glob
 
-- Read — 读取文章 JSON
-- Glob — 扫描当日文件
+---
 
 ### subscription-manager（订阅管理）
 
-**触发条件**：用户消息包含"订阅""取消订阅"等关键词，或使用 `/subscribe` 命令
+| 属性 | 值 |
+|------|-----|
+| 超时 | 10s |
+| 路由 pattern | `订阅\|subscribe\|取消订阅\|unsubscribe` |
+| 命令 | `/subscribe <标签>` |
 
 **职责**：
 
@@ -48,9 +60,44 @@
 - 新文章匹配订阅标签时主动推送
 - 存储订阅数据到 `data/subscriptions.json`
 
+---
+
+### top-rated（最高评分搜索）
+
+| 属性 | 值 |
+|------|-----|
+| Skill | `./skills/top-rated/SKILL.md` |
+| Script | `./skills/top-rated/top-rated.py` |
+| 超时 | 15s |
+| 路由 pattern | `最高评分\|最高分\|top.rated\|评分最高\|best` |
+| 命令 | `/toprated <关键词>` |
+
+**职责**：
+
+- 解析用户输入的关键字
+- 在 `knowledge/articles/` 中搜索 title / summary / description / tags 匹配的条目
+- 按 score 降序排序，返回评分最高的 Top N 项目（默认 5）
+- 格式化输出，包含标题、评分、摘要、来源链接、标签
+
+**脚本调用**：
+
+```bash
+python skills/top-rated/top-rated.py "<keyword>" [--top N]
+```
+
+输出 JSON 数组到 stdout，退出码 0 成功，1 无匹配。
+
+**可用工具**：top-rated.py 脚本、Read、Glob、Grep
+
+---
+
 ### general-chat（通用对话）
 
-**触发条件**：其他所有未匹配的消息（兜底 Agent）
+| 属性 | 值 |
+|------|-----|
+| 超时 | 15s |
+| 路由 pattern | `*`（兜底） |
+| 命令 | `/help` |
 
 **职责**：
 
@@ -58,9 +105,22 @@
 - 引导用户使用正确的命令
 - 闲聊时友善回应，但引导回技术话题
 
+---
+
 ## 协作规则
 
 1. **单一入口**：所有消息经 OpenClaw 网关统一接入，不允许 Agent 直接接收消息
 2. **无跨 Agent 调用**：Agent 之间不互相调用，由网关负责路由
 3. **共享知识库**：所有 Agent 只读访问 `knowledge/` 目录
 4. **状态隔离**：每个 Agent 的会话状态独立，不共享上下文
+
+## 命令速查
+
+| 命令 | Agent | 说明 |
+|------|-------|------|
+| `/search <关键词>` | knowledge-query | 搜索知识库 |
+| `/today` | daily-briefing | 今日简报 |
+| `/top` | daily-briefing | 本周热门 Top 5 |
+| `/subscribe <标签>` | subscription-manager | 订阅特定主题 |
+| `/toprated <关键词>` | top-rated | 按关键字搜索评分最高的项目 |
+| `/help` | general-chat | 显示帮助信息 |

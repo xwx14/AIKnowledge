@@ -43,6 +43,11 @@
       "description": "订阅管理 Agent"
     },
     {
+      "pattern": "最高评分|最高分|top.rated|评分最高|best",
+      "agent": "top-rated",
+      "description": "按关键字搜索评分最高的项目"
+    },
+    {
       "pattern": "*",
       "agent": "general-chat",
       "description": "通用对话 Agent（兜底）"
@@ -65,6 +70,12 @@
     "subscription-manager": {
       "soul": "./SOUL.md",
       "timeout": 10000
+    },
+    "top-rated": {
+      "soul": "./SOUL.md",
+      "skill": "./skills/top-rated/SKILL.md",
+      "script": "./skills/top-rated/top-rated.py",
+      "timeout": 15000
     },
     "general-chat": {
       "soul": "./SOUL.md",
