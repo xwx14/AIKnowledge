@@ -219,6 +219,19 @@ MyAutoAIKnowledge/
 ├── pipeline/                 # LLM 客户端模块
 │   ├── __init__.py
 │   └── model_client.py       # 统一 LLM 调用接口
+├── openclaw/                # OpenClaw 网关配置
+│   ├── cron/                # 定时任务定义
+│   │   ├── jobs.json        # 定时任务配置（cron 表达式、执行动作、投递渠道）
+│   │   └── jobs-state.json  # 定时任务状态跟踪（下次执行时间等）
+│   ├── skills/              # Agent 技能目录
+│   ├── openclaw.json5       # 网关主配置
+│   ├── AGENTS.md            # Agent 路由与协作配置
+│   ├── IDENTITY.md          # 身份定义
+│   ├── SOUL.md              # 人格设定
+│   ├── MEMORY.md            # 长期记忆
+│   ├── HEARTBEAT.md         # 心跳检测
+│   ├── TOOLS.md             # 工具声明
+│   └── USER.md              # 用户信息
 ├── .env.example             # 环境变量配置模板
 ├── .gitignore              # Git 忽略规则
 ├── README.md               # 项目说明（本文件）

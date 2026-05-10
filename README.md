@@ -258,6 +258,8 @@ Linux Crontab (每日采集, 周日分析)
 | **网关** | `openclaw/openclaw.json5` | 消息网关配置：双渠道接入、5 Agent 绑定、限流 |
 | **网关** | `openclaw/SOUL.md` | Agent 灵魂设定（身份/性格/回答规范） |
 | **网关** | `openclaw/AGENTS.md` | 5 Agent 职责定义与协作规则 |
+| **网关** | `openclaw/cron/jobs.json` | 定时任务配置（cron 表达式、执行动作、投递渠道） |
+| **网关** | `openclaw/cron/jobs-state.json` | 定时任务状态跟踪（下次执行时间等） |
 | **网关** | `openclaw/skills/top-rated/` | 按评分搜索技能（脚本 + 文档） |
 | **推送** | `distribution/formatter.py` | 多格式格式化器（Markdown / Telegram / 飞书 Card） |
 | **推送** | `distribution/publisher.py` | 异步推送器（BasePublisher → TelegramPublisher / FeishuPublisher） |

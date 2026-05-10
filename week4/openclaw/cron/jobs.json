@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "19a59cd6-9ccc-4cba-a227-a99d530edf2a",
+      "agentId": "main",
+      "sessionKey": "agent:main:feishu:direct:ou_04cbe5e3ce08b5b8aa244fc9810b6078",
+      "name": "每日知识采集+多维表格同步",
+      "enabled": true,
+      "createdAtMs": 1778402178896,
+      "schedule": {
+        "expr": "0 6 * * *",
+        "kind": "cron",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "请按顺序执行以下两个任务：\n\n## 任务1：运行采集 pipeline\n在 /home/xwx/my-aiknowledge1/week4/ 目录下运行：\ncd /home/xwx/my-aiknowledge1/week4 && python workflows/pipeline.py --sources github,rss --limit 20 --analyze --provider deepseek\n等待执行完成。\n\n## 任务2：同步新增文章到飞书多维表格\n采集完成后，将 week4/knowledge/articles 中新增的文章同步到飞书多维表格。\n\n多维表格信息：\n- app_token: VJgNbiReeaoglisqhbecM94hnSb\n- table_id: tblibqMb1UqCuABp\n\n同步策略：\n1. 先用 feishu_bitable_app_table_record list 获取现有记录的标题列表\n2. 读取 week4/knowledge/articles/ 下所有 JSON 文件\n3. 对比找出新增文章（标题不在现有记录中的）\n4. 将新增文章转换为记录格式并批量导入\n\n字段格式（重要）：\n- 标题: 文本（清理 CDATA 标记）\n- 来源: 单选 (github/rss/hackernews/arxiv)\n- URL: 必须用对象格式 {\"text\": \"url\", \"link\": \"url\"}\n- 摘要: 文本（去掉 HTML 标签，限制 5000 字）\n- 评分: 数字\n- 标签: 多选（字符串数组）\n- 采集时间: 日期（毫秒时间戳）\n- Stars: 数字\n\n批量导入：每批最多 50 条，使用 feishu_bitable_app_table_record 的 batch_create action。\n如果遇到飞书授权提示，报告需要用户授权。\n完成后报告 pipeline 运行结果和新增导入的文章数量。",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "ou_04cbe5e3ce08b5b8aa244fc9810b6078",
+        "channel": "feishu",
+        "accountId": "default"
+      },
+      "state": {}
+    }
+  ]
+}
